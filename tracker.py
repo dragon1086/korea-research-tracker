@@ -7,52 +7,38 @@ ValueFinder Tracker (JSON-only, DB-free)
 - 매일 전체 업데이트: latest_price, pct_change, peak, trough
 """
 
-import os, re, json, logging, requests, subprocess, random
+import os, re, json, logging, requests, subprocess
 from bs4 import BeautifulSoup
 from datetime import datetime, date, timedelta
 from pathlib import Path
 
-# 무료 한국 접근 가능 프록시 목록 (직접 연결 실패 시 순서대로 시도)
-FREE_PROXIES = [
-    "http://103.152.112.162:80",
-    "http://47.74.152.29:8888",
-    "http://103.105.49.59:80",
-    "http://20.206.106.192:80",
-    "http://103.149.162.195:80",
-]
+SCRAPER_API_KEY = os.environ.get("SCRAPER_API_KEY", "")
 
-def _get_session(proxy: str | None = None) -> requests.Session:
-    s = requests.Session()
-    s.headers.update({"User-Agent": "Mozilla/5.0"})
-    if proxy:
-        s.proxies = {"http": proxy, "https": proxy}
-    return s
-
-def _fetch_with_fallback(url: str, timeout: int = 10) -> requests.Response:
-    """직접 연결 → 프록시 순서대로 fallback"""
+def _fetch_with_fallback(url: str, timeout: int = 30) -> requests.Response:
+    """직접 연결 실패 시 ScraperAPI fallback (한국 IP)"""
     # 1) 직접 연결
     try:
-        r = requests.get(url, headers={"User-Agent": "Mozilla/5.0"}, timeout=timeout)
+        r = requests.get(url, headers={"User-Agent": "Mozilla/5.0"}, timeout=10)
         r.raise_for_status()
         return r
     except Exception as e:
         log.warning("직접 연결 실패: %s", e)
 
-    # 2) 프록시 순서대로 시도
-    proxies = FREE_PROXIES[:]
-    random.shuffle(proxies)
-    for proxy in proxies:
-        try:
-            log.info("프록시 시도: %s", proxy)
-            r = requests.get(url, headers={"User-Agent": "Mozilla/5.0"},
-                             proxies={"http": proxy, "https": proxy}, timeout=15)
-            r.raise_for_status()
-            log.info("프록시 성공: %s", proxy)
-            return r
-        except Exception as e:
-            log.warning("프록시 실패 (%s): %s", proxy, e)
+    # 2) ScraperAPI fallback
+    if not SCRAPER_API_KEY:
+        raise ConnectionError("SCRAPER_API_KEY 없음 — 크롤링 불가")
 
-    raise ConnectionError(f"모든 연결 실패: {url}")
+    scraper_url = (
+        f"https://api.scraperapi.com/"
+        f"?api_key={SCRAPER_API_KEY}"
+        f"&url={requests.utils.quote(url, safe='')}"
+        f"&country_code=kr"
+    )
+    log.info("ScraperAPI 시도 (kr)...")
+    r = requests.get(scraper_url, timeout=timeout)
+    r.raise_for_status()
+    log.info("ScraperAPI 성공")
+    return r
 
 # ── 환경변수 로드 ─────────────────────────────────────────────────
 def _load_env():
