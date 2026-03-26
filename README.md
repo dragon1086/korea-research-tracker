@@ -1,5 +1,7 @@
 # ValueFinder 수익률 트래커
 
+**🌐 Live: [valuefinder-tracker.vercel.app](https://valuefinder-tracker.vercel.app)**
+
 [ValueFinder](https://valuefinder.co.kr)에서 발행하는 기업분석 리포트를 자동으로 추적하고, 리포트 작성일 기준 수익률을 매일 업데이트하는 오픈소스 프로젝트입니다.
 
 ![screenshot](web/public/screenshot.jpg)
