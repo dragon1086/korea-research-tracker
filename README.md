@@ -1,78 +1,95 @@
-# ValueFinder Tracker
+# ValueFinder 수익률 트래커
 
-밸류파인더(valuefinder.co.kr) 리포트 수익률 트래커.
+[ValueFinder](https://valuefinder.co.kr)에서 발행하는 기업분석 리포트를 자동으로 추적하고, 리포트 작성일 기준 수익률을 매일 업데이트하는 오픈소스 프로젝트입니다.
 
-크롤러가 신규 리포트를 감지하고, 작성일 기준 주가 대비 현재 수익률을 추적합니다.
-결과는 Next.js 대시보드로 시각화됩니다.
+![screenshot](web/public/screenshot.jpg)
 
-## 구조
+## ✨ 주요 기능
+
+- 📋 **자동 크롤링** — ValueFinder 신규 리포트 감지 및 텔레그램 알림
+- 📈 **수익률 추적** — 리포트 작성일 기준 현재가 대비 수익률 계산
+- 🏆 **최고가/최저가** — 리포트 작성일 이후 최대 수익/손실 구간 추적
+- 🤖 **완전 자동화** — GitHub Actions로 매일 09:05 KST 자동 실행
+- 🌐 **웹 대시보드** — Vercel로 배포되는 Next.js 대시보드
+
+## 🏗 아키텍처
 
 ```
-valuefinder-tracker/
-├── tracker.py          # Python 크롤러 (메인 로직)
-├── requirements.txt    # Python 의존성
-├── data/
-│   └── reports.json    # tracker.py가 자동 생성 (JSON export)
-├── db/
-│   └── valuefinder.sqlite
-├── logs/
-└── web/                # Next.js 프론트엔드
-    ├── src/app/
-    │   ├── page.tsx          # 메인 대시보드
-    │   └── api/reports/route.ts  # API route
-    ├── public/
-    │   └── reports.json      # 빌드 시 data/reports.json에서 복사
-    └── vercel.json
+GitHub Actions (매일 09:05 KST)
+  → ScraperAPI로 valuefinder.co.kr 크롤링
+  → FinanceDataReader로 KRX 주가 조회
+  → data/reports.json 업데이트 + git push
+
+GitHub Repository
+  → push 감지 → Vercel 자동 재배포
+
+Vercel (Next.js)
+  → reports.json 읽어 대시보드 렌더링
 ```
 
-## 로컬 실행
+- **DB 없음** — `data/reports.json` 하나로 모든 상태 관리
+- **Mac 불필요** — GitHub 서버에서 완전 독립 실행
 
-### 크롤러
+## 🚀 배포 방법
+
+### 1. 레포지토리 Fork
 
 ```bash
-# 의존성 설치
+git clone https://github.com/dragon1086/valuefinder-tracker.git
+cd valuefinder-tracker
+```
+
+### 2. GitHub Secrets 등록
+
+레포 → Settings → Secrets and variables → Actions → New repository secret
+
+| Secret | 설명 |
+|--------|------|
+| `TELEGRAM_BOT_TOKEN` | 텔레그램 봇 토큰 (BotFather에서 발급) |
+| `TELEGRAM_CHAT_ID` | 알림 받을 텔레그램 chat_id |
+| `SCRAPER_API_KEY` | [ScraperAPI](https://scraperapi.com) API 키 (무료 1,000 크레딧/월) |
+
+### 3. Vercel 배포
+
+1. [vercel.com](https://vercel.com) → New Project
+2. 이 레포 선택
+3. **Root Directory: `web`** 설정
+4. Deploy
+
+### 4. GitHub Actions 수동 테스트
+
+레포 → Actions → `Update ValueFinder Data` → Run workflow
+
+## 💻 로컬 실행
+
+```bash
+# Python 의존성 설치
 pip install -r requirements.txt
 
-# 실행 (크롤링 + 수익률 리포트 + JSON export)
+# .env.local 생성
+cp .env.local.example .env.local
+# TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID 입력
+
+# 크롤러 실행
 python tracker.py
 
-# 수익률 리포트만 (크롤링 생략)
-python tracker.py --report-only
-```
-
-### 프론트엔드
-
-```bash
+# 웹 개발 서버
 cd web
-
-# 개발 서버
+npm install
 npm run dev
-# http://localhost:3000 에서 확인
-
-# 프로덕션 빌드
-npm run build
-npm start
 ```
 
-> **참고:** 빌드 전 `data/reports.json`이 존재해야 합니다.
-> `prebuild` 스크립트가 자동으로 `../data/reports.json → public/reports.json`으로 복사합니다.
+## 📦 기술 스택
 
-## Vercel 배포
+| 역할 | 기술 |
+|------|------|
+| 크롤링 | Python + BeautifulSoup + ScraperAPI |
+| 주가 데이터 | [FinanceDataReader](https://github.com/FinanceData/FinanceDataReader) (KRX) |
+| 자동화 | GitHub Actions |
+| 프론트엔드 | Next.js 15 + Tailwind CSS |
+| 배포 | Vercel |
+| 알림 | Telegram Bot API |
 
-1. GitHub에 레포 푸시
-2. [vercel.com](https://vercel.com) → New Project → 해당 레포 선택
-3. **Root Directory** 설정: `web` (중요!)
-4. Framework Preset: Next.js (자동 감지)
-5. Deploy
+## 📄 라이선스
 
-> Vercel은 `web/` 디렉토리를 루트로 빌드합니다.
-> `data/reports.json`은 `prebuild` 스크립트로 `public/`에 복사되어 정적 파일로 서빙됩니다.
-
-## 자동화
-
-`tracker.py`는 매일 실행되어:
-1. 신규 리포트 크롤링 → 텔레그램 알림
-2. 추적 종목 수익률 계산 → 텔레그램 알림
-3. `data/reports.json` 업데이트 → git push (자동)
-
-Vercel은 GitHub push 감지 시 자동 재배포됩니다.
+[MIT License](LICENSE)
