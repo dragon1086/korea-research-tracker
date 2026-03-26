@@ -14,7 +14,10 @@
       "pct_change": 0.0,
       "peak_price": 4495.0,
       "peak_date": "2026-03-26",
-      "peak_pct": 14.96
+      "peak_pct": 14.96,
+      "trough_price": 3900.0,
+      "trough_date": "2026-03-26",
+      "trough_pct": -0.26
     },
     {
       "wr_id": 284,
@@ -29,7 +32,10 @@
       "pct_change": 0.57,
       "peak_price": 6350.0,
       "peak_date": "2026-03-25",
-      "peak_pct": 20.04
+      "peak_pct": 20.04,
+      "trough_price": 5170.0,
+      "trough_date": "2026-03-26",
+      "trough_pct": -2.27
     },
     {
       "wr_id": 283,
@@ -44,7 +50,10 @@
       "pct_change": 10.73,
       "peak_price": 2215.0,
       "peak_date": "2026-03-25",
-      "peak_pct": 15.97
+      "peak_pct": 15.97,
+      "trough_price": 1848.0,
+      "trough_date": "2026-03-24",
+      "trough_pct": -3.25
     },
     {
       "wr_id": 280,
@@ -59,7 +68,10 @@
       "pct_change": 24.97,
       "peak_price": 1249.0,
       "peak_date": "2026-03-20",
-      "peak_pct": 57.5
+      "peak_pct": 57.5,
+      "trough_price": 783.0,
+      "trough_date": "2026-03-16",
+      "trough_pct": -1.26
     },
     {
       "wr_id": 279,
@@ -74,7 +86,10 @@
       "pct_change": -26.62,
       "peak_price": 773.0,
       "peak_date": "2026-03-10",
-      "peak_pct": 8.87
+      "peak_pct": 8.87,
+      "trough_price": 0.0,
+      "trough_date": "2026-03-24",
+      "trough_pct": -100.0
     },
     {
       "wr_id": 278,
@@ -89,7 +104,10 @@
       "pct_change": -3.67,
       "peak_price": 2440.0,
       "peak_date": "2026-03-20",
-      "peak_pct": 54.53
+      "peak_pct": 54.53,
+      "trough_price": 1307.0,
+      "trough_date": "2026-03-06",
+      "trough_pct": -17.23
     },
     {
       "wr_id": 277,
@@ -104,7 +122,10 @@
       "pct_change": -9.41,
       "peak_price": 1294.0,
       "peak_date": "2026-03-03",
-      "peak_pct": 15.95
+      "peak_pct": 15.95,
+      "trough_price": 975.0,
+      "trough_date": "2026-03-04",
+      "trough_pct": -12.63
     },
     {
       "wr_id": 276,
@@ -119,7 +140,10 @@
       "pct_change": 105.2,
       "peak_price": 3400.0,
       "peak_date": "2026-03-24",
-      "peak_pct": 132.56
+      "peak_pct": 132.56,
+      "trough_price": 1154.0,
+      "trough_date": "2026-03-04",
+      "trough_pct": -21.07
     },
     {
       "wr_id": 275,
@@ -134,7 +158,10 @@
       "pct_change": -6.08,
       "peak_price": 2265.0,
       "peak_date": "2026-02-25",
-      "peak_pct": 12.97
+      "peak_pct": 12.97,
+      "trough_price": 1722.0,
+      "trough_date": "2026-03-04",
+      "trough_pct": -14.11
     },
     {
       "wr_id": 272,
@@ -149,7 +176,10 @@
       "pct_change": 19.14,
       "peak_price": 63700.0,
       "peak_date": "2026-03-13",
-      "peak_pct": 37.73
+      "peak_pct": 37.73,
+      "trough_price": 36550.0,
+      "trough_date": "2026-03-04",
+      "trough_pct": -20.97
     },
     {
       "wr_id": 273,
@@ -164,7 +194,10 @@
       "pct_change": -9.57,
       "peak_price": 49600.0,
       "peak_date": "2026-03-03",
-      "peak_pct": 30.01
+      "peak_pct": 30.01,
+      "trough_price": 31000.0,
+      "trough_date": "2026-03-23",
+      "trough_pct": -18.74
     },
     {
       "wr_id": 274,
@@ -179,7 +212,10 @@
       "pct_change": -19.68,
       "peak_price": 11350.0,
       "peak_date": "2026-02-23",
-      "peak_pct": 7.89
+      "peak_pct": 7.89,
+      "trough_price": 7800.0,
+      "trough_date": "2026-03-04",
+      "trough_pct": -25.86
     },
     {
       "wr_id": 271,
@@ -194,7 +230,10 @@
       "pct_change": -22.57,
       "peak_price": 5080.0,
       "peak_date": "2026-02-12",
-      "peak_pct": 9.72
+      "peak_pct": 9.72,
+      "trough_price": 2920.0,
+      "trough_date": "2026-03-04",
+      "trough_pct": -36.93
     },
     {
       "wr_id": 270,
@@ -209,7 +248,10 @@
       "pct_change": 3.1,
       "peak_price": 14130.0,
       "peak_date": "2026-02-26",
-      "peak_pct": 6.96
+      "peak_pct": 6.96,
+      "trough_price": 10130.0,
+      "trough_date": "2026-03-04",
+      "trough_pct": -23.32
     },
     {
       "wr_id": 269,
@@ -224,7 +266,10 @@
       "pct_change": -8.41,
       "peak_price": 251000.0,
       "peak_date": "2026-02-24",
-      "peak_pct": 14.09
+      "peak_pct": 14.09,
+      "trough_price": 187700.0,
+      "trough_date": "2026-03-23",
+      "trough_pct": -14.68
     },
     {
       "wr_id": 268,
@@ -239,7 +284,10 @@
       "pct_change": -5.86,
       "peak_price": 1653.0,
       "peak_date": "2026-02-04",
-      "peak_pct": 16.74
+      "peak_pct": 16.74,
+      "trough_price": 1024.0,
+      "trough_date": "2026-03-04",
+      "trough_pct": -27.68
     },
     {
       "wr_id": 267,
@@ -254,7 +302,10 @@
       "pct_change": 1.39,
       "peak_price": 9710.0,
       "peak_date": "2026-02-23",
-      "peak_pct": 68.28
+      "peak_pct": 68.28,
+      "trough_price": 5350.0,
+      "trough_date": "2026-02-03",
+      "trough_pct": -7.28
     },
     {
       "wr_id": 266,
@@ -269,7 +320,10 @@
       "pct_change": -33.1,
       "peak_price": 22350.0,
       "peak_date": "2026-01-30",
-      "peak_pct": 10.92
+      "peak_pct": 10.92,
+      "trough_price": 13000.0,
+      "trough_date": "2026-03-23",
+      "trough_pct": -35.48
     },
     {
       "wr_id": 265,
@@ -284,7 +338,10 @@
       "pct_change": 14.29,
       "peak_price": 6350.0,
       "peak_date": "2026-03-25",
-      "peak_pct": 36.41
+      "peak_pct": 36.41,
+      "trough_price": 4315.0,
+      "trough_date": "2026-03-04",
+      "trough_pct": -7.3
     },
     {
       "wr_id": 264,
@@ -299,7 +356,10 @@
       "pct_change": -34.99,
       "peak_price": 1767.0,
       "peak_date": "2026-02-05",
-      "peak_pct": 87.38
+      "peak_pct": 87.38,
+      "trough_price": 559.0,
+      "trough_date": "2026-03-04",
+      "trough_pct": -40.72
     },
     {
       "wr_id": 263,
@@ -314,7 +374,10 @@
       "pct_change": 41.69,
       "peak_price": 6950.0,
       "peak_date": "2026-02-26",
-      "peak_pct": 113.85
+      "peak_pct": 113.85,
+      "trough_price": 3115.0,
+      "trough_date": "2026-01-26",
+      "trough_pct": -4.15
     },
     {
       "wr_id": 262,
@@ -329,7 +392,10 @@
       "pct_change": 11.31,
       "peak_price": 4290.0,
       "peak_date": "2026-02-25",
-      "peak_pct": 25.99
+      "peak_pct": 25.99,
+      "trough_price": 3340.0,
+      "trough_date": "2026-01-22",
+      "trough_pct": -1.91
     },
     {
       "wr_id": 261,
@@ -344,7 +410,10 @@
       "pct_change": 42.99,
       "peak_price": 4785.0,
       "peak_date": "2026-03-26",
-      "peak_pct": 45.88
+      "peak_pct": 45.88,
+      "trough_price": 3130.0,
+      "trough_date": "2026-01-21",
+      "trough_pct": -4.57
     },
     {
       "wr_id": 260,
@@ -359,7 +428,10 @@
       "pct_change": -4.21,
       "peak_price": 1992.0,
       "peak_date": "2026-02-25",
-      "peak_pct": 6.07
+      "peak_pct": 6.07,
+      "trough_price": 1683.0,
+      "trough_date": "2026-03-04",
+      "trough_pct": -10.38
     },
     {
       "wr_id": 259,
@@ -374,7 +446,10 @@
       "pct_change": 7.33,
       "peak_price": 9440.0,
       "peak_date": "2026-01-22",
-      "peak_pct": 119.53
+      "peak_pct": 119.53,
+      "trough_price": 3755.0,
+      "trough_date": "2026-01-12",
+      "trough_pct": -12.67
     },
     {
       "wr_id": 258,
@@ -389,7 +464,10 @@
       "pct_change": -15.0,
       "peak_price": 5660.0,
       "peak_date": "2025-12-29",
-      "peak_pct": 23.04
+      "peak_pct": 23.04,
+      "trough_price": 3320.0,
+      "trough_date": "2026-03-04",
+      "trough_pct": -27.83
     },
     {
       "wr_id": 257,
@@ -404,7 +482,10 @@
       "pct_change": -25.22,
       "peak_price": 3400.0,
       "peak_date": "2025-12-24",
-      "peak_pct": 19.09
+      "peak_pct": 19.09,
+      "trough_price": 1970.0,
+      "trough_date": "2026-03-04",
+      "trough_pct": -31.0
     },
     {
       "wr_id": 256,
@@ -419,7 +500,10 @@
       "pct_change": 2.08,
       "peak_price": 3630.0,
       "peak_date": "2026-02-12",
-      "peak_pct": 37.24
+      "peak_pct": 37.24,
+      "trough_price": 2250.0,
+      "trough_date": "2026-01-21",
+      "trough_pct": -14.93
     },
     {
       "wr_id": 255,
@@ -434,7 +518,10 @@
       "pct_change": -32.19,
       "peak_price": 12800.0,
       "peak_date": "2026-01-07",
-      "peak_pct": 68.2
+      "peak_pct": 68.2,
+      "trough_price": 4940.0,
+      "trough_date": "2026-03-04",
+      "trough_pct": -35.09
     },
     {
       "wr_id": 254,
@@ -449,7 +536,10 @@
       "pct_change": -21.23,
       "peak_price": 3800.0,
       "peak_date": "2026-01-15",
-      "peak_pct": 6.15
+      "peak_pct": 6.15,
+      "trough_price": 2280.0,
+      "trough_date": "2026-03-04",
+      "trough_pct": -36.31
     },
     {
       "wr_id": 253,
@@ -464,7 +554,10 @@
       "pct_change": 55.33,
       "peak_price": 2895.0,
       "peak_date": "2026-03-24",
-      "peak_pct": 71.3
+      "peak_pct": 71.3,
+      "trough_price": 1630.0,
+      "trough_date": "2025-12-16",
+      "trough_pct": -3.55
     },
     {
       "wr_id": 252,
@@ -479,7 +572,10 @@
       "pct_change": 186.43,
       "peak_price": 16410.0,
       "peak_date": "2026-03-23",
-      "peak_pct": 308.72
+      "peak_pct": 308.72,
+      "trough_price": 3795.0,
+      "trough_date": "2025-12-26",
+      "trough_pct": -5.48
     },
     {
       "wr_id": 251,
@@ -494,7 +590,10 @@
       "pct_change": -25.87,
       "peak_price": 12980.0,
       "peak_date": "2025-12-22",
-      "peak_pct": 5.27
+      "peak_pct": 5.27,
+      "trough_price": 7500.0,
+      "trough_date": "2026-03-04",
+      "trough_pct": -39.17
     },
     {
       "wr_id": 250,
@@ -509,7 +608,10 @@
       "pct_change": -25.97,
       "peak_price": 2495.0,
       "peak_date": "2025-12-04",
-      "peak_pct": 2.67
+      "peak_pct": 2.67,
+      "trough_price": 1683.0,
+      "trough_date": "2026-03-04",
+      "trough_pct": -30.74
     },
     {
       "wr_id": 249,
@@ -524,7 +626,10 @@
       "pct_change": -20.75,
       "peak_price": 1940.0,
       "peak_date": "2025-12-02",
-      "peak_pct": 15.34
+      "peak_pct": 15.34,
+      "trough_price": 1024.0,
+      "trough_date": "2026-03-04",
+      "trough_pct": -39.12
     },
     {
       "wr_id": 248,
@@ -539,7 +644,10 @@
       "pct_change": -28.78,
       "peak_price": 92000.0,
       "peak_date": "2025-12-18",
-      "peak_pct": 20.89
+      "peak_pct": 20.89,
+      "trough_price": 49550.0,
+      "trough_date": "2026-03-09",
+      "trough_pct": -34.89
     },
     {
       "wr_id": 247,
@@ -554,7 +662,10 @@
       "pct_change": 25.3,
       "peak_price": 30900.0,
       "peak_date": "2026-01-20",
-      "peak_pct": 106.28
+      "peak_pct": 106.28,
+      "trough_price": 14700.0,
+      "trough_date": "2025-11-26",
+      "trough_pct": -1.87
     },
     {
       "wr_id": 246,
@@ -569,7 +680,10 @@
       "pct_change": 0.7,
       "peak_price": 1437.0,
       "peak_date": "2026-02-27",
-      "peak_pct": 43.13
+      "peak_pct": 43.13,
+      "trough_price": 948.0,
+      "trough_date": "2026-01-08",
+      "trough_pct": -5.58
     },
     {
       "wr_id": 245,
@@ -584,7 +698,10 @@
       "pct_change": 30.69,
       "peak_price": 8120.0,
       "peak_date": "2026-03-03",
-      "peak_pct": 78.66
+      "peak_pct": 78.66,
+      "trough_price": 4380.0,
+      "trough_date": "2025-12-10",
+      "trough_pct": -3.63
     },
     {
       "wr_id": 244,
@@ -599,7 +716,10 @@
       "pct_change": 28.68,
       "peak_price": 12240.0,
       "peak_date": "2026-03-19",
-      "peak_pct": 55.33
+      "peak_pct": 55.33,
+      "trough_price": 7050.0,
+      "trough_date": "2025-11-21",
+      "trough_pct": -10.53
     },
     {
       "wr_id": 243,
@@ -614,7 +734,10 @@
       "pct_change": 33.27,
       "peak_price": 5080.0,
       "peak_date": "2026-02-12",
-      "peak_pct": 88.85
+      "peak_pct": 88.85,
+      "trough_price": 2590.0,
+      "trough_date": "2025-11-12",
+      "trough_pct": -3.72
     },
     {
       "wr_id": 242,
@@ -629,7 +752,10 @@
       "pct_change": -8.68,
       "peak_price": 1951.0,
       "peak_date": "2025-11-13",
-      "peak_pct": 24.58
+      "peak_pct": 24.58,
+      "trough_price": 1123.0,
+      "trough_date": "2026-03-04",
+      "trough_pct": -28.29
     },
     {
       "wr_id": 241,
@@ -644,7 +770,10 @@
       "pct_change": -31.77,
       "peak_price": 1950.0,
       "peak_date": "2025-12-29",
-      "peak_pct": 10.42
+      "peak_pct": 10.42,
+      "trough_price": 1043.0,
+      "trough_date": "2026-03-24",
+      "trough_pct": -40.94
     },
     {
       "wr_id": 240,
@@ -659,7 +788,10 @@
       "pct_change": 111.67,
       "peak_price": 5550.0,
       "peak_date": "2026-01-20",
-      "peak_pct": 178.06
+      "peak_pct": 178.06,
+      "trough_price": 0.0,
+      "trough_date": "2026-03-24",
+      "trough_pct": -100.0
     },
     {
       "wr_id": 239,
@@ -674,7 +806,10 @@
       "pct_change": -18.12,
       "peak_price": 5660.0,
       "peak_date": "2025-12-29",
-      "peak_pct": 18.53
+      "peak_pct": 18.53,
+      "trough_price": 3320.0,
+      "trough_date": "2026-03-04",
+      "trough_pct": -30.47
     },
     {
       "wr_id": 238,
@@ -689,7 +824,10 @@
       "pct_change": -34.33,
       "peak_price": 16670.0,
       "peak_date": "2025-12-17",
-      "peak_pct": 8.6
+      "peak_pct": 8.6,
+      "trough_price": 9120.0,
+      "trough_date": "2026-03-04",
+      "trough_pct": -40.59
     },
     {
       "wr_id": 237,
@@ -704,7 +842,10 @@
       "pct_change": 27.17,
       "peak_price": 11280.0,
       "peak_date": "2026-02-25",
-      "peak_pct": 84.62
+      "peak_pct": 84.62,
+      "trough_price": 5370.0,
+      "trough_date": "2025-11-07",
+      "trough_pct": -12.11
     },
     {
       "wr_id": 236,
@@ -719,7 +860,10 @@
       "pct_change": -64.04,
       "peak_price": 1550.0,
       "peak_date": "2025-10-28",
-      "peak_pct": 6.97
+      "peak_pct": 6.97,
+      "trough_price": 0.0,
+      "trough_date": "2026-03-24",
+      "trough_pct": -100.0
     },
     {
       "wr_id": 235,
@@ -734,7 +878,10 @@
       "pct_change": -32.21,
       "peak_price": 1135.0,
       "peak_date": "2025-09-24",
-      "peak_pct": 16.05
+      "peak_pct": 16.05,
+      "trough_price": 566.0,
+      "trough_date": "2026-03-04",
+      "trough_pct": -42.13
     },
     {
       "wr_id": 234,
@@ -749,7 +896,10 @@
       "pct_change": -13.27,
       "peak_price": 1979.0,
       "peak_date": "2025-09-23",
-      "peak_pct": 28.76
+      "peak_pct": 28.76,
+      "trough_price": 1024.0,
+      "trough_date": "2026-03-04",
+      "trough_pct": -33.38
     },
     {
       "wr_id": 233,
@@ -764,7 +914,10 @@
       "pct_change": 11.7,
       "peak_price": 15540.0,
       "peak_date": "2026-02-05",
-      "peak_pct": 44.29
+      "peak_pct": 44.29,
+      "trough_price": 9860.0,
+      "trough_date": "2025-10-13",
+      "trough_pct": -8.45
     },
     {
       "wr_id": 232,
@@ -779,7 +932,10 @@
       "pct_change": -5.71,
       "peak_price": 9730.0,
       "peak_date": "2026-02-04",
-      "peak_pct": 46.1
+      "peak_pct": 46.1,
+      "trough_price": 4990.0,
+      "trough_date": "2025-11-21",
+      "trough_pct": -25.08
     },
     {
       "wr_id": 231,
@@ -794,7 +950,10 @@
       "pct_change": 0.16,
       "peak_price": 3970.0,
       "peak_date": "2026-01-23",
-      "peak_pct": 25.63
+      "peak_pct": 25.63,
+      "trough_price": 2705.0,
+      "trough_date": "2025-11-05",
+      "trough_pct": -14.4
     },
     {
       "wr_id": 229,
@@ -809,7 +968,10 @@
       "pct_change": -71.26,
       "peak_price": 1930.0,
       "peak_date": "2025-08-20",
-      "peak_pct": 6.45
+      "peak_pct": 6.45,
+      "trough_price": 0.0,
+      "trough_date": "2026-03-24",
+      "trough_pct": -100.0
     },
     {
       "wr_id": 227,
@@ -824,7 +986,10 @@
       "pct_change": 5.62,
       "peak_price": 9520.0,
       "peak_date": "2025-10-10",
-      "peak_pct": 33.71
+      "peak_pct": 33.71,
+      "trough_price": 6100.0,
+      "trough_date": "2026-03-04",
+      "trough_pct": -14.33
     },
     {
       "wr_id": 228,
@@ -839,7 +1004,10 @@
       "pct_change": -34.76,
       "peak_price": 16100.0,
       "peak_date": "2025-11-03",
-      "peak_pct": 14.92
+      "peak_pct": 14.92,
+      "trough_price": 7500.0,
+      "trough_date": "2026-03-04",
+      "trough_pct": -46.47
     },
     {
       "wr_id": 226,
@@ -854,7 +1022,10 @@
       "pct_change": -15.15,
       "peak_price": 2690.0,
       "peak_date": "2025-08-14",
-      "peak_pct": 1.89
+      "peak_pct": 1.89,
+      "trough_price": 1759.0,
+      "trough_date": "2025-11-19",
+      "trough_pct": -33.37
     },
     {
       "wr_id": 225,
@@ -869,7 +1040,10 @@
       "pct_change": -91.53,
       "peak_price": 4744.0,
       "peak_date": "2025-08-11",
-      "peak_pct": 28.81
+      "peak_pct": 28.81,
+      "trough_price": 0.0,
+      "trough_date": "2026-03-24",
+      "trough_pct": -100.0
     },
     {
       "wr_id": 224,
@@ -884,7 +1058,10 @@
       "pct_change": -30.93,
       "peak_price": 30000.0,
       "peak_date": "2025-09-22",
-      "peak_pct": 56.49
+      "peak_pct": 56.49,
+      "trough_price": 12670.0,
+      "trough_date": "2026-03-04",
+      "trough_pct": -33.91
     },
     {
       "wr_id": 223,
@@ -899,7 +1076,10 @@
       "pct_change": 141.94,
       "peak_price": 24850.0,
       "peak_date": "2026-02-27",
-      "peak_pct": 196.89
+      "peak_pct": 196.89,
+      "trough_price": 7900.0,
+      "trough_date": "2025-08-20",
+      "trough_pct": -5.62
     },
     {
       "wr_id": 222,
@@ -914,7 +1094,10 @@
       "pct_change": -16.92,
       "peak_price": 22750.0,
       "peak_date": "2026-03-13",
-      "peak_pct": 19.55
+      "peak_pct": 19.55,
+      "trough_price": 10250.0,
+      "trough_date": "2025-11-25",
+      "trough_pct": -46.14
     },
     {
       "wr_id": 221,
@@ -929,7 +1112,10 @@
       "pct_change": 57.31,
       "peak_price": 4870.0,
       "peak_date": "2026-03-24",
-      "peak_pct": 87.31
+      "peak_pct": 87.31,
+      "trough_price": 2420.0,
+      "trough_date": "2025-11-19",
+      "trough_pct": -6.92
     },
     {
       "wr_id": 220,
@@ -944,7 +1130,10 @@
       "pct_change": -50.84,
       "peak_price": 13990.0,
       "peak_date": "2025-08-04",
-      "peak_pct": 11.47
+      "peak_pct": 11.47,
+      "trough_price": 4730.0,
+      "trough_date": "2026-03-04",
+      "trough_pct": -62.31
     },
     {
       "wr_id": 219,
@@ -959,7 +1148,10 @@
       "pct_change": -27.79,
       "peak_price": 7160.0,
       "peak_date": "2025-07-23",
-      "peak_pct": 15.67
+      "peak_pct": 15.67,
+      "trough_price": 3510.0,
+      "trough_date": "2026-03-04",
+      "trough_pct": -43.3
     },
     {
       "wr_id": 218,
@@ -974,7 +1166,10 @@
       "pct_change": 164.02,
       "peak_price": 25350.0,
       "peak_date": "2026-02-02",
-      "peak_pct": 328.21
+      "peak_pct": 328.21,
+      "trough_price": 4355.0,
+      "trough_date": "2025-09-01",
+      "trough_pct": -26.44
     },
     {
       "wr_id": 217,
@@ -989,7 +1184,10 @@
       "pct_change": 77.36,
       "peak_price": 2895.0,
       "peak_date": "2026-03-24",
-      "peak_pct": 95.61
+      "peak_pct": 95.61,
+      "trough_price": 1080.0,
+      "trough_date": "2025-09-02",
+      "trough_pct": -27.03
     },
     {
       "wr_id": 216,
@@ -1004,7 +1202,10 @@
       "pct_change": 41.03,
       "peak_price": 12240.0,
       "peak_date": "2026-03-19",
-      "peak_pct": 70.24
+      "peak_pct": 70.24,
+      "trough_price": 6570.0,
+      "trough_date": "2025-08-01",
+      "trough_pct": -8.62
     },
     {
       "wr_id": 215,
@@ -1019,7 +1220,10 @@
       "pct_change": -52.61,
       "peak_price": 1649.0,
       "peak_date": "2025-07-14",
-      "peak_pct": 32.24
+      "peak_pct": 32.24,
+      "trough_price": 556.0,
+      "trough_date": "2026-03-24",
+      "trough_pct": -55.41
     },
     {
       "wr_id": 214,
@@ -1034,7 +1238,10 @@
       "pct_change": -46.86,
       "peak_price": 6580.0,
       "peak_date": "2025-06-27",
-      "peak_pct": 3.46
+      "peak_pct": 3.46,
+      "trough_price": 2860.0,
+      "trough_date": "2026-03-04",
+      "trough_pct": -55.03
     },
     {
       "wr_id": 213,
@@ -1049,7 +1256,10 @@
       "pct_change": -34.88,
       "peak_price": 1322.0,
       "peak_date": "2025-06-26",
-      "peak_pct": 9.8
+      "peak_pct": 9.8,
+      "trough_price": 573.0,
+      "trough_date": "2026-03-04",
+      "trough_pct": -52.41
     },
     {
       "wr_id": 211,
@@ -1064,7 +1274,10 @@
       "pct_change": -2.59,
       "peak_price": 15440.0,
       "peak_date": "2026-01-29",
-      "peak_pct": 21.38
+      "peak_pct": 21.38,
+      "trough_price": 9500.0,
+      "trough_date": "2025-12-30",
+      "trough_pct": -25.31
     },
     {
       "wr_id": 212,
@@ -1079,7 +1292,10 @@
       "pct_change": 42.68,
       "peak_price": 5330.0,
       "peak_date": "2026-02-25",
-      "peak_pct": 113.2
+      "peak_pct": 113.2,
+      "trough_price": 2270.0,
+      "trough_date": "2026-01-08",
+      "trough_pct": -9.2
     },
     {
       "wr_id": 210,
@@ -1094,7 +1310,10 @@
       "pct_change": -43.3,
       "peak_price": 33200.0,
       "peak_date": "2025-06-18",
-      "peak_pct": 105.96
+      "peak_pct": 105.96,
+      "trough_price": 7500.0,
+      "trough_date": "2026-03-04",
+      "trough_pct": -53.47
     },
     {
       "wr_id": 209,
@@ -1109,7 +1328,10 @@
       "pct_change": -48.75,
       "peak_price": 37000.0,
       "peak_date": "2025-07-15",
-      "peak_pct": 19.94
+      "peak_pct": 19.94,
+      "trough_price": 10250.0,
+      "trough_date": "2025-11-25",
+      "trough_pct": -66.77
     },
     {
       "wr_id": 207,
@@ -1124,7 +1346,10 @@
       "pct_change": 235.7,
       "peak_price": 8100.0,
       "peak_date": "2026-01-20",
-      "peak_pct": 857.45
+      "peak_pct": 857.45,
+      "trough_price": 712.0,
+      "trough_date": "2025-09-08",
+      "trough_pct": -15.84
     },
     {
       "wr_id": 208,
@@ -1139,7 +1364,10 @@
       "pct_change": 146.07,
       "peak_price": 10450.0,
       "peak_date": "2026-03-24",
-      "peak_pct": 199.0
+      "peak_pct": 199.0,
+      "trough_price": 2535.0,
+      "trough_date": "2025-12-02",
+      "trough_pct": -27.47
     },
     {
       "wr_id": 206,
@@ -1154,7 +1382,10 @@
       "pct_change": 13.6,
       "peak_price": 1600.0,
       "peak_date": "2025-06-23",
-      "peak_pct": 79.78
+      "peak_pct": 79.78,
+      "trough_price": 814.0,
+      "trough_date": "2025-05-21",
+      "trough_pct": -8.54
     },
     {
       "wr_id": 205,
@@ -1169,7 +1400,10 @@
       "pct_change": -2.38,
       "peak_price": 7991.0,
       "peak_date": "2025-10-17",
-      "peak_pct": 53.55
+      "peak_pct": 53.55,
+      "trough_price": 2940.0,
+      "trough_date": "2025-12-24",
+      "trough_pct": -43.5
     },
     {
       "wr_id": 202,
@@ -1184,7 +1418,10 @@
       "pct_change": 315.55,
       "peak_price": 38000.0,
       "peak_date": "2026-03-19",
-      "peak_pct": 361.73
+      "peak_pct": 361.73,
+      "trough_price": 7500.0,
+      "trough_date": "2025-05-15",
+      "trough_pct": -8.87
     },
     {
       "wr_id": 203,
@@ -1199,7 +1436,10 @@
       "pct_change": -79.75,
       "peak_price": 4500.0,
       "peak_date": "2025-05-15",
-      "peak_pct": 14.21
+      "peak_pct": 14.21,
+      "trough_price": 0.0,
+      "trough_date": "2026-02-09",
+      "trough_pct": -100.0
     },
     {
       "wr_id": 204,
@@ -1214,7 +1454,10 @@
       "pct_change": -36.05,
       "peak_price": 1322.0,
       "peak_date": "2025-06-26",
-      "peak_pct": 7.83
+      "peak_pct": 7.83,
+      "trough_price": 573.0,
+      "trough_date": "2026-03-04",
+      "trough_pct": -53.26
     },
     {
       "wr_id": 201,
@@ -1229,7 +1472,10 @@
       "pct_change": -8.68,
       "peak_price": 1951.0,
       "peak_date": "2025-11-13",
-      "peak_pct": 24.58
+      "peak_pct": 24.58,
+      "trough_price": 1074.0,
+      "trough_date": "2025-11-05",
+      "trough_pct": -31.42
     },
     {
       "wr_id": 200,
@@ -1244,7 +1490,10 @@
       "pct_change": 344.16,
       "peak_price": 38000.0,
       "peak_date": "2026-03-19",
-      "peak_pct": 393.51
+      "peak_pct": 393.51,
+      "trough_price": 7310.0,
+      "trough_date": "2025-04-30",
+      "trough_pct": -5.06
     },
     {
       "wr_id": 199,
@@ -1259,7 +1508,10 @@
       "pct_change": -15.99,
       "peak_price": 33200.0,
       "peak_date": "2025-06-18",
-      "peak_pct": 205.15
+      "peak_pct": 205.15,
+      "trough_price": 7500.0,
+      "trough_date": "2026-03-04",
+      "trough_pct": -31.07
     },
     {
       "wr_id": 198,
@@ -1274,7 +1526,10 @@
       "pct_change": -79.41,
       "peak_price": 4620.0,
       "peak_date": "2025-05-08",
-      "peak_pct": 19.23
+      "peak_pct": 19.23,
+      "trough_price": 0.0,
+      "trough_date": "2026-02-09",
+      "trough_pct": -100.0
     },
     {
       "wr_id": 196,
@@ -1289,7 +1544,10 @@
       "pct_change": 44.5,
       "peak_price": 5000.0,
       "peak_date": "2026-01-13",
-      "peak_pct": 187.85
+      "peak_pct": 187.85,
+      "trough_price": 1457.0,
+      "trough_date": "2025-08-21",
+      "trough_pct": -16.12
     },
     {
       "wr_id": 197,
@@ -1304,7 +1562,10 @@
       "pct_change": 4.67,
       "peak_price": 9730.0,
       "peak_date": "2026-02-04",
-      "peak_pct": 62.17
+      "peak_pct": 62.17,
+      "trough_price": 4990.0,
+      "trough_date": "2025-11-21",
+      "trough_pct": -16.83
     },
     {
       "wr_id": 195,
@@ -1319,7 +1580,10 @@
       "pct_change": 2.87,
       "peak_price": 30000.0,
       "peak_date": "2025-09-22",
-      "peak_pct": 133.1
+      "peak_pct": 133.1,
+      "trough_price": 12120.0,
+      "trough_date": "2025-04-02",
+      "trough_pct": -5.83
     },
     {
       "wr_id": 194,
@@ -1334,7 +1598,10 @@
       "pct_change": 32.2,
       "peak_price": 12240.0,
       "peak_date": "2026-03-19",
-      "peak_pct": 59.58
+      "peak_pct": 59.58,
+      "trough_price": 5920.0,
+      "trough_date": "2025-04-09",
+      "trough_pct": -22.82
     },
     {
       "wr_id": 193,
@@ -1349,7 +1616,10 @@
       "pct_change": -0.63,
       "peak_price": 9730.0,
       "peak_date": "2026-02-04",
-      "peak_pct": 53.96
+      "peak_pct": 53.96,
+      "trough_price": 4990.0,
+      "trough_date": "2025-11-21",
+      "trough_pct": -21.04
     },
     {
       "wr_id": 192,
@@ -1364,7 +1634,10 @@
       "pct_change": -68.33,
       "peak_price": 5190.0,
       "peak_date": "2025-03-20",
-      "peak_pct": 18.09
+      "peak_pct": 18.09,
+      "trough_price": 1120.0,
+      "trough_date": "2026-03-04",
+      "trough_pct": -74.52
     },
     {
       "wr_id": 191,
@@ -1379,7 +1652,10 @@
       "pct_change": 46.48,
       "peak_price": 2895.0,
       "peak_date": "2026-03-24",
-      "peak_pct": 61.55
+      "peak_pct": 61.55,
+      "trough_price": 1080.0,
+      "trough_date": "2025-09-02",
+      "trough_pct": -39.73
     },
     {
       "wr_id": 190,
@@ -1394,7 +1670,10 @@
       "pct_change": 17.83,
       "peak_price": 1600.0,
       "peak_date": "2025-06-23",
-      "peak_pct": 86.48
+      "peak_pct": 86.48,
+      "trough_price": 700.0,
+      "trough_date": "2025-03-06",
+      "trough_pct": -18.41
     },
     {
       "wr_id": 189,
@@ -1409,7 +1688,10 @@
       "pct_change": 38.98,
       "peak_price": 6890.0,
       "peak_date": "2025-12-18",
-      "peak_pct": 101.17
+      "peak_pct": 101.17,
+      "trough_price": 2885.0,
+      "trough_date": "2025-04-07",
+      "trough_pct": -15.77
     },
     {
       "wr_id": 188,
@@ -1424,7 +1706,10 @@
       "pct_change": 115.59,
       "peak_price": 11450.0,
       "peak_date": "2025-09-19",
-      "peak_pct": 279.77
+      "peak_pct": 279.77,
+      "trough_price": 2420.0,
+      "trough_date": "2025-04-09",
+      "trough_pct": -19.73
     },
     {
       "wr_id": 185,
@@ -1439,7 +1724,10 @@
       "pct_change": 40.45,
       "peak_price": 2895.0,
       "peak_date": "2026-03-24",
-      "peak_pct": 54.9
+      "peak_pct": 54.9,
+      "trough_price": 1080.0,
+      "trough_date": "2025-09-02",
+      "trough_pct": -42.22
     },
     {
       "wr_id": 186,
@@ -1454,7 +1742,10 @@
       "pct_change": -93.61,
       "peak_price": 6875.0,
       "peak_date": "2025-03-06",
-      "peak_pct": 40.85
+      "peak_pct": 40.85,
+      "trough_price": 0.0,
+      "trough_date": "2026-03-24",
+      "trough_pct": -100.0
     },
     {
       "wr_id": 187,
@@ -1469,7 +1760,10 @@
       "pct_change": 39.9,
       "peak_price": 5450.0,
       "peak_date": "2025-06-12",
-      "peak_pct": 162.02
+      "peak_pct": 162.02,
+      "trough_price": 1300.0,
+      "trough_date": "2026-03-04",
+      "trough_pct": -37.5
     },
     {
       "wr_id": 181,
@@ -1484,7 +1778,10 @@
       "pct_change": 39.42,
       "peak_price": 151900.0,
       "peak_date": "2026-02-27",
-      "peak_pct": 90.11
+      "peak_pct": 90.11,
+      "trough_price": 64100.0,
+      "trough_date": "2025-04-09",
+      "trough_pct": -19.77
     },
     {
       "wr_id": 182,
@@ -1499,7 +1796,10 @@
       "pct_change": 18.78,
       "peak_price": 5450.0,
       "peak_date": "2025-06-12",
-      "peak_pct": 122.45
+      "peak_pct": 122.45,
+      "trough_price": 1300.0,
+      "trough_date": "2026-03-04",
+      "trough_pct": -46.94
     },
     {
       "wr_id": 180,
@@ -1514,7 +1814,10 @@
       "pct_change": -9.59,
       "peak_price": 33200.0,
       "peak_date": "2025-06-18",
-      "peak_pct": 228.39
+      "peak_pct": 228.39,
+      "trough_price": 7500.0,
+      "trough_date": "2026-03-04",
+      "trough_pct": -25.82
     },
     {
       "wr_id": 179,
@@ -1529,7 +1832,10 @@
       "pct_change": -31.68,
       "peak_price": 3030.0,
       "peak_date": "2025-02-11",
-      "peak_pct": 16.76
+      "peak_pct": 16.76,
+      "trough_price": 1542.0,
+      "trough_date": "2026-03-04",
+      "trough_pct": -40.58
     },
     {
       "wr_id": 178,
@@ -1544,7 +1850,10 @@
       "pct_change": -57.82,
       "peak_price": 2359.0,
       "peak_date": "2025-01-08",
-      "peak_pct": 2.25
+      "peak_pct": 2.25,
+      "trough_price": 0.0,
+      "trough_date": "2025-05-08",
+      "trough_pct": -100.0
     },
     {
       "wr_id": 177,
@@ -1559,7 +1868,10 @@
       "pct_change": 99.78,
       "peak_price": 6950.0,
       "peak_date": "2026-02-26",
-      "peak_pct": 201.52
+      "peak_pct": 201.52,
+      "trough_price": 1985.0,
+      "trough_date": "2025-04-09",
+      "trough_pct": -13.88
     },
     {
       "wr_id": 176,
@@ -1574,7 +1886,10 @@
       "pct_change": -93.83,
       "peak_price": 6875.0,
       "peak_date": "2025-03-06",
-      "peak_pct": 35.92
+      "peak_pct": 35.92,
+      "trough_price": 0.0,
+      "trough_date": "2026-03-24",
+      "trough_pct": -100.0
     },
     {
       "wr_id": 175,
@@ -1589,7 +1904,10 @@
       "pct_change": 20.48,
       "peak_price": 31600.0,
       "peak_date": "2026-03-23",
-      "peak_pct": 37.69
+      "peak_pct": 37.69,
+      "trough_price": 17170.0,
+      "trough_date": "2025-04-09",
+      "trough_pct": -25.19
     },
     {
       "wr_id": 174,
@@ -1604,7 +1922,10 @@
       "pct_change": -32.65,
       "peak_price": 1578.0,
       "peak_date": "2025-03-27",
-      "peak_pct": 35.57
+      "peak_pct": 35.57,
+      "trough_price": 573.0,
+      "trough_date": "2026-03-04",
+      "trough_pct": -50.77
     },
     {
       "wr_id": 173,
@@ -1619,7 +1940,10 @@
       "pct_change": 328.36,
       "peak_price": 8100.0,
       "peak_date": "2026-01-20",
-      "peak_pct": 1121.72
+      "peak_pct": 1121.72,
+      "trough_price": 593.0,
+      "trough_date": "2024-12-09",
+      "trough_pct": -10.56
     },
     {
       "wr_id": 172,
@@ -1634,7 +1958,10 @@
       "pct_change": 55.43,
       "peak_price": 36250.0,
       "peak_date": "2026-03-26",
-      "peak_pct": 64.03
+      "peak_pct": 64.03,
+      "trough_price": 12060.0,
+      "trough_date": "2024-12-09",
+      "trough_pct": -45.43
     },
     {
       "wr_id": 171,
@@ -1649,7 +1976,10 @@
       "pct_change": -65.41,
       "peak_price": 7420.0,
       "peak_date": "2025-06-26",
-      "peak_pct": 261.95
+      "peak_pct": 261.95,
+      "trough_price": 676.0,
+      "trough_date": "2026-03-25",
+      "trough_pct": -67.02
     },
     {
       "wr_id": 170,
@@ -1664,7 +1994,10 @@
       "pct_change": -34.11,
       "peak_price": 1275.0,
       "peak_date": "2025-01-09",
-      "peak_pct": 5.81
+      "peak_pct": 5.81,
+      "trough_price": 733.0,
+      "trough_date": "2026-03-04",
+      "trough_pct": -39.17
     },
     {
       "wr_id": 169,
@@ -1679,7 +2012,10 @@
       "pct_change": 17.03,
       "peak_price": 3955.0,
       "peak_date": "2025-08-13",
-      "peak_pct": 92.46
+      "peak_pct": 92.46,
+      "trough_price": 1060.0,
+      "trough_date": "2025-03-06",
+      "trough_pct": -48.42
     },
     {
       "wr_id": 168,
@@ -1694,7 +2030,10 @@
       "pct_change": 67.46,
       "peak_price": 9800.0,
       "peak_date": "2026-02-27",
-      "peak_pct": 209.64
+      "peak_pct": 209.64,
+      "trough_price": 2400.0,
+      "trough_date": "2025-10-01",
+      "trough_pct": -24.17
     },
     {
       "wr_id": 167,
@@ -1709,7 +2048,10 @@
       "pct_change": 36.11,
       "peak_price": 5100.0,
       "peak_date": "2026-02-03",
-      "peak_pct": 186.84
+      "peak_pct": 186.84,
+      "trough_price": 1325.0,
+      "trough_date": "2025-11-05",
+      "trough_pct": -25.48
     },
     {
       "wr_id": 166,
@@ -1724,7 +2066,10 @@
       "pct_change": -51.31,
       "peak_price": 16029.0,
       "peak_date": "2025-04-14",
-      "peak_pct": 197.88
+      "peak_pct": 197.88,
+      "trough_price": 0.0,
+      "trough_date": "2025-01-06",
+      "trough_pct": -100.0
     },
     {
       "wr_id": 165,
@@ -1739,7 +2084,10 @@
       "pct_change": -29.46,
       "peak_price": 7991.0,
       "peak_date": "2025-10-17",
-      "peak_pct": 10.96
+      "peak_pct": 10.96,
+      "trough_price": 2940.0,
+      "trough_date": "2025-12-24",
+      "trough_pct": -59.18
     },
     {
       "wr_id": 164,
@@ -1754,7 +2102,10 @@
       "pct_change": -45.37,
       "peak_price": 1745.0,
       "peak_date": "2024-09-06",
-      "peak_pct": 21.6
+      "peak_pct": 21.6,
+      "trough_price": 573.0,
+      "trough_date": "2026-03-04",
+      "trough_pct": -60.07
     },
     {
       "wr_id": 163,
@@ -1769,7 +2120,10 @@
       "pct_change": -11.9,
       "peak_price": 12240.0,
       "peak_date": "2026-03-19",
-      "peak_pct": 6.34
+      "peak_pct": 6.34,
+      "trough_price": 5920.0,
+      "trough_date": "2025-04-09",
+      "trough_pct": -48.57
     },
     {
       "wr_id": 162,
@@ -1784,7 +2138,10 @@
       "pct_change": -60.86,
       "peak_price": 1980.0,
       "peak_date": "2024-08-29",
-      "peak_pct": 9.76
+      "peak_pct": 9.76,
+      "trough_price": 577.0,
+      "trough_date": "2026-03-17",
+      "trough_pct": -68.02
     },
     {
       "wr_id": 161,
@@ -1799,7 +2156,10 @@
       "pct_change": -47.59,
       "peak_price": 1745.0,
       "peak_date": "2024-09-06",
-      "peak_pct": 16.64
+      "peak_pct": 16.64,
+      "trough_price": 573.0,
+      "trough_date": "2026-03-04",
+      "trough_pct": -61.7
     },
     {
       "wr_id": 160,
@@ -1814,7 +2174,10 @@
       "pct_change": -7.61,
       "peak_price": 17500.0,
       "peak_date": "2026-03-20",
-      "peak_pct": 10.97
+      "peak_pct": 10.97,
+      "trough_price": 7080.0,
+      "trough_date": "2024-12-09",
+      "trough_pct": -55.1
     },
     {
       "wr_id": 158,
@@ -1829,7 +2192,10 @@
       "pct_change": 46.32,
       "peak_price": 41700.0,
       "peak_date": "2026-02-04",
-      "peak_pct": 98.1
+      "peak_pct": 98.1,
+      "trough_price": 9620.0,
+      "trough_date": "2025-04-09",
+      "trough_pct": -54.3
     },
     {
       "wr_id": 153,
@@ -1844,7 +2210,10 @@
       "pct_change": 40.99,
       "peak_price": 4005.0,
       "peak_date": "2024-07-31",
-      "peak_pct": 109.14
+      "peak_pct": 109.14,
+      "trough_price": 1860.0,
+      "trough_date": "2024-07-18",
+      "trough_pct": -2.87
     },
     {
       "wr_id": 152,
@@ -1859,7 +2228,10 @@
       "pct_change": -17.2,
       "peak_price": 8840.0,
       "peak_date": "2025-01-08",
-      "peak_pct": 56.74
+      "peak_pct": 56.74,
+      "trough_price": 4350.0,
+      "trough_date": "2026-03-04",
+      "trough_pct": -22.87
     },
     {
       "wr_id": 151,
@@ -1874,7 +2246,10 @@
       "pct_change": -2.42,
       "peak_price": 16160.0,
       "peak_date": "2026-02-12",
-      "peak_pct": 18.39
+      "peak_pct": 18.39,
+      "trough_price": 10520.0,
+      "trough_date": "2024-12-09",
+      "trough_pct": -22.93
     },
     {
       "wr_id": 146,
@@ -1889,7 +2264,10 @@
       "pct_change": -10.61,
       "peak_price": 7700.0,
       "peak_date": "2024-05-14",
-      "peak_pct": 29.63
+      "peak_pct": 29.63,
+      "trough_price": 4135.0,
+      "trough_date": "2024-12-10",
+      "trough_pct": -30.39
     },
     {
       "wr_id": 145,
@@ -1904,7 +2282,10 @@
       "pct_change": -44.3,
       "peak_price": 2970.0,
       "peak_date": "2024-05-27",
-      "peak_pct": 29.13
+      "peak_pct": 29.13,
+      "trough_price": 1161.0,
+      "trough_date": "2026-03-04",
+      "trough_pct": -49.52
     },
     {
       "wr_id": 144,
@@ -1919,7 +2300,10 @@
       "pct_change": -39.7,
       "peak_price": 12680.0,
       "peak_date": "2024-04-17",
-      "peak_pct": 1.68
+      "peak_pct": 1.68,
+      "trough_price": 4130.0,
+      "trough_date": "2024-12-10",
+      "trough_pct": -66.88
     },
     {
       "wr_id": 143,
@@ -1934,7 +2318,10 @@
       "pct_change": -39.51,
       "peak_price": 6375.0,
       "peak_date": "2024-04-03",
-      "peak_pct": 7.27
+      "peak_pct": 7.27,
+      "trough_price": 2860.0,
+      "trough_date": "2026-03-04",
+      "trough_pct": -51.88
     },
     {
       "wr_id": 142,
@@ -1949,7 +2336,10 @@
       "pct_change": 144.94,
       "peak_price": 58800.0,
       "peak_date": "2026-03-20",
-      "peak_pct": 221.84
+      "peak_pct": 221.84,
+      "trough_price": 9190.0,
+      "trough_date": "2024-12-09",
+      "trough_pct": -49.7
     },
     {
       "wr_id": 141,
@@ -1964,7 +2354,10 @@
       "pct_change": 1.44,
       "peak_price": 79000.0,
       "peak_date": "2024-07-10",
-      "peak_pct": 42.34
+      "peak_pct": 42.34,
+      "trough_price": 43500.0,
+      "trough_date": "2025-04-09",
+      "trough_pct": -21.62
     },
     {
       "wr_id": 140,
@@ -1979,7 +2372,10 @@
       "pct_change": 100.41,
       "peak_price": 36250.0,
       "peak_date": "2026-03-26",
-      "peak_pct": 111.49
+      "peak_pct": 111.49,
+      "trough_price": 11290.0,
+      "trough_date": "2024-09-11",
+      "trough_pct": -34.13
     },
     {
       "wr_id": 139,
@@ -1994,7 +2390,10 @@
       "pct_change": 172.34,
       "peak_price": 82600.0,
       "peak_date": "2026-03-25",
-      "peak_pct": 192.91
+      "peak_pct": 192.91,
+      "trough_price": 10650.0,
+      "trough_date": "2024-12-10",
+      "trough_pct": -62.23
     },
     {
       "wr_id": 138,
@@ -2009,7 +2408,10 @@
       "pct_change": 43.82,
       "peak_price": 1250.0,
       "peak_date": "2026-02-23",
-      "peak_pct": 83.82
+      "peak_pct": 83.82,
+      "trough_price": 522.0,
+      "trough_date": "2024-12-26",
+      "trough_pct": -23.24
     },
     {
       "wr_id": 137,
@@ -2024,7 +2426,10 @@
       "pct_change": -22.66,
       "peak_price": 9730.0,
       "peak_date": "2026-02-04",
-      "peak_pct": 19.83
+      "peak_pct": 19.83,
+      "trough_price": 4450.0,
+      "trough_date": "2024-12-06",
+      "trough_pct": -45.2
     },
     {
       "wr_id": 136,
@@ -2039,7 +2444,10 @@
       "pct_change": -35.07,
       "peak_price": 2135.0,
       "peak_date": "2024-01-24",
-      "peak_pct": 21.17
+      "peak_pct": 21.17,
+      "trough_price": 673.0,
+      "trough_date": "2024-12-09",
+      "trough_pct": -61.8
     },
     {
       "wr_id": 135,
@@ -2054,7 +2462,10 @@
       "pct_change": -63.05,
       "peak_price": 17560.0,
       "peak_date": "2024-02-20",
-      "peak_pct": 59.64
+      "peak_pct": 59.64,
+      "trough_price": 3650.0,
+      "trough_date": "2026-03-04",
+      "trough_pct": -66.82
     },
     {
       "wr_id": 134,
@@ -2069,7 +2480,10 @@
       "pct_change": -43.78,
       "peak_price": 5060.0,
       "peak_date": "2024-02-21",
-      "peak_pct": 18.78
+      "peak_pct": 18.78,
+      "trough_price": 2295.0,
+      "trough_date": "2025-11-19",
+      "trough_pct": -46.13
     },
     {
       "wr_id": 132,
@@ -2084,7 +2498,10 @@
       "pct_change": -79.1,
       "peak_price": 10600.0,
       "peak_date": "2024-01-08",
-      "peak_pct": 17.65
+      "peak_pct": 17.65,
+      "trough_price": 1722.0,
+      "trough_date": "2026-03-04",
+      "trough_pct": -80.89
     },
     {
       "wr_id": 133,
@@ -2099,7 +2516,10 @@
       "pct_change": -63.19,
       "peak_price": 17990.0,
       "peak_date": "2024-06-07",
-      "peak_pct": 101.91
+      "peak_pct": 101.91,
+      "trough_price": 2750.0,
+      "trough_date": "2026-03-04",
+      "trough_pct": -69.14
     },
     {
       "wr_id": 130,
@@ -2114,7 +2534,10 @@
       "pct_change": -48.75,
       "peak_price": 31500.0,
       "peak_date": "2024-07-19",
-      "peak_pct": 60.14
+      "peak_pct": 60.14,
+      "trough_price": 0.0,
+      "trough_date": "2024-07-18",
+      "trough_pct": -100.0
     },
     {
       "wr_id": 129,
@@ -2129,7 +2552,10 @@
       "pct_change": 331.61,
       "peak_price": 8100.0,
       "peak_date": "2026-01-20",
-      "peak_pct": 1131.0
+      "peak_pct": 1131.0,
+      "trough_price": 558.0,
+      "trough_date": "2024-02-08",
+      "trough_pct": -15.2
     },
     {
       "wr_id": 128,
@@ -2144,7 +2570,10 @@
       "pct_change": -10.56,
       "peak_price": 21400.0,
       "peak_date": "2024-06-17",
-      "peak_pct": 40.33
+      "peak_pct": 40.33,
+      "trough_price": 10740.0,
+      "trough_date": "2024-12-09",
+      "trough_pct": -29.57
     },
     {
       "wr_id": 127,
@@ -2159,7 +2588,10 @@
       "pct_change": -24.22,
       "peak_price": 2450.0,
       "peak_date": "2024-09-30",
-      "peak_pct": 28.14
+      "peak_pct": 28.14,
+      "trough_price": 1085.0,
+      "trough_date": "2025-11-05",
+      "trough_pct": -43.25
     },
     {
       "wr_id": 126,
@@ -2174,7 +2606,10 @@
       "pct_change": -24.93,
       "peak_price": 24100.0,
       "peak_date": "2024-01-03",
-      "peak_pct": 9.05
+      "peak_pct": 9.05,
+      "trough_price": 15130.0,
+      "trough_date": "2025-03-11",
+      "trough_pct": -31.54
     },
     {
       "wr_id": 125,
@@ -2189,7 +2624,10 @@
       "pct_change": -32.6,
       "peak_price": 22850.0,
       "peak_date": "2024-01-23",
-      "peak_pct": 48.09
+      "peak_pct": 48.09,
+      "trough_price": 9950.0,
+      "trough_date": "2026-03-04",
+      "trough_pct": -35.52
     },
     {
       "wr_id": 124,
@@ -2204,7 +2642,10 @@
       "pct_change": -45.65,
       "peak_price": 19270.0,
       "peak_date": "2024-01-16",
-      "peak_pct": 23.37
+      "peak_pct": 23.37,
+      "trough_price": 7360.0,
+      "trough_date": "2026-03-04",
+      "trough_pct": -52.88
     },
     {
       "wr_id": 123,
@@ -2219,7 +2660,10 @@
       "pct_change": -40.77,
       "peak_price": 5230.0,
       "peak_date": "2025-03-04",
-      "peak_pct": 122.55
+      "peak_pct": 122.55,
+      "trough_price": 1120.0,
+      "trough_date": "2026-03-04",
+      "trough_pct": -52.34
     },
     {
       "wr_id": 122,
@@ -2234,7 +2678,10 @@
       "pct_change": 127.32,
       "peak_price": 26450.0,
       "peak_date": "2026-03-16",
-      "peak_pct": 158.05
+      "peak_pct": 158.05,
+      "trough_price": 0.0,
+      "trough_date": "2024-01-03",
+      "trough_pct": -100.0
     },
     {
       "wr_id": 121,
@@ -2249,7 +2696,10 @@
       "pct_change": 100.53,
       "peak_price": 3352.0,
       "peak_date": "2024-06-10",
-      "peak_pct": 156.07
+      "peak_pct": 156.07,
+      "trough_price": 996.0,
+      "trough_date": "2023-11-16",
+      "trough_pct": -23.91
     },
     {
       "wr_id": 119,
@@ -2264,7 +2714,10 @@
       "pct_change": 391.29,
       "peak_price": 23500.0,
       "peak_date": "2026-02-06",
-      "peak_pct": 594.24
+      "peak_pct": 594.24,
+      "trough_price": 0.0,
+      "trough_date": "2026-02-05",
+      "trough_pct": -100.0
     },
     {
       "wr_id": 118,
@@ -2279,7 +2732,10 @@
       "pct_change": 225.67,
       "peak_price": 29600.0,
       "peak_date": "2026-02-09",
-      "peak_pct": 393.33
+      "peak_pct": 393.33,
+      "trough_price": 3755.0,
+      "trough_date": "2024-11-13",
+      "trough_pct": -37.42
     },
     {
       "wr_id": 117,
@@ -2294,7 +2750,10 @@
       "pct_change": -78.34,
       "peak_price": 1530.0,
       "peak_date": "2023-09-06",
-      "peak_pct": 5.23
+      "peak_pct": 5.23,
+      "trough_price": 309.0,
+      "trough_date": "2026-03-23",
+      "trough_pct": -78.75
     },
     {
       "wr_id": 116,
@@ -2309,7 +2768,10 @@
       "pct_change": -44.91,
       "peak_price": 12830.0,
       "peak_date": "2023-08-30",
-      "peak_pct": 12.54
+      "peak_pct": 12.54,
+      "trough_price": 4450.0,
+      "trough_date": "2024-12-06",
+      "trough_pct": -60.96
     },
     {
       "wr_id": 115,
@@ -2324,7 +2786,10 @@
       "pct_change": 108.94,
       "peak_price": 36250.0,
       "peak_date": "2026-03-26",
-      "peak_pct": 120.5
+      "peak_pct": 120.5,
+      "trough_price": 11290.0,
+      "trough_date": "2024-09-11",
+      "trough_pct": -31.33
     },
     {
       "wr_id": 114,
@@ -2339,7 +2804,10 @@
       "pct_change": 83.72,
       "peak_price": 19300.0,
       "peak_date": "2026-03-25",
-      "peak_pct": 104.02
+      "peak_pct": 104.02,
+      "trough_price": 6850.0,
+      "trough_date": "2024-12-09",
+      "trough_pct": -27.59
     },
     {
       "wr_id": 113,
@@ -2354,7 +2822,10 @@
       "pct_change": -16.39,
       "peak_price": 10550.0,
       "peak_date": "2024-05-14",
-      "peak_pct": 92.17
+      "peak_pct": 92.17,
+      "trough_price": 3245.0,
+      "trough_date": "2026-03-04",
+      "trough_pct": -40.89
     },
     {
       "wr_id": 112,
@@ -2369,7 +2840,10 @@
       "pct_change": 41.49,
       "peak_price": 9870.0,
       "peak_date": "2026-03-12",
-      "peak_pct": 78.8
+      "peak_pct": 78.8,
+      "trough_price": 3990.0,
+      "trough_date": "2024-12-04",
+      "trough_pct": -27.72
     },
     {
       "wr_id": 111,
@@ -2384,7 +2858,10 @@
       "pct_change": -57.14,
       "peak_price": 12010.0,
       "peak_date": "2023-07-14",
-      "peak_pct": 4.53
+      "peak_pct": 4.53,
+      "trough_price": 4450.0,
+      "trough_date": "2024-12-09",
+      "trough_pct": -61.27
     },
     {
       "wr_id": 110,
@@ -2399,7 +2876,10 @@
       "pct_change": -37.59,
       "peak_price": 4745.0,
       "peak_date": "2023-07-11",
-      "peak_pct": 17.74
+      "peak_pct": 17.74,
+      "trough_price": 1845.0,
+      "trough_date": "2024-12-09",
+      "trough_pct": -54.22
     },
     {
       "wr_id": 109,
@@ -2414,7 +2894,10 @@
       "pct_change": -55.11,
       "peak_price": 10560.0,
       "peak_date": "2023-10-25",
-      "peak_pct": 13.55
+      "peak_pct": 13.55,
+      "trough_price": 3665.0,
+      "trough_date": "2026-03-04",
+      "trough_pct": -60.59
     },
     {
       "wr_id": 108,
@@ -2429,7 +2912,10 @@
       "pct_change": -24.52,
       "peak_price": 10330.0,
       "peak_date": "2025-12-23",
-      "peak_pct": 3.82
+      "peak_pct": 3.82,
+      "trough_price": 7210.0,
+      "trough_date": "2026-01-12",
+      "trough_pct": -27.54
     },
     {
       "wr_id": 107,
@@ -2444,7 +2930,10 @@
       "pct_change": 21.89,
       "peak_price": 24150.0,
       "peak_date": "2024-06-19",
-      "peak_pct": 85.48
+      "peak_pct": 85.48,
+      "trough_price": 12650.0,
+      "trough_date": "2023-06-12",
+      "trough_pct": -2.84
     },
     {
       "wr_id": 106,
@@ -2459,7 +2948,10 @@
       "pct_change": -76.4,
       "peak_price": 7090.0,
       "peak_date": "2023-06-08",
-      "peak_pct": 5.04
+      "peak_pct": 5.04,
+      "trough_price": 1512.0,
+      "trough_date": "2026-03-12",
+      "trough_pct": -77.6
     },
     {
       "wr_id": 104,
@@ -2474,7 +2966,10 @@
       "pct_change": 4.43,
       "peak_price": 17290.0,
       "peak_date": "2023-07-14",
-      "peak_pct": 17.94
+      "peak_pct": 17.94,
+      "trough_price": 6900.0,
+      "trough_date": "2024-12-09",
+      "trough_pct": -52.93
     },
     {
       "wr_id": 103,
@@ -2489,7 +2984,10 @@
       "pct_change": 109.86,
       "peak_price": 41800.0,
       "peak_date": "2026-03-17",
-      "peak_pct": 151.35
+      "peak_pct": 151.35,
+      "trough_price": 11550.0,
+      "trough_date": "2024-12-04",
+      "trough_pct": -30.55
     },
     {
       "wr_id": 102,
@@ -2504,7 +3002,10 @@
       "pct_change": 10.66,
       "peak_price": 28600.0,
       "peak_date": "2026-01-15",
-      "peak_pct": 82.63
+      "peak_pct": 82.63,
+      "trough_price": 9750.0,
+      "trough_date": "2024-08-05",
+      "trough_pct": -37.74
     },
     {
       "wr_id": 101,
@@ -2519,7 +3020,10 @@
       "pct_change": -7.22,
       "peak_price": 4660.0,
       "peak_date": "2024-07-09",
-      "peak_pct": 92.16
+      "peak_pct": 92.16,
+      "trough_price": 1541.0,
+      "trough_date": "2024-12-09",
+      "trough_pct": -36.45
     },
     {
       "wr_id": 98,
@@ -2534,7 +3038,10 @@
       "pct_change": 149.19,
       "peak_price": 16410.0,
       "peak_date": "2026-03-23",
-      "peak_pct": 255.58
+      "peak_pct": 255.58,
+      "trough_price": 1791.0,
+      "trough_date": "2024-12-09",
+      "trough_pct": -61.19
     },
     {
       "wr_id": 99,
@@ -2549,7 +3056,10 @@
       "pct_change": -44.8,
       "peak_price": 3530.0,
       "peak_date": "2023-05-26",
-      "peak_pct": 2.17
+      "peak_pct": 2.17,
+      "trough_price": 1749.0,
+      "trough_date": "2026-01-09",
+      "trough_pct": -49.38
     },
     {
       "wr_id": 100,
@@ -2564,7 +3074,10 @@
       "pct_change": -51.24,
       "peak_price": 26400.0,
       "peak_date": "2023-08-01",
-      "peak_pct": 59.13
+      "peak_pct": 59.13,
+      "trough_price": 6580.0,
+      "trough_date": "2025-04-09",
+      "trough_pct": -60.34
     },
     {
       "wr_id": 95,
@@ -2579,7 +3092,10 @@
       "pct_change": 279.05,
       "peak_price": 49516.0,
       "peak_date": "2023-07-21",
-      "peak_pct": 557.41
+      "peak_pct": 557.41,
+      "trough_price": 0.0,
+      "trough_date": "2023-07-20",
+      "trough_pct": -100.0
     },
     {
       "wr_id": 96,
@@ -2594,7 +3110,10 @@
       "pct_change": -37.73,
       "peak_price": 5060.0,
       "peak_date": "2024-02-21",
-      "peak_pct": 31.57
+      "peak_pct": 31.57,
+      "trough_price": 2295.0,
+      "trough_date": "2025-11-19",
+      "trough_pct": -40.33
     },
     {
       "wr_id": 97,
@@ -2609,7 +3128,10 @@
       "pct_change": -70.0,
       "peak_price": 6390.0,
       "peak_date": "2023-04-20",
-      "peak_pct": 8.12
+      "peak_pct": 8.12,
+      "trough_price": 1542.0,
+      "trough_date": "2026-03-04",
+      "trough_pct": -73.91
     },
     {
       "wr_id": 92,
@@ -2624,7 +3146,10 @@
       "pct_change": -74.89,
       "peak_price": 24850.0,
       "peak_date": "2023-04-25",
-      "peak_pct": 10.44
+      "peak_pct": 10.44,
+      "trough_price": 5100.0,
+      "trough_date": "2026-03-04",
+      "trough_pct": -77.33
     },
     {
       "wr_id": 93,
@@ -2639,7 +3164,10 @@
       "pct_change": 37.68,
       "peak_price": 36250.0,
       "peak_date": "2026-03-26",
-      "peak_pct": 45.29
+      "peak_pct": 45.29,
+      "trough_price": 11290.0,
+      "trough_date": "2024-09-11",
+      "trough_pct": -54.75
     },
     {
       "wr_id": 94,
@@ -2654,7 +3182,10 @@
       "pct_change": -25.05,
       "peak_price": 10330.0,
       "peak_date": "2025-12-23",
-      "peak_pct": 3.09
+      "peak_pct": 3.09,
+      "trough_price": 7210.0,
+      "trough_date": "2026-01-12",
+      "trough_pct": -28.04
     },
     {
       "wr_id": 91,
@@ -2669,7 +3200,10 @@
       "pct_change": 279.26,
       "peak_price": 82600.0,
       "peak_date": "2026-03-25",
-      "peak_pct": 307.9
+      "peak_pct": 307.9,
+      "trough_price": 10650.0,
+      "trough_date": "2024-12-10",
+      "trough_pct": -47.41
     },
     {
       "wr_id": 90,
@@ -2684,7 +3218,10 @@
       "pct_change": -75.83,
       "peak_price": 1141.0,
       "peak_date": "2023-04-24",
-      "peak_pct": 35.83
+      "peak_pct": 35.83,
+      "trough_price": 0.0,
+      "trough_date": "2024-03-11",
+      "trough_pct": -100.0
     },
     {
       "wr_id": 89,
@@ -2699,7 +3236,10 @@
       "pct_change": -35.42,
       "peak_price": 46150.0,
       "peak_date": "2023-03-29",
-      "peak_pct": 6.83
+      "peak_pct": 6.83,
+      "trough_price": 26750.0,
+      "trough_date": "2026-03-04",
+      "trough_pct": -38.08
     },
     {
       "wr_id": 88,
@@ -2714,7 +3254,10 @@
       "pct_change": 96.43,
       "peak_price": 20450.0,
       "peak_date": "2026-02-04",
-      "peak_pct": 199.33
+      "peak_pct": 199.33,
+      "trough_price": 5060.0,
+      "trough_date": "2024-12-20",
+      "trough_pct": -25.94
     },
     {
       "wr_id": 87,
@@ -2729,7 +3272,10 @@
       "pct_change": 123.88,
       "peak_price": 19850.0,
       "peak_date": "2026-03-20",
-      "peak_pct": 140.61
+      "peak_pct": 140.61,
+      "trough_price": 7750.0,
+      "trough_date": "2023-03-16",
+      "trough_pct": -6.06
     },
     {
       "wr_id": 86,
@@ -2744,7 +3290,10 @@
       "pct_change": -78.73,
       "peak_price": 8100.0,
       "peak_date": "2023-03-09",
-      "peak_pct": 8.14
+      "peak_pct": 8.14,
+      "trough_price": 1512.0,
+      "trough_date": "2026-03-12",
+      "trough_pct": -79.81
     },
     {
       "wr_id": 85,
@@ -2759,7 +3308,10 @@
       "pct_change": -9.09,
       "peak_price": 7840.0,
       "peak_date": "2023-03-23",
-      "peak_pct": 9.65
+      "peak_pct": 9.65,
+      "trough_price": 3335.0,
+      "trough_date": "2024-12-09",
+      "trough_pct": -53.36
     },
     {
       "wr_id": 84,
@@ -2774,7 +3326,10 @@
       "pct_change": 45.24,
       "peak_price": 36250.0,
       "peak_date": "2026-03-26",
-      "peak_pct": 53.28
+      "peak_pct": 53.28,
+      "trough_price": 11290.0,
+      "trough_date": "2024-09-11",
+      "trough_pct": -52.26
     },
     {
       "wr_id": 83,
@@ -2789,7 +3344,10 @@
       "pct_change": -81.63,
       "peak_price": 5200.0,
       "peak_date": "2023-04-14",
-      "peak_pct": 8.56
+      "peak_pct": 8.56,
+      "trough_price": 577.0,
+      "trough_date": "2026-03-04",
+      "trough_pct": -87.95
     },
     {
       "wr_id": 82,
@@ -2804,7 +3362,10 @@
       "pct_change": -1.73,
       "peak_price": 17290.0,
       "peak_date": "2023-07-14",
-      "peak_pct": 10.98
+      "peak_pct": 10.98,
+      "trough_price": 6900.0,
+      "trough_date": "2024-12-09",
+      "trough_pct": -55.71
     },
     {
       "wr_id": 81,
@@ -2819,7 +3380,10 @@
       "pct_change": 287.88,
       "peak_price": 82600.0,
       "peak_date": "2026-03-25",
-      "peak_pct": 317.17
+      "peak_pct": 317.17,
+      "trough_price": 10650.0,
+      "trough_date": "2024-12-10",
+      "trough_pct": -46.21
     },
     {
       "wr_id": 80,
@@ -2834,7 +3398,10 @@
       "pct_change": -73.16,
       "peak_price": 12500.0,
       "peak_date": "2024-04-09",
-      "peak_pct": 47.77
+      "peak_pct": 47.77,
+      "trough_price": 2075.0,
+      "trough_date": "2026-03-04",
+      "trough_pct": -75.47
     },
     {
       "wr_id": 79,
@@ -2849,7 +3416,10 @@
       "pct_change": -35.68,
       "peak_price": 4745.0,
       "peak_date": "2023-07-11",
-      "peak_pct": 21.36
+      "peak_pct": 21.36,
+      "trough_price": 1845.0,
+      "trough_date": "2024-12-09",
+      "trough_pct": -52.81
     },
     {
       "wr_id": 78,
@@ -2864,7 +3434,10 @@
       "pct_change": 129.44,
       "peak_price": 19850.0,
       "peak_date": "2026-03-20",
-      "peak_pct": 146.58
+      "peak_pct": 146.58,
+      "trough_price": 6820.0,
+      "trough_date": "2023-01-03",
+      "trough_pct": -15.28
     },
     {
       "wr_id": 77,
@@ -2879,7 +3452,10 @@
       "pct_change": 174.8,
       "peak_price": 41800.0,
       "peak_date": "2026-03-17",
-      "peak_pct": 229.13
+      "peak_pct": 229.13,
+      "trough_price": 11550.0,
+      "trough_date": "2024-12-04",
+      "trough_pct": -9.06
     },
     {
       "wr_id": 76,
@@ -2894,7 +3470,10 @@
       "pct_change": -15.08,
       "peak_price": 16130.0,
       "peak_date": "2023-01-30",
-      "peak_pct": 26.02
+      "peak_pct": 26.02,
+      "trough_price": 4050.0,
+      "trough_date": "2024-12-09",
+      "trough_pct": -68.36
     },
     {
       "wr_id": 75,
@@ -2909,7 +3488,10 @@
       "pct_change": -0.83,
       "peak_price": 9550.0,
       "peak_date": "2023-02-10",
-      "peak_pct": 58.9
+      "peak_pct": 58.9,
+      "trough_price": 4730.0,
+      "trough_date": "2024-11-15",
+      "trough_pct": -21.3
     },
     {
       "wr_id": 74,
@@ -2924,7 +3506,10 @@
       "pct_change": 192.61,
       "peak_price": 49516.0,
       "peak_date": "2023-07-21",
-      "peak_pct": 407.49
+      "peak_pct": 407.49,
+      "trough_price": 0.0,
+      "trough_date": "2023-07-20",
+      "trough_pct": -100.0
     },
     {
       "wr_id": 73,
@@ -2939,7 +3524,10 @@
       "pct_change": -4.25,
       "peak_price": 2755.0,
       "peak_date": "2023-04-06",
-      "peak_pct": 80.07
+      "peak_pct": 80.07,
+      "trough_price": 547.0,
+      "trough_date": "2025-04-04",
+      "trough_pct": -64.25
     },
     {
       "wr_id": 72,
@@ -2954,7 +3542,10 @@
       "pct_change": 67.24,
       "peak_price": 43900.0,
       "peak_date": "2023-03-28",
-      "peak_pct": 477.63
+      "peak_pct": 477.63,
+      "trough_price": 5730.0,
+      "trough_date": "2025-04-09",
+      "trough_pct": -24.61
     },
     {
       "wr_id": 71,
@@ -2969,7 +3560,10 @@
       "pct_change": -44.71,
       "peak_price": 5710.0,
       "peak_date": "2023-04-07",
-      "peak_pct": 35.79
+      "peak_pct": 35.79,
+      "trough_price": 1214.0,
+      "trough_date": "2024-12-09",
+      "trough_pct": -71.13
     },
     {
       "wr_id": 70,
@@ -2984,7 +3578,10 @@
       "pct_change": 26.05,
       "peak_price": 4660.0,
       "peak_date": "2024-07-09",
-      "peak_pct": 161.06
+      "peak_pct": 161.06,
+      "trough_price": 1541.0,
+      "trough_date": "2024-12-09",
+      "trough_pct": -13.67
     },
     {
       "wr_id": 69,
@@ -2999,7 +3596,10 @@
       "pct_change": -51.42,
       "peak_price": 23600.0,
       "peak_date": "2023-04-13",
-      "peak_pct": 34.09
+      "peak_pct": 34.09,
+      "trough_price": 7060.0,
+      "trough_date": "2025-11-19",
+      "trough_pct": -59.89
     },
     {
       "wr_id": 68,
@@ -3014,7 +3614,10 @@
       "pct_change": 49.23,
       "peak_price": 45000.0,
       "peak_date": "2026-03-17",
-      "peak_pct": 158.78
+      "peak_pct": 158.78,
+      "trough_price": 7950.0,
+      "trough_date": "2025-04-07",
+      "trough_pct": -54.28
     },
     {
       "wr_id": 67,
@@ -3029,7 +3632,10 @@
       "pct_change": 10.64,
       "peak_price": 177100.0,
       "peak_date": "2026-03-04",
-      "peak_pct": 74.48
+      "peak_pct": 74.48,
+      "trough_price": 50000.0,
+      "trough_date": "2025-05-23",
+      "trough_pct": -50.74
     },
     {
       "wr_id": 66,
@@ -3044,7 +3650,10 @@
       "pct_change": -24.51,
       "peak_price": 10750.0,
       "peak_date": "2022-09-16",
-      "peak_pct": 24.85
+      "peak_pct": 24.85,
+      "trough_price": 3335.0,
+      "trough_date": "2024-12-09",
+      "trough_pct": -61.27
     },
     {
       "wr_id": 65,
@@ -3059,7 +3668,10 @@
       "pct_change": 48.3,
       "peak_price": 21500.0,
       "peak_date": "2026-02-24",
-      "peak_pct": 80.85
+      "peak_pct": 80.85,
+      "trough_price": 8172.0,
+      "trough_date": "2024-12-09",
+      "trough_pct": -31.26
     },
     {
       "wr_id": 64,
@@ -3074,7 +3686,10 @@
       "pct_change": 265.71,
       "peak_price": 82600.0,
       "peak_date": "2026-03-25",
-      "peak_pct": 293.33
+      "peak_pct": 293.33,
+      "trough_price": 10650.0,
+      "trough_date": "2024-12-10",
+      "trough_pct": -49.29
     },
     {
       "wr_id": 62,
@@ -3089,7 +3704,10 @@
       "pct_change": -23.32,
       "peak_price": 26400.0,
       "peak_date": "2023-08-01",
-      "peak_pct": 150.24
+      "peak_pct": 150.24,
+      "trough_price": 6580.0,
+      "trough_date": "2025-04-09",
+      "trough_pct": -37.63
     },
     {
       "wr_id": 61,
@@ -3104,7 +3722,10 @@
       "pct_change": -7.12,
       "peak_price": 16550.0,
       "peak_date": "2022-08-25",
-      "peak_pct": 13.36
+      "peak_pct": 13.36,
+      "trough_price": 2825.0,
+      "trough_date": "2025-02-04",
+      "trough_pct": -80.65
     },
     {
       "wr_id": 60,
@@ -3119,7 +3740,10 @@
       "pct_change": 39.07,
       "peak_price": 36250.0,
       "peak_date": "2026-03-26",
-      "peak_pct": 46.76
+      "peak_pct": 46.76,
+      "trough_price": 11290.0,
+      "trough_date": "2024-09-11",
+      "trough_pct": -54.29
     },
     {
       "wr_id": 59,
@@ -3134,7 +3758,10 @@
       "pct_change": -74.41,
       "peak_price": 7123.0,
       "peak_date": "2023-04-19",
-      "peak_pct": 96.01
+      "peak_pct": 96.01,
+      "trough_price": 690.0,
+      "trough_date": "2024-12-09",
+      "trough_pct": -81.01
     },
     {
       "wr_id": 58,
@@ -3149,7 +3776,10 @@
       "pct_change": -53.37,
       "peak_price": 6497.0,
       "peak_date": "2022-08-03",
-      "peak_pct": 26.5
+      "peak_pct": 26.5,
+      "trough_price": 2295.0,
+      "trough_date": "2025-11-19",
+      "trough_pct": -55.32
     },
     {
       "wr_id": 57,
@@ -3164,7 +3794,10 @@
       "pct_change": 45.16,
       "peak_price": 19790.0,
       "peak_date": "2026-03-20",
-      "peak_pct": 75.91
+      "peak_pct": 75.91,
+      "trough_price": 5340.0,
+      "trough_date": "2024-12-10",
+      "trough_pct": -52.53
     },
     {
       "wr_id": 7,
@@ -3179,7 +3812,10 @@
       "pct_change": 105.36,
       "peak_price": 16410.0,
       "peak_date": "2026-03-23",
-      "peak_pct": 193.04
+      "peak_pct": 193.04,
+      "trough_price": 1791.0,
+      "trough_date": "2024-12-09",
+      "trough_pct": -68.02
     },
     {
       "wr_id": 55,
@@ -3194,7 +3830,10 @@
       "pct_change": -27.44,
       "peak_price": 11400.0,
       "peak_date": "2022-10-18",
-      "peak_pct": 10.14
+      "peak_pct": 10.14,
+      "trough_price": 7210.0,
+      "trough_date": "2026-01-12",
+      "trough_pct": -30.34
     },
     {
       "wr_id": 54,
@@ -3209,7 +3848,10 @@
       "pct_change": 388.74,
       "peak_price": 60300.0,
       "peak_date": "2026-01-30",
-      "peak_pct": 654.69
+      "peak_pct": 654.69,
+      "trough_price": 6590.0,
+      "trough_date": "2022-07-13",
+      "trough_pct": -17.52
     },
     {
       "wr_id": 53,
@@ -3224,7 +3866,10 @@
       "pct_change": -46.13,
       "peak_price": 8350.0,
       "peak_date": "2023-07-03",
-      "peak_pct": 19.8
+      "peak_pct": 19.8,
+      "trough_price": 2695.0,
+      "trough_date": "2025-01-03",
+      "trough_pct": -61.33
     },
     {
       "wr_id": 52,
@@ -3239,7 +3884,10 @@
       "pct_change": 8.36,
       "peak_price": 36250.0,
       "peak_date": "2026-03-26",
-      "peak_pct": 14.35
+      "peak_pct": 14.35,
+      "trough_price": 11290.0,
+      "trough_date": "2024-09-11",
+      "trough_pct": -64.38
     },
     {
       "wr_id": 51,
@@ -3254,7 +3902,10 @@
       "pct_change": 136.73,
       "peak_price": 9580.0,
       "peak_date": "2026-02-20",
-      "peak_pct": 195.68
+      "peak_pct": 195.68,
+      "trough_price": 2235.0,
+      "trough_date": "2022-10-13",
+      "trough_pct": -31.02
     },
     {
       "wr_id": 50,
@@ -3269,7 +3920,10 @@
       "pct_change": -24.62,
       "peak_price": 25900.0,
       "peak_date": "2022-06-14",
-      "peak_pct": 128.35
+      "peak_pct": 128.35,
+      "trough_price": 7060.0,
+      "trough_date": "2025-11-19",
+      "trough_pct": -37.75
     },
     {
       "wr_id": 48,
@@ -3284,7 +3938,10 @@
       "pct_change": -47.02,
       "peak_price": 2845.0,
       "peak_date": "2022-04-20",
-      "peak_pct": 2.89
+      "peak_pct": 2.89,
+      "trough_price": 547.0,
+      "trough_date": "2025-04-04",
+      "trough_pct": -80.22
     },
     {
       "wr_id": 47,
@@ -3299,7 +3956,10 @@
       "pct_change": -58.68,
       "peak_price": 4940.0,
       "peak_date": "2022-04-19",
-      "peak_pct": 7.04
+      "peak_pct": 7.04,
+      "trough_price": 1749.0,
+      "trough_date": "2026-01-09",
+      "trough_pct": -62.1
     },
     {
       "wr_id": 49,
@@ -3314,7 +3974,10 @@
       "pct_change": -62.13,
       "peak_price": 9180.0,
       "peak_date": "2022-05-02",
-      "peak_pct": 9.68
+      "peak_pct": 9.68,
+      "trough_price": 2780.0,
+      "trough_date": "2025-02-03",
+      "trough_pct": -66.79
     },
     {
       "wr_id": 46,
@@ -3329,7 +3992,10 @@
       "pct_change": -2.8,
       "peak_price": 19790.0,
       "peak_date": "2026-03-20",
-      "peak_pct": 17.8
+      "peak_pct": 17.8,
+      "trough_price": 5340.0,
+      "trough_date": "2024-12-10",
+      "trough_pct": -68.21
     },
     {
       "wr_id": 45,
@@ -3344,7 +4010,10 @@
       "pct_change": -81.14,
       "peak_price": 35000.0,
       "peak_date": "2022-07-13",
-      "peak_pct": 16.86
+      "peak_pct": 16.86,
+      "trough_price": 5100.0,
+      "trough_date": "2026-03-04",
+      "trough_pct": -82.97
     },
     {
       "wr_id": 44,
@@ -3359,7 +4028,10 @@
       "pct_change": -74.41,
       "peak_price": 8211.0,
       "peak_date": "2022-04-19",
-      "peak_pct": 18.5
+      "peak_pct": 18.5,
+      "trough_price": 1542.0,
+      "trough_date": "2026-03-04",
+      "trough_pct": -77.75
     },
     {
       "wr_id": 43,
@@ -3374,7 +4046,10 @@
       "pct_change": 11.53,
       "peak_price": 7600.0,
       "peak_date": "2023-02-08",
-      "peak_pct": 59.33
+      "peak_pct": 59.33,
+      "trough_price": 2610.0,
+      "trough_date": "2022-10-13",
+      "trough_pct": -45.28
     },
     {
       "wr_id": 42,
@@ -3389,7 +4064,10 @@
       "pct_change": -76.5,
       "peak_price": 42150.0,
       "peak_date": "2023-06-15",
-      "peak_pct": 89.01
+      "peak_pct": 89.01,
+      "trough_price": 4040.0,
+      "trough_date": "2025-11-25",
+      "trough_pct": -81.88
     },
     {
       "wr_id": 41,
@@ -3404,7 +4082,10 @@
       "pct_change": -80.56,
       "peak_price": 17106.0,
       "peak_date": "2022-05-23",
-      "peak_pct": 185.15
+      "peak_pct": 185.15,
+      "trough_price": 0.0,
+      "trough_date": "2023-10-27",
+      "trough_pct": -100.0
     },
     {
       "wr_id": 40,
@@ -3419,7 +4100,10 @@
       "pct_change": -93.71,
       "peak_price": 14900.0,
       "peak_date": "2022-02-09",
-      "peak_pct": 6.43
+      "peak_pct": 6.43,
+      "trough_price": 577.0,
+      "trough_date": "2026-03-04",
+      "trough_pct": -95.88
     },
     {
       "wr_id": 39,
@@ -3434,7 +4118,10 @@
       "pct_change": -20.66,
       "peak_price": 24850.0,
       "peak_date": "2022-04-22",
-      "peak_pct": 81.39
+      "peak_pct": 81.39,
+      "trough_price": 4050.0,
+      "trough_date": "2024-12-09",
+      "trough_pct": -70.44
     },
     {
       "wr_id": 38,
@@ -3449,7 +4136,10 @@
       "pct_change": 28.09,
       "peak_price": 58900.0,
       "peak_date": "2025-06-09",
-      "peak_pct": 230.9
+      "peak_pct": 230.9,
+      "trough_price": 6010.0,
+      "trough_date": "2022-10-13",
+      "trough_pct": -66.24
     },
     {
       "wr_id": 37,
@@ -3464,7 +4154,10 @@
       "pct_change": 105.87,
       "peak_price": 41800.0,
       "peak_date": "2026-02-23",
-      "peak_pct": 133.52
+      "peak_pct": 133.52,
+      "trough_price": 14950.0,
+      "trough_date": "2022-01-28",
+      "trough_pct": -16.48
     },
     {
       "wr_id": 36,
@@ -3479,7 +4172,10 @@
       "pct_change": -44.79,
       "peak_price": 46750.0,
       "peak_date": "2022-03-10",
-      "peak_pct": 8.22
+      "peak_pct": 8.22,
+      "trough_price": 18680.0,
+      "trough_date": "2024-12-09",
+      "trough_pct": -56.76
     },
     {
       "wr_id": 35,
@@ -3494,7 +4190,10 @@
       "pct_change": -54.31,
       "peak_price": 10950.0,
       "peak_date": "2022-03-28",
-      "peak_pct": 18.12
+      "peak_pct": 18.12,
+      "trough_price": 3920.0,
+      "trough_date": "2026-03-04",
+      "trough_pct": -57.71
     },
     {
       "wr_id": 33,
@@ -3509,7 +4208,10 @@
       "pct_change": 43.64,
       "peak_price": 19300.0,
       "peak_date": "2026-03-25",
-      "peak_pct": 59.5
+      "peak_pct": 59.5,
+      "trough_price": 6430.0,
+      "trough_date": "2023-01-03",
+      "trough_pct": -46.86
     },
     {
       "wr_id": 32,
@@ -3524,7 +4226,10 @@
       "pct_change": -89.52,
       "peak_price": 38550.0,
       "peak_date": "2022-01-05",
-      "peak_pct": 18.25
+      "peak_pct": 18.25,
+      "trough_price": 3100.0,
+      "trough_date": "2026-03-04",
+      "trough_pct": -90.49
     },
     {
       "wr_id": 31,
@@ -3539,7 +4244,10 @@
       "pct_change": -77.04,
       "peak_price": 7123.0,
       "peak_date": "2023-04-19",
-      "peak_pct": 75.88
+      "peak_pct": 75.88,
+      "trough_price": 690.0,
+      "trough_date": "2024-12-09",
+      "trough_pct": -82.96
     },
     {
       "wr_id": 30,
@@ -3554,7 +4262,10 @@
       "pct_change": -71.35,
       "peak_price": 12736.0,
       "peak_date": "2021-11-17",
-      "peak_pct": 1.51
+      "peak_pct": 1.51,
+      "trough_price": 2360.0,
+      "trough_date": "2024-12-09",
+      "trough_pct": -81.19
     },
     {
       "wr_id": 29,
@@ -3569,7 +4280,10 @@
       "pct_change": -70.83,
       "peak_price": 3730.0,
       "peak_date": "2022-04-01",
-      "peak_pct": 14.42
+      "peak_pct": 14.42,
+      "trough_price": 0.0,
+      "trough_date": "2023-11-07",
+      "trough_pct": -100.0
     },
     {
       "wr_id": 28,
@@ -3584,7 +4298,10 @@
       "pct_change": -63.0,
       "peak_price": 8340.0,
       "peak_date": "2022-07-27",
-      "peak_pct": 51.64
+      "peak_pct": 51.64,
+      "trough_price": 1907.0,
+      "trough_date": "2024-12-09",
+      "trough_pct": -65.33
     },
     {
       "wr_id": 27,
@@ -3599,7 +4316,10 @@
       "pct_change": -48.21,
       "peak_price": 8780.0,
       "peak_date": "2022-01-25",
-      "peak_pct": 43.23
+      "peak_pct": 43.23,
+      "trough_price": 2730.0,
+      "trough_date": "2024-12-09",
+      "trough_pct": -55.46
     },
     {
       "wr_id": 26,
@@ -3614,7 +4334,10 @@
       "pct_change": -88.25,
       "peak_price": 4190.0,
       "peak_date": "2021-10-07",
-      "peak_pct": 16.39
+      "peak_pct": 16.39,
+      "trough_price": 270.0,
+      "trough_date": "2026-03-17",
+      "trough_pct": -92.5
     },
     {
       "wr_id": 25,
@@ -3629,7 +4352,10 @@
       "pct_change": 2589.0,
       "peak_price": 934000.0,
       "peak_date": "2026-03-03",
-      "peak_pct": 4368.9
+      "peak_pct": 4368.9,
+      "trough_price": 17200.0,
+      "trough_date": "2021-11-29",
+      "trough_pct": -17.7
     },
     {
       "wr_id": 24,
@@ -3644,7 +4370,10 @@
       "pct_change": -82.9,
       "peak_price": 6500.0,
       "peak_date": "2021-09-15",
-      "peak_pct": 2.36
+      "peak_pct": 2.36,
+      "trough_price": 931.0,
+      "trough_date": "2026-03-09",
+      "trough_pct": -85.34
     },
     {
       "wr_id": 23,
@@ -3659,7 +4388,10 @@
       "pct_change": -71.75,
       "peak_price": 26900.0,
       "peak_date": "2021-09-14",
-      "peak_pct": 26.89
+      "peak_pct": 26.89,
+      "trough_price": 5500.0,
+      "trough_date": "2026-03-04",
+      "trough_pct": -74.06
     },
     {
       "wr_id": 22,
@@ -3674,7 +4406,10 @@
       "pct_change": -46.8,
       "peak_price": 13115.0,
       "peak_date": "2021-11-16",
-      "peak_pct": 94.1
+      "peak_pct": 94.1,
+      "trough_price": 2360.0,
+      "trough_date": "2024-12-09",
+      "trough_pct": -65.07
     },
     {
       "wr_id": 21,
@@ -3689,7 +4424,10 @@
       "pct_change": -87.99,
       "peak_price": 34416.0,
       "peak_date": "2021-11-18",
-      "peak_pct": 60.14
+      "peak_pct": 60.14,
+      "trough_price": 2100.0,
+      "trough_date": "2026-03-04",
+      "trough_pct": -90.23
     },
     {
       "wr_id": 20,
@@ -3704,7 +4442,10 @@
       "pct_change": 39.14,
       "peak_price": 28300.0,
       "peak_date": "2024-06-04",
-      "peak_pct": 204.3
+      "peak_pct": 204.3,
+      "trough_price": 3795.0,
+      "trough_date": "2022-10-17",
+      "trough_pct": -59.19
     },
     {
       "wr_id": 19,
@@ -3719,7 +4460,10 @@
       "pct_change": -29.33,
       "peak_price": 69500.0,
       "peak_date": "2023-09-07",
-      "peak_pct": 190.79
+      "peak_pct": 190.79,
+      "trough_price": 5000.0,
+      "trough_date": "2022-10-13",
+      "trough_pct": -79.08
     },
     {
       "wr_id": 18,
@@ -3734,7 +4478,10 @@
       "pct_change": 255.97,
       "peak_price": 82600.0,
       "peak_date": "2026-03-25",
-      "peak_pct": 282.85
+      "peak_pct": 282.85,
+      "trough_price": 10650.0,
+      "trough_date": "2024-12-10",
+      "trough_pct": -50.64
     },
     {
       "wr_id": 17,
@@ -3749,7 +4496,10 @@
       "pct_change": -56.36,
       "peak_price": 8940.0,
       "peak_date": "2021-07-28",
-      "peak_pct": 11.47
+      "peak_pct": 11.47,
+      "trough_price": 3095.0,
+      "trough_date": "2024-12-09",
+      "trough_pct": -61.41
     },
     {
       "wr_id": 16,
@@ -3764,7 +4514,10 @@
       "pct_change": -34.98,
       "peak_price": 13950.0,
       "peak_date": "2021-09-09",
-      "peak_pct": 20.78
+      "peak_pct": 20.78,
+      "trough_price": 7210.0,
+      "trough_date": "2026-01-12",
+      "trough_pct": -37.58
     },
     {
       "wr_id": 15,
@@ -3779,7 +4532,10 @@
       "pct_change": -10.23,
       "peak_price": 29900.0,
       "peak_date": "2024-06-19",
-      "peak_pct": 55.32
+      "peak_pct": 55.32,
+      "trough_price": 13740.0,
+      "trough_date": "2025-04-09",
+      "trough_pct": -28.62
     },
     {
       "wr_id": 56,
@@ -3794,7 +4550,10 @@
       "pct_change": -66.91,
       "peak_price": 8340.0,
       "peak_date": "2022-07-27",
-      "peak_pct": 35.61
+      "peak_pct": 35.61,
+      "trough_price": 1907.0,
+      "trough_date": "2024-12-09",
+      "trough_pct": -68.99
     }
   ]
 }
