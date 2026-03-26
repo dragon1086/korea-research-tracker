@@ -35,7 +35,7 @@ def _load_env():
 
 _load_env()
 
-TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
+TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "***REDACTED***")
 TELEGRAM_CHAT_ID   = os.environ.get("TELEGRAM_CHAT_ID", "7726642089")
 
 BASE_DIR = Path(__file__).parent
