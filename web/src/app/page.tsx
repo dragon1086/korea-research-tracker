@@ -59,10 +59,15 @@ export default function Home() {
   const reports = [...data.reports].sort((a, b) => b.report_date.localeCompare(a.report_date));
 
   const totalCount = reports.length;
-  const profitCount = reports.filter(r => (r.pct_change ?? 0) > 0).length;
-  const avgPct =
-    reports.length > 0
-      ? reports.reduce((s, r) => s + (r.pct_change ?? 0), 0) / reports.length
+  const profitList = reports.filter(r => (r.pct_change ?? 0) > 0);
+  const lossList   = reports.filter(r => (r.pct_change ?? 0) < 0);
+  const avgProfit =
+    profitList.length > 0
+      ? profitList.reduce((s, r) => s + (r.pct_change ?? 0), 0) / profitList.length
+      : 0;
+  const avgLoss =
+    lossList.length > 0
+      ? lossList.reduce((s, r) => s + (r.pct_change ?? 0), 0) / lossList.length
       : 0;
 
   return (
@@ -78,19 +83,25 @@ export default function Home() {
       </div>
 
       {/* 요약 카드 */}
-      <div className="grid grid-cols-3 gap-4 mb-8">
+      <div className="grid grid-cols-4 gap-4 mb-8">
         <div className="bg-gray-900 rounded-xl p-4 border border-gray-800">
           <p className="text-gray-400 text-xs mb-1">추적 종목</p>
           <p className="text-2xl font-bold text-white">{totalCount}</p>
         </div>
         <div className="bg-gray-900 rounded-xl p-4 border border-gray-800">
           <p className="text-gray-400 text-xs mb-1">수익 종목</p>
-          <p className="text-2xl font-bold text-emerald-400">{profitCount}</p>
+          <p className="text-2xl font-bold text-emerald-400">{profitList.length}</p>
         </div>
         <div className="bg-gray-900 rounded-xl p-4 border border-gray-800">
-          <p className="text-gray-400 text-xs mb-1">평균 수익률</p>
-          <p className={`text-2xl font-bold ${avgPct >= 0 ? 'text-emerald-400' : 'text-red-400'}`}>
-            {formatPct(avgPct)}
+          <p className="text-gray-400 text-xs mb-1">평균 수익</p>
+          <p className="text-2xl font-bold text-emerald-400">
+            {formatPct(avgProfit)}
+          </p>
+        </div>
+        <div className="bg-gray-900 rounded-xl p-4 border border-gray-800">
+          <p className="text-gray-400 text-xs mb-1">평균 손실</p>
+          <p className="text-2xl font-bold text-red-400">
+            {formatPct(avgLoss)}
           </p>
         </div>
       </div>
