@@ -329,6 +329,8 @@ def main():
         cwd=cwd, capture_output=True, text=True
     )
     if "nothing to commit" not in result.stdout + result.stderr:
+        # pull --rebase 후 push (다른 push와 충돌 방지)
+        subprocess.run(["git", "pull", "--rebase", "origin", "main"], cwd=cwd)
         subprocess.run(["git", "push", "origin", "main"], cwd=cwd)
         log.info("git push 완료")
     else:
