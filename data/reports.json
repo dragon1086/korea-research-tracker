@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-03-31T14:57:54Z",
+  "updated_at": "2026-03-31T22:29:25Z",
   "reports": [
+    {
+      "wr_id": 290,
+      "company": "베뉴지",
+      "title": "N새글현 시가총액 2,282억원, 지난해 순익 1,011억원, 1Q26 금융자산 8,142억원으로 시총대비 3.6…",
+      "author": "이충헌, 홍소현",
+      "report_date": "2026.04.01",
+      "url": "https://valuefinder.co.kr/bbs/board.php?bo_table=report&wr_id=290",
+      "ticker": "019010",
+      "price_on_date": null,
+      "latest_price": null,
+      "pct_change": null,
+      "peak_price": null,
+      "peak_date": null,
+      "peak_pct": null,
+      "trough_price": null,
+      "trough_date": null,
+      "trough_pct": null
+    },
     {
       "wr_id": 289,
       "company": "티이엠씨",
