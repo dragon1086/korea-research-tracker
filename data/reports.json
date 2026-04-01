@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-04-01T15:01:04Z",
+  "updated_at": "2026-04-01T22:31:26Z",
   "reports": [
+    {
+      "wr_id": 291,
+      "company": "방림",
+      "title": "N새글시가총액 1.7배에 달하는 풍부한 부동산 가치, 자사주 10% 소각으로 상법 개정안 수혜 모멘텀까지",
+      "author": "이충헌, 홍소현",
+      "report_date": "2026.04.02",
+      "url": "https://valuefinder.co.kr/bbs/board.php?bo_table=report&wr_id=291",
+      "ticker": "003610",
+      "price_on_date": null,
+      "latest_price": null,
+      "pct_change": null,
+      "peak_price": null,
+      "peak_date": null,
+      "peak_pct": null,
+      "trough_price": null,
+      "trough_date": null,
+      "trough_pct": null
+    },
     {
       "wr_id": 290,
       "company": "베뉴지",
