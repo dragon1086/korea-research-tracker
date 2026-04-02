@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-04-02T14:50:25Z",
+  "updated_at": "2026-04-02T22:27:45Z",
   "reports": [
+    {
+      "wr_id": 292,
+      "company": "에스앤디",
+      "title": "N새글1Q26 불닭 미국향 수출 물량 증가 본격화, 실적 증가 & 주가 하락 → PER 6.9배는 저평가 국면",
+      "author": "이충헌, 전우빈",
+      "report_date": "2026.04.03",
+      "url": "https://valuefinder.co.kr/bbs/board.php?bo_table=report&wr_id=292",
+      "ticker": "260970",
+      "price_on_date": null,
+      "latest_price": null,
+      "pct_change": null,
+      "peak_price": null,
+      "peak_date": null,
+      "peak_pct": null,
+      "trough_price": null,
+      "trough_date": null,
+      "trough_pct": null
+    },
     {
       "wr_id": 291,
       "company": "방림",
