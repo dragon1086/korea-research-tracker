@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-04-07T15:05:13Z",
+  "updated_at": "2026-04-07T22:32:19Z",
   "reports": [
+    {
+      "wr_id": 294,
+      "company": "오텍",
+      "title": "N새글차세대 AI 데이터센터용 냉각솔루션 출시, 5월 ‘엔비디아 인증’ 앞둬 AI 인프라 공급망 진입 기대",
+      "author": "이충헌, 지후",
+      "report_date": "2026.04.08",
+      "url": "https://valuefinder.co.kr/bbs/board.php?bo_table=report&wr_id=294",
+      "ticker": "067170",
+      "price_on_date": null,
+      "latest_price": null,
+      "pct_change": null,
+      "peak_price": null,
+      "peak_date": null,
+      "peak_pct": null,
+      "trough_price": null,
+      "trough_date": null,
+      "trough_pct": null
+    },
     {
       "wr_id": 293,
       "company": "선진뷰티사이언스",
