@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-04-09T07:15:13Z",
+  "updated_at": "2026-04-09T10:57:31Z",
   "reports": [
+    {
+      "wr_id": 295,
+      "company": "빅텍",
+      "title": "N새글전자전 국산화의 선두주자, 60조원 규모 캐나다 잠수함 건조 사업 수주 기대",
+      "author": "이충헌, 전우빈",
+      "report_date": "2026.04.10",
+      "url": "https://valuefinder.co.kr/bbs/board.php?bo_table=report&wr_id=295",
+      "ticker": "065450",
+      "price_on_date": null,
+      "latest_price": null,
+      "pct_change": null,
+      "peak_price": null,
+      "peak_date": null,
+      "peak_pct": null,
+      "trough_price": null,
+      "trough_date": null,
+      "trough_pct": null
+    },
     {
       "wr_id": 294,
       "company": "오텍",
