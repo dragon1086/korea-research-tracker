@@ -304,12 +304,17 @@ def main():
     updated = 0
     for wr_id, entry in reports_map.items():
         ticker = entry.get("ticker")
-        base   = entry.get("price_on_date")
-        if not ticker or not base:
+        if not ticker:
             continue
+        base = entry.get("price_on_date")
         df = get_ohlcv(ticker, entry["report_date"])
         if df is None:
             continue
+        # price_on_date 미설정 시 재시도 (초기 조회 실패 복구)
+        if not base:
+            base = float(df.iloc[0]["Close"])
+            entry["price_on_date"] = base
+            log.info("price_on_date 복구: %s → %s", entry["company"], base)
         stats = calc_stats(df, base)
         entry.update(stats)
         updated += 1
