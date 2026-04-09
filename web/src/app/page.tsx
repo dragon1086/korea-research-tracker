@@ -129,7 +129,7 @@ function computeDaysToPeak(reports: Report[]): ReturnBucket[] {
 function computeRetentionBuckets(reports: Report[]): ReturnBucket[] {
   // retentionRate = current pct_change / peak_pct * 100
   const buckets: [string, (v: number) => boolean][] = [
-    ['음전환',          v => v < 0],
+    ['음수 전환',        v => v < 0],
     ['0~25%',          v => v >= 0  && v < 25],
     ['25~50%',         v => v >= 25 && v < 50],
     ['50~75%',         v => v >= 50 && v < 75],

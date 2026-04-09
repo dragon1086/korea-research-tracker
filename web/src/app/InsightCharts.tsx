@@ -2,7 +2,7 @@
 
 import {
   BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer,
-  Cell, Legend, LineChart, Line, ComposedChart,
+  Cell, Legend, Line, ComposedChart,
 } from 'recharts';
 
 /* ─── Exported types (consumed by page.tsx server component) ─── */
@@ -79,8 +79,8 @@ function SimpleTooltip({ active, payload, label }: any) {
   );
 }
 
-function PctTooltip({ active, payload, label }: // eslint-disable-next-line @typescript-eslint/no-explicit-any
-any) {
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+function PctTooltip({ active, payload, label }: any) {
   if (!active || !payload?.length) return null;
   return (
     <div className="bg-gray-800 border border-gray-700 rounded-lg px-3 py-2 text-xs shadow-lg">
@@ -145,20 +145,20 @@ export default function InsightCharts({
   peakTrapBuckets,
 }: Props) {
   const RETENTION_COLORS: Record<string, string> = {
-    '음전환':              '#ef4444',
-    '0~25%':              '#f97316',
-    '25~50%':             '#eab308',
-    '50~75%':             '#84cc16',
-    '75~100% (최고점)':    '#10b981',
+    '음수 전환':             '#ef4444',
+    '0~25%':               '#f97316',
+    '25~50%':              '#eab308',
+    '50~75%':              '#84cc16',
+    '75~100% (최고점)':     '#10b981',
   };
 
   const PEAK_TRAP_COLORS: Record<string, string> = {
-    '0% (고점 유지)': '#10b981',
-    '-5~-20%':       '#84cc16',
-    '-20~-40%':      '#eab308',
-    '-40~-60%':      '#f97316',
-    '-60~-80%':      '#ef4444',
-    '-80%~':         '#7f1d1d',
+    '0% (고점 유지)':  '#10b981',
+    '-5~-20%':        '#84cc16',
+    '-20~-40%':       '#eab308',
+    '-40~-60%':       '#f97316',
+    '-60~-80%':       '#ef4444',
+    '-80%~':          '#7f1d1d',
   };
 
   return (
@@ -166,23 +166,24 @@ export default function InsightCharts({
       <div>
         <h2 className="text-lg font-bold text-white">인사이트 대시보드</h2>
         <p className="text-xs text-gray-500 mt-1">
-          리포트의 <strong className="text-gray-400">단기 부양 효과</strong>,&nbsp;
-          <strong className="text-gray-400">효력 지속성</strong>,&nbsp;
+          리포트 발간 후&nbsp;
+          <strong className="text-gray-400">시장 반응</strong>,&nbsp;
+          <strong className="text-gray-400">반응 지속성</strong>,&nbsp;
           <strong className="text-gray-400">투자 활용 가이드</strong>를 분석합니다
         </p>
       </div>
 
-      {/* ── 섹션 1: 단기 부양 효과 ── */}
+      {/* ── 섹션 1: 발간 후 시장 반응 ── */}
       <SectionHeader
-        title="① 단기 부양 효과"
-        subtitle="리포트가 나온 직후 주가에 어떤 영향을 줬는가"
+        title="① 발간 후 시장 반응"
+        subtitle="리포트 발간 후 주가가 어떻게 움직였는가"
       />
       <div className="grid grid-cols-1 xl:grid-cols-2 gap-5">
 
         <ChartCard
-          title="리포트 직후 최대 상승률 분포"
-          intent="현재 수익률이 아닌 '한 번이라도 얼마나 올랐나(peak_pct)'를 측정합니다. 리포트 발간이 만들어낸 단기 부양 강도를 보여줍니다."
-          badge={{ label: '부양 강도', color: 'bg-emerald-900 text-emerald-300' }}
+          title="발간 후 최고 상승률 분포"
+          intent="현재 수익률이 아닌 '한 번이라도 얼마나 올랐나(peak_pct)'를 측정합니다. 리포트 발간 후 시장이 보인 최대 반응 강도를 보여줍니다."
+          badge={{ label: '반응 강도', color: 'bg-emerald-900 text-emerald-300' }}
         >
           <ResponsiveContainer width="100%" height={200}>
             <BarChart data={peakBuckets} margin={{ top: 0, right: 8, left: -20, bottom: 0 }}>
@@ -197,8 +198,8 @@ export default function InsightCharts({
 
         <ChartCard
           title="최고점 도달 기간 분포"
-          intent="리포트 발간일부터 최고가까지 걸린 일수입니다. 당일~3일(노란색) 비중이 높으면 리포트 공개 직후 집중 매수세, 즉 의도된 단기 부양 패턴입니다."
-          badge={{ label: '부양 속도', color: 'bg-yellow-900 text-yellow-300' }}
+          intent="리포트 발간일부터 최고가까지 걸린 일수입니다. 발간 직후(노란색) 집중 매수 현상이 관찰되는 구간을 확인할 수 있습니다."
+          badge={{ label: '반응 속도', color: 'bg-yellow-900 text-yellow-300' }}
         >
           <ResponsiveContainer width="100%" height={200}>
             <BarChart data={daysToPeak} margin={{ top: 0, right: 8, left: -20, bottom: 0 }}>
@@ -220,17 +221,17 @@ export default function InsightCharts({
 
       </div>
 
-      {/* ── 섹션 2: 부양 효과 지속성 ── */}
+      {/* ── 섹션 2: 시장 반응 지속성 ── */}
       <SectionHeader
-        title="② 부양 효과 지속성"
-        subtitle="상승한 주가가 지금도 유지되고 있는가, 소멸했는가"
+        title="② 시장 반응 지속성"
+        subtitle="리포트 발간 후 주가 변동이 현재까지 유지되는가"
       />
       <div className="grid grid-cols-1 xl:grid-cols-2 gap-5">
 
         <ChartCard
-          title="부양 효과 잔존율"
-          intent="현재 수익률 ÷ 최대 수익률로 계산합니다. '음전환'은 고점 달성 후 리포트 기준가 이하로 반락한 종목, '100%+'는 아직 최고점을 갱신 중인 종목입니다."
-          badge={{ label: '소멸 분석', color: 'bg-purple-900 text-purple-300' }}
+          title="시장 반응 잔존율"
+          intent="현재 수익률 ÷ 최고 상승률로 계산합니다. '음수 전환'은 고점 이후 리포트 기준가 이하로 반락한 종목, '75~100%'는 아직 높은 수준을 유지 중인 종목입니다."
+          badge={{ label: '반응 지속성', color: 'bg-purple-900 text-purple-300' }}
         >
           <ResponsiveContainer width="100%" height={200}>
             <BarChart data={retentionBuckets} margin={{ top: 0, right: 8, left: -20, bottom: 0 }}>
@@ -248,9 +249,9 @@ export default function InsightCharts({
         </ChartCard>
 
         <ChartCard
-          title="고점 추종 시 현재 손실 분포"
-          intent="리포트 후 최고점에서 매수했다면 현재 얼마나 잃었는지 보여줍니다(현재 수익률 − 최대 수익률). 부양 이후 주가를 쫓아 매수하는 행위의 위험성을 경고합니다."
-          badge={{ label: '⚠ 고점 추종 경고', color: 'bg-red-900 text-red-300' }}
+          title="고점 대비 현재 수익률 분포"
+          intent="최고가 구간에서 매수했다면 현재 수익률이 어떻게 됐는지 보여줍니다. 리포트 발간 후 상승 구간에서의 매수 타이밍을 분석합니다."
+          badge={{ label: '매수 타이밍 분석', color: 'bg-red-900 text-red-300' }}
         >
           <ResponsiveContainer width="100%" height={200}>
             <BarChart data={peakTrapBuckets} margin={{ top: 0, right: 8, left: -20, bottom: 0 }}>
@@ -278,7 +279,7 @@ export default function InsightCharts({
 
         <ChartCard
           title="리포트 경과 기간별 현재 수익률"
-          intent="리포트가 발간된 지 얼마나 됐는지에 따라 현재 수익률이 어떻게 달라지는지 보여줍니다. 리포트 효력이 언제까지 유효한지 판단하는 기준이 됩니다."
+          intent="리포트가 발간된 지 얼마나 됐는지에 따라 현재 수익률과 승률이 어떻게 달라지는지 보여줍니다. 리포트 효력이 언제까지 유효한지 판단하는 기준이 됩니다."
           badge={{ label: '매수 타이밍', color: 'bg-blue-900 text-blue-300' }}
         >
           <ResponsiveContainer width="100%" height={200}>
@@ -303,8 +304,8 @@ export default function InsightCharts({
         </ChartCard>
 
         <ChartCard
-          title="연도별 부양 강도 vs 현재 수익률"
-          intent="연도별 최대 부양률(중앙값, 회색)과 현재 수익률을 비교합니다. 평균은 4000%+ 극단값에 왜곡되므로 중앙값을 사용합니다. 툴팁에서 평균·최대값도 확인할 수 있습니다."
+          title="연도별 최고 상승률 vs 현재 수익률"
+          intent="연도별 최고 상승률(중앙값, 회색)과 현재 수익률을 비교합니다. 평균은 극단값에 의해 왜곡될 수 있어 중앙값을 사용합니다. 툴팁에서 평균·최대값도 확인할 수 있습니다."
           badge={{ label: '빈티지 분석', color: 'bg-indigo-900 text-indigo-300' }}
         >
           <ResponsiveContainer width="100%" height={200}>
@@ -321,9 +322,9 @@ export default function InsightCharts({
                 return (
                   <div className="bg-gray-800 border border-gray-700 rounded-lg px-3 py-2 text-xs shadow-lg space-y-0.5">
                     <p className="text-gray-400 font-semibold mb-1">{label}년</p>
-                    <p className="text-gray-300">부양 중앙값: <span className="text-white font-mono">+{d.avgPeak}%</span></p>
-                    <p className="text-gray-300">부양 평균: <span className="text-gray-400 font-mono">+{d.avgPeakMean}%</span></p>
-                    <p className="text-gray-300">최대 부양: <span className="text-yellow-400 font-mono">+{d.maxPeak}%</span></p>
+                    <p className="text-gray-300">최고 상승률(중앙값): <span className="text-white font-mono">+{d.avgPeak}%</span></p>
+                    <p className="text-gray-300">최고 상승률(평균): <span className="text-gray-400 font-mono">+{d.avgPeakMean}%</span></p>
+                    <p className="text-gray-300">최고 상승률(최대): <span className="text-yellow-400 font-mono">+{d.maxPeak}%</span></p>
                     <p className="text-gray-300">현재 수익률: <span className={`font-mono ${d.avgCurrent >= 0 ? 'text-emerald-400' : 'text-red-400'}`}>{d.avgCurrent >= 0 ? '+' : ''}{d.avgCurrent}%</span></p>
                     <p className="text-gray-300">승률: <span className="text-yellow-400 font-mono">{d.winRate}%</span></p>
                     <p className="text-gray-500">리포트 수: {d.count}건</p>
@@ -331,7 +332,7 @@ export default function InsightCharts({
                 );
               }} />
               <Legend wrapperStyle={{ fontSize: 10, color: '#9ca3af' }} iconSize={8} />
-              <Bar yAxisId="left" dataKey="avgPeak" name="부양 중앙값" fill="#374151" radius={[2, 2, 0, 0]} />
+              <Bar yAxisId="left" dataKey="avgPeak" name="최고 상승률(중앙값)" fill="#374151" radius={[2, 2, 0, 0]} />
               <Bar yAxisId="left" dataKey="avgCurrent" name="현재 수익률" radius={[2, 2, 0, 0]}>
                 {yearlyStats.map((entry, i) => (
                   <Cell key={i} fill={entry.avgCurrent >= 0 ? '#10b981' : '#ef4444'} />
@@ -347,14 +348,14 @@ export default function InsightCharts({
 
       {/* ── 섹션 4: 밸류파인더 동향 ── */}
       <SectionHeader
-        title="④ 밸류파인더 동향"
+        title="④ 밸류파인더 리서치 동향"
         subtitle="어떤 기업을 얼마나 커버하고 있는가"
       />
       <div className="grid grid-cols-1 xl:grid-cols-2 gap-5">
 
         <ChartCard
           title="월별 리포트 발간 추이"
-          intent="밸류파인더의 사업 확장 속도를 보여줍니다. 리포트 수 증가는 더 많은 고객사가 주가 부양 서비스를 이용하고 있다는 의미입니다."
+          intent="밸류파인더의 리서치 커버리지 확장 추이를 보여줍니다. 리포트 수 증가는 더 많은 기업이 독립 리서치의 주목을 받고 있음을 나타냅니다."
         >
           <ResponsiveContainer width="100%" height={200}>
             <BarChart data={monthly} margin={{ top: 0, right: 8, left: -20, bottom: 0 }}>
@@ -373,8 +374,8 @@ export default function InsightCharts({
         </ChartCard>
 
         <ChartCard
-          title="테마별 부양 효과 vs 현재 수익률"
-          intent="테마별 최대 수익률(회색)과 현재 수익률(색상)을 비교합니다. 격차가 크면 해당 테마의 부양 효과가 소멸한 것입니다. 테마는 리포트 제목 키워드 기반으로 실시간 분류됩니다."
+          title="테마별 최고 상승률 vs 현재 수익률"
+          intent="테마별 최고 상승률(회색)과 현재 수익률(색상)을 비교합니다. 격차가 크면 해당 테마 리포트의 시장 반응이 시간이 지나며 약화된 것입니다. 테마는 리포트 제목 키워드 기반으로 실시간 분류됩니다."
         >
           <ResponsiveContainer width="100%" height={200}>
             <BarChart
@@ -402,7 +403,7 @@ export default function InsightCharts({
                 contentStyle={{ background: '#1f2937', border: '1px solid #374151', borderRadius: 8, fontSize: 12 }}
               />
               <Legend wrapperStyle={{ fontSize: 10, color: '#9ca3af' }} iconSize={8} />
-              <Bar dataKey="avgPeak" name="최대 부양" fill="#374151" radius={[0, 2, 2, 0]} />
+              <Bar dataKey="avgPeak" name="최고 상승률" fill="#374151" radius={[0, 2, 2, 0]} />
               <Bar dataKey="avgReturn" name="현재 수익률" radius={[0, 2, 2, 0]}>
                 {themePumpVsCurrent.map((entry, i) => (
                   <Cell key={i} fill={(entry.avgReturn ?? 0) >= 0 ? '#10b981' : '#ef4444'} />
