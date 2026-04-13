@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-04-13T11:12:16Z",
+  "updated_at": "2026-04-13T15:11:28Z",
   "reports": [
+    {
+      "wr_id": 298,
+      "company": "코오롱티슈진",
+      "title": "N새글2026년은 티슈진의 시간, 임상 3상 탑라인 도출과 글로벌 상업화 가시화",
+      "author": "이충헌, 최건",
+      "report_date": "2026.04.14",
+      "url": "https://valuefinder.co.kr/bbs/board.php?bo_table=report&wr_id=298",
+      "ticker": "950160",
+      "price_on_date": null,
+      "latest_price": null,
+      "pct_change": null,
+      "peak_price": null,
+      "peak_date": null,
+      "peak_pct": null,
+      "trough_price": null,
+      "trough_date": null,
+      "trough_pct": null
+    },
+    {
+      "wr_id": 297,
+      "company": "바이오솔루션",
+      "title": "N새글카티라이프를 넘어 스페로큐어로 이제는 글로벌 DMOAD 신약 개발사를 향해",
+      "author": "이충헌, 최건",
+      "report_date": "2026.04.14",
+      "url": "https://valuefinder.co.kr/bbs/board.php?bo_table=report&wr_id=297",
+      "ticker": "086820",
+      "price_on_date": null,
+      "latest_price": null,
+      "pct_change": null,
+      "peak_price": null,
+      "peak_date": null,
+      "peak_pct": null,
+      "trough_price": null,
+      "trough_date": null,
+      "trough_pct": null
+    },
     {
       "wr_id": 296,
       "company": "헥토파이낸셜",
