@@ -1,41 +1,19 @@
 #!/usr/bin/env python3
 """
-ValueFinder Tracker (JSON-only, DB-free)
-- valuefinder.co.kr 크롤링
-- data/reports.json으로 상태 관리 (SQLite 없음)
+리서치알음 Tracker (JSON-only, DB-free)
+- researcharum.com/report/small-cap-research-list.php 크롤링
+- data/researcharum.json + web/public/researcharum.json으로 상태 관리
 - 신규 종목 감지 → 텔레그램 알림
 - 매일 전체 업데이트: latest_price, pct_change, peak, trough
 """
 
-import os, re, json, logging, requests, subprocess
+import os, re, json, logging, requests, urllib.parse
 from bs4 import BeautifulSoup
-from datetime import datetime, date, timedelta
+from datetime import datetime, date, timezone
 from pathlib import Path
-
-SCRAPER_API_KEY = os.environ.get("SCRAPER_API_KEY", "")
-
-def _fetch_with_fallback(url: str, timeout: int = 30) -> requests.Response:
-    """ScraperAPI 우선 (한국 IP). 키 없으면 직접 연결 시도."""
-    if SCRAPER_API_KEY:
-        scraper_url = (
-            f"https://api.scraperapi.com/"
-            f"?api_key={SCRAPER_API_KEY}"
-            f"&url={requests.utils.quote(url, safe='')}"
-            f"&country_code=kr"
-        )
-        r = requests.get(scraper_url, timeout=timeout)
-        r.raise_for_status()
-        return r
-
-    # ScraperAPI 키 없을 때만 직접 연결 (로컬 실행용)
-    log.info("ScraperAPI 키 없음 — 직접 연결 시도")
-    r = requests.get(url, headers={"User-Agent": "Mozilla/5.0"}, timeout=10)
-    r.raise_for_status()
-    return r
 
 # ── 환경변수 로드 ─────────────────────────────────────────────────
 def _load_env():
-    # 1) .env.local (로컬 전용, git 제외)
     env_local = Path(__file__).parent / ".env.local"
     if env_local.exists():
         for line in env_local.read_text().splitlines():
@@ -48,7 +26,6 @@ def _load_env():
                 val = val.strip().strip("'\"")
                 if key and val and key not in os.environ:
                     os.environ[key] = val
-    # 2) ~/.zshrc fallback
     zshrc = Path.home() / ".zshrc"
     if zshrc.exists():
         for line in zshrc.read_text().splitlines():
@@ -64,17 +41,19 @@ def _load_env():
 
 _load_env()
 
+SCRAPER_API_KEY    = os.environ.get("SCRAPER_API_KEY", "")
 TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
 TELEGRAM_CHAT_ID   = os.environ.get("TELEGRAM_CHAT_ID", "7726642089")
 
 BASE_DIR  = Path(__file__).parent
-DATA_FILE = BASE_DIR / "data" / "reports.json"
-LOG_PATH  = BASE_DIR / "logs" / "tracker.log"
+DATA_FILE = BASE_DIR / "data" / "researcharum.json"
+WEB_FILE  = BASE_DIR / "web" / "public" / "researcharum.json"
+LOG_PATH  = BASE_DIR / "logs" / "tracker_researcharum.log"
 
 LOG_PATH.parent.mkdir(exist_ok=True)
 DATA_FILE.parent.mkdir(exist_ok=True)
 
-BOARD_URL = "https://valuefinder.co.kr/bbs/board.php?bo_table=report"
+BOARD_URL = "https://www.researcharum.com/report/small-cap-research-list.php"
 
 logging.basicConfig(
     level=logging.INFO,
@@ -82,6 +61,24 @@ logging.basicConfig(
     handlers=[logging.StreamHandler(), logging.FileHandler(LOG_PATH)],
 )
 log = logging.getLogger(__name__)
+
+
+# ── HTTP ──────────────────────────────────────────────────────────
+def _fetch_with_fallback(url: str, timeout: int = 30) -> requests.Response:
+    if SCRAPER_API_KEY:
+        scraper_url = (
+            f"https://api.scraperapi.com/"
+            f"?api_key={SCRAPER_API_KEY}"
+            f"&url={urllib.parse.quote(url, safe='')}"
+            f"&country_code=kr"
+        )
+        r = requests.get(scraper_url, timeout=timeout)
+        r.raise_for_status()
+        return r
+    log.info("ScraperAPI 키 없음 — 직접 연결 시도")
+    r = requests.get(url, headers={"User-Agent": "Mozilla/5.0"}, timeout=10)
+    r.raise_for_status()
+    return r
 
 
 # ── JSON 로드/저장 ────────────────────────────────────────────────
@@ -93,10 +90,8 @@ def load_data() -> dict:
             pass
     return {"updated_at": "", "reports": []}
 
-WEB_FILE = BASE_DIR / "web" / "public" / "reports.json"
-
 def save_data(data: dict):
-    data["updated_at"] = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+    data["updated_at"] = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     text = json.dumps(data, ensure_ascii=False, indent=2)
     DATA_FILE.write_text(text, encoding="utf-8")
     WEB_FILE.write_text(text, encoding="utf-8")
@@ -104,97 +99,113 @@ def save_data(data: dict):
 
 
 # ── 크롤링 ───────────────────────────────────────────────────────
-def fetch_board(pages: int = 2) -> list[dict]:
+def fetch_board(pages: int = 10) -> list[dict]:
     items = []
-    wr_id_re = re.compile(r"wr_id=(\d+)")
+    seen: set[int] = set()
+    index_re = re.compile(r"index_no=(\d+)")
+    scode_re  = re.compile(r"scode=(\d+)")
 
     for page in range(1, pages + 1):
-        url = BOARD_URL if page == 1 else f"{BOARD_URL}&page={page}"
+        url = BOARD_URL if page == 1 else f"{BOARD_URL}?page={page}"
         try:
             r = _fetch_with_fallback(url)
         except Exception as e:
-            log.warning("fetch 실패 (page %d): %s — 크롤링 중단", page, e)
+            log.warning("fetch 실패 (page %d): %s — 중단", page, e)
             break
 
         soup = BeautifulSoup(r.text, "html.parser")
-        for row in soup.find_all("tr"):
-            tds = row.find_all("td")
-            if len(tds) < 8:
+        found_any = False
+
+        for li in soup.find_all("li"):
+            # 날짜 확인
+            date_div = li.find("div", class_="date")
+            if not date_div:
                 continue
-            report_date = tds[0].get_text(strip=True)
-            if not re.match(r"^\d{4}\.\d{2}\.\d{2}$", report_date):
+            report_date = date_div.get_text(strip=True)
+            if not re.match(r"^\d{4}-\d{2}-\d{2}$", report_date):
                 continue
-            company = tds[2].get_text(strip=True)
-            a_tag = tds[3].find("a", href=wr_id_re)
+
+            # 종목명 + 티커
+            tit_div = li.find("div", class_="tit")
+            if not tit_div:
+                continue
+            a_tag = tit_div.find("a", href=scode_re)
             if not a_tag:
                 continue
-            m = wr_id_re.search(a_tag.get("href", ""))
+            href = str(a_tag.get("href") or "")
+            m = scode_re.search(href)
             if not m:
                 continue
-            wr_id = int(m.group(1))
-            raw_title = a_tag.get_text(strip=True)
-            half = len(raw_title) // 2
-            if raw_title[:half] == raw_title[half:]:
-                raw_title = raw_title[:half]
-            author = tds[4].get_text(strip=True)
+            ticker = m.group(1)
+            link_text = a_tag.get_text(strip=True)  # "한국주강 (025890)"
+            company = re.sub(r"\s*\(\d+\)\s*$", "", link_text).strip()
+
+            # 제목
+            sub_div = li.find("div", class_="sub")
+            title = sub_div.get_text(" ", strip=True) if sub_div else ""
+
+            # 고유 ID (index_no)
+            index_no = None
+            btn_area = li.find("div", class_="btn-area")
+            if btn_area:
+                for btn in btn_area.find_all("button"):
+                    onclick = str(btn.get("onclick") or "")
+                    m2 = index_re.search(onclick)
+                    if m2:
+                        index_no = int(m2.group(1))
+                        break
+            if index_no is None or index_no in seen:
+                continue
+
+            seen.add(index_no)
+            found_any = True
+
+            # 전망 + 적정주가
+            outlook = None
+            target_price = None
+            bottom = li.find("div", class_="bottom-info-wrap")
+            if bottom:
+                for dl in bottom.find_all("dl"):
+                    dt = dl.find("dt")
+                    dd = dl.find("dd")
+                    if not dt or not dd:
+                        continue
+                    dt_text = dt.get_text(strip=True)
+                    dd_text = dd.get_text(strip=True)
+                    if dt_text == "주가전망":
+                        outlook = dd_text.lower()
+                    elif dt_text == "적정주가":
+                        price_m = re.search(r"[\d,]+", dd_text)
+                        if price_m:
+                            try:
+                                target_price = int(price_m.group(0).replace(",", ""))
+                            except ValueError:
+                                pass
+
             items.append({
-                "wr_id": wr_id,
-                "company": company,
-                "title": raw_title,
-                "author": author,
-                "report_date": report_date,
-                "url": f"https://valuefinder.co.kr/bbs/board.php?bo_table=report&wr_id={wr_id}",
+                "index_no":    index_no,
+                "company":     company,
+                "ticker":      ticker,
+                "title":       title,
+                "report_date": report_date,      # "2026-03-31"
+                "outlook":     outlook,           # "positive" | "neutral" | "negative"
+                "target_price": target_price,     # 정수 or None
+                "url":         f"https://www.researcharum.com/report/small-cap-research-view.php?index_no={index_no}",
             })
 
-    seen, unique = set(), []
-    for item in items:
-        if item["wr_id"] not in seen:
-            seen.add(item["wr_id"])
-            unique.append(item)
-    log.info("크롤링 완료: %d건", len(unique))
-    return unique
+        if not found_any:
+            log.info("page %d: 항목 없음 — 크롤링 종료", page)
+            break
 
-
-# ── 티커 조회 (FinanceDataReader) ─────────────────────────────────
-_fdr_df = None
-
-def get_fdr_df():
-    global _fdr_df
-    if _fdr_df is not None:
-        return _fdr_df
-    try:
-        import FinanceDataReader as fdr
-        _fdr_df = fdr.StockListing("KRX")
-        log.info("FDR KRX 로드: %d건", len(_fdr_df))
-        return _fdr_df
-    except Exception as e:
-        log.warning("FDR 실패: %s", e)
-        return None
-
-def resolve_ticker(company: str) -> str | None:
-    if not company:
-        return None
-    df = get_fdr_df()
-    if df is None:
-        return None
-    exact = df[df["Name"] == company]
-    if not exact.empty:
-        return str(exact.iloc[0]["Code"])
-    partial = df[df["Name"].str.contains(company, na=False, regex=False)]
-    if not partial.empty:
-        return str(partial.iloc[0]["Code"])
-    for _, row in df.iterrows():
-        if isinstance(row["Name"], str) and row["Name"] in company:
-            return str(row["Code"])
-    return None
+    log.info("크롤링 완료: %d건", len(items))
+    return items
 
 
 # ── 주가 조회 (FinanceDataReader) ─────────────────────────────────
-def get_ohlcv(ticker: str, from_date: str) -> object:
-    """from_date: '2026.03.26' → 해당일부터 오늘까지 OHLCV DataFrame"""
+def get_ohlcv(ticker: str, from_date: str):
     try:
         import FinanceDataReader as fdr
-        start = from_date.replace(".", "-")
+        start = from_date.replace(".", "-")   # 이미 대시 형식이면 no-op
         end   = date.today().strftime("%Y-%m-%d")
         df = fdr.DataReader(ticker, start, end)
         return df if (df is not None and not df.empty) else None
@@ -203,11 +214,9 @@ def get_ohlcv(ticker: str, from_date: str) -> object:
         return None
 
 def calc_stats(df, base_price: float) -> dict:
-    """OHLCV DataFrame + 기준가 → latest/peak/trough 계산"""
     latest_price = float(df.iloc[-1]["Close"])
     pct_change   = round((latest_price - base_price) / base_price * 100, 2)
 
-    # 0 제거 (FDR 데이터 오류 방어)
     high_df = df[df["High"] > 0]
     low_df  = df[df["Low"]  > 0]
 
@@ -252,61 +261,59 @@ def send_telegram(text: str):
 
 # ── 메인 ─────────────────────────────────────────────────────────
 def main():
-    log.info("=== ValueFinder Tracker 시작 ===")
+    log.info("=== 리서치알음 Tracker 시작 ===")
 
     data = load_data()
-    reports_map  = {r["wr_id"]: r for r in data["reports"]}
+    reports_map  = {r["index_no"]: r for r in data["reports"]}
     existing_ids = set(reports_map.keys())
 
     # 1) 신규 감지
-    crawled   = fetch_board(pages=2)
+    crawled   = fetch_board(pages=10)
     new_count = 0
     for item in crawled:
-        if item["wr_id"] in existing_ids or not item["company"]:
+        if item["index_no"] in existing_ids:
             continue
 
-        ticker = resolve_ticker(item["company"])
-        df     = get_ohlcv(ticker, item["report_date"]) if ticker else None
+        ticker = item["ticker"]
+        df     = get_ohlcv(ticker, item["report_date"])
 
         if df is not None and not df.empty:
-            base   = float(df.iloc[0]["Close"])
-            stats  = calc_stats(df, base)
+            base  = float(df.iloc[0]["Close"])
+            stats = calc_stats(df, base)
         else:
             base, stats = None, {}
 
-        log.info("신규: %s → %s, 작성일가: %s", item["company"], ticker, base)
+        log.info("신규: %s (%s), 작성일가: %s", item["company"], ticker, base)
 
-        entry = {**item, "ticker": ticker, "price_on_date": base, **stats}
-        # None 필드 기본값
-        for key in ("latest_price","pct_change","peak_price","peak_date","peak_pct",
-                    "trough_price","trough_date","trough_pct"):
+        entry = {**item, "price_on_date": base, **stats}
+        for key in ("latest_price", "pct_change", "peak_price", "peak_date",
+                    "peak_pct", "trough_price", "trough_date", "trough_pct"):
             entry.setdefault(key, None)
 
-        # ticker 없어도 wr_id 기록 → 다음 실행에서 신규로 재인식 방지
-        reports_map[item["wr_id"]] = entry
-        existing_ids.add(item["wr_id"])
+        reports_map[item["index_no"]] = entry
+        existing_ids.add(item["index_no"])
         new_count += 1
 
-        # ticker 없는 종목(미국주식, 산업분석 등)은 텔레그램 알림 스킵
-        if not ticker:
-            log.info("티커 없음 → 텔레그램 스킵 (%s)", item["company"])
-            continue
+        outlook_emoji = {"positive": "📈", "neutral": "➡️", "negative": "📉"}.get(
+            item.get("outlook", ""), "📋"
+        )
+        target_str = f"{item['target_price']:,}원" if item.get("target_price") else "-"
+        price_str  = f"{base:,.0f}원" if base else "-"
 
-        price_str = f"{base:,.0f}원" if base else "-"
         send_telegram(
-            f"📋 <b>밸류파인더 신규 리포트</b>\n\n"
+            f"{outlook_emoji} <b>리서치알음 신규 리포트</b>\n\n"
             f"종목: <b>{item['company']}</b> (<b>{ticker}</b>)\n"
             f"제목: {item['title'][:60]}\n"
-            f"작성일: {item['report_date']} | 작성자: {item['author']}\n"
-            f"작성일 가격: {price_str}\n"
+            f"작성일: {item['report_date']} | 전망: {item.get('outlook', '-')}\n"
+            f"적정주가: {target_str} | 작성일 가격: {price_str}\n"
             f"🔗 <a href=\"{item['url']}\">리포트 보기</a>"
         )
 
     log.info("신규 종목: %d건", new_count)
 
-    # 2) 전체 주가 업데이트 (latest + peak + trough)
+    # 2) 전체 주가 업데이트
     updated = 0
-    for wr_id, entry in reports_map.items():
+    for entry in reports_map.values():
         ticker = entry.get("ticker")
         if not ticker:
             continue
@@ -314,11 +321,9 @@ def main():
         df = get_ohlcv(ticker, entry["report_date"])
         if df is None:
             continue
-        # price_on_date 미설정 시 재시도 (초기 조회 실패 복구)
         if not base:
             base = float(df.iloc[0]["Close"])
             entry["price_on_date"] = base
-            log.info("price_on_date 복구: %s → %s", entry["company"], base)
         stats = calc_stats(df, base)
         entry.update(stats)
         updated += 1
@@ -326,25 +331,11 @@ def main():
     log.info("주가 업데이트: %d건", updated)
 
     # 3) 저장 (report_date 내림차순)
-    data["reports"] = sorted(reports_map.values(),
-                             key=lambda r: r["report_date"], reverse=True)
-    save_data(data)
-
-    # 4) git push
-    cwd = str(BASE_DIR)
-    subprocess.run(["git", "add", "data/reports.json"], cwd=cwd)
-    result = subprocess.run(
-        ["git", "commit", "-m", f"🤖 data: update {date.today()}"],
-        cwd=cwd, capture_output=True, text=True
+    data["reports"] = sorted(
+        reports_map.values(),
+        key=lambda r: r["report_date"], reverse=True
     )
-    if "nothing to commit" not in result.stdout + result.stderr:
-        # pull --rebase 후 push (다른 push와 충돌 방지)
-        subprocess.run(["git", "pull", "--rebase", "origin", "main"], cwd=cwd)
-        subprocess.run(["git", "push", "origin", "main"], cwd=cwd)
-        log.info("git push 완료")
-    else:
-        log.info("변경사항 없음 — git push 스킵")
-
+    save_data(data)
     log.info("=== 완료 ===")
 
 

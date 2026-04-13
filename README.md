@@ -1,42 +1,42 @@
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="web/public/logo-dark.png">
-    <source media="(prefers-color-scheme: light)" srcset="web/public/logo.png">
-    <img alt="ValueFinder 수익률 트래커" src="web/public/logo.png" width="600" />
-  </picture>
-</p>
+# Korea Research Tracker
 
-<p align="center">
-  <strong>🌐 Live: <a href="https://valuefinder-tracker.vercel.app">valuefinder-tracker.vercel.app</a></strong>
-</p>
+**한국 소형주 리서치 리포트 자동 추적 대시보드**
 
-[ValueFinder](https://valuefinder.co.kr)에서 발행하는 기업분석 리포트를 자동으로 추적하고, 리포트 작성일 기준 수익률을 매일 업데이트하는 오픈소스 프로젝트입니다.
+> ValueFinder · 리서치알음 리포트를 자동 크롤링하고, 리포트 작성일 기준 수익률을 매일 업데이트합니다.
+
+🌐 **Live:** [korea-research-tracker.vercel.app](https://korea-research-tracker.vercel.app)
 
 ![screenshot](web/public/screenshot.jpg)
 
 ## ✨ 주요 기능
 
-- 📋 **자동 크롤링** — ValueFinder 신규 리포트 감지 및 텔레그램 알림
-- 📈 **수익률 추적** — 리포트 작성일 기준 현재가 대비 수익률 계산
-- 🏆 **최고가/최저가** — 리포트 작성일 이후 최대 수익/손실 구간 추적
-- 🤖 **완전 자동화** — GitHub Actions로 매일 09:05 KST 자동 실행
-- 🌐 **웹 대시보드** — Vercel로 배포되는 Next.js 대시보드
+- 📋 **자동 크롤링** — 신규 리포트 감지 및 텔레그램 알림 (ValueFinder + 리서치알음)
+- 📈 **수익률 추적** — 리포트 작성일 기준 현재가 대비 수익률 실시간 계산
+- 🏆 **최고가/최저가** — 리포트 이후 최대 수익/손실 구간 추적
+- 📊 **인터랙티브 차트** — 전망 정확도, 목표가 분석, 시장 반응 등 8종 차트
+- 🤖 **완전 자동화** — GitHub Actions로 평일 4시간마다 자동 실행
+- 🌐 **웹 대시보드** — Vercel 배포 Next.js 대시보드
+
+## 🏗 지원 소스
+
+| 소스 | 특징 |
+|------|------|
+| [ValueFinder](https://valuefinder.co.kr) | 국내 유명 기업분석 리포트 커뮤니티 |
+| [리서치알음](https://www.researcharum.com) | 소형주 전문 리서치, 전망(Positive/Neutral/Negative) + 적정주가 제공 |
 
 ## 🏗 아키텍처
 
-![architecture](web/public/architecture.png)
-
-- **DB 없음** — `data/reports.json` 하나로 모든 상태 관리 (Git as Database)
+- **DB 없음** — `data/*.json` 하나로 모든 상태 관리 (Git as Database)
 - **Mac 불필요** — GitHub Actions 서버에서 완전 독립 실행
-- **ScraperAPI** — 한국 IP 우회 크롤링 (무료 1,000 크레딧/월, 하루 44 크레딧 사용)
+- **ScraperAPI** — 한국 IP 우회 크롤링
 
 ## 🚀 배포 방법
 
 ### 1. 레포지토리 Fork
 
 ```bash
-git clone https://github.com/dragon1086/valuefinder-tracker.git
-cd valuefinder-tracker
+git clone https://github.com/dragon1086/korea-research-tracker.git
+cd korea-research-tracker
 ```
 
 ### 2. GitHub Secrets 등록
@@ -66,12 +66,12 @@ cd valuefinder-tracker
 # Python 의존성 설치
 pip install -r requirements.txt
 
-# .env.local 생성
+# .env.local 생성 후 토큰 입력
 cp .env.local.example .env.local
-# TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID 입력
 
 # 크롤러 실행
 python tracker.py
+python tracker_researcharum.py
 
 # 웹 개발 서버
 cd web
@@ -86,7 +86,7 @@ npm run dev
 | 크롤링 | Python + BeautifulSoup + ScraperAPI |
 | 주가 데이터 | [FinanceDataReader](https://github.com/FinanceData/FinanceDataReader) (KRX) |
 | 자동화 | GitHub Actions |
-| 프론트엔드 | Next.js 15 + Tailwind CSS |
+| 프론트엔드 | Next.js 16 + Tailwind CSS + Recharts |
 | 배포 | Vercel |
 | 알림 | Telegram Bot API |
 
