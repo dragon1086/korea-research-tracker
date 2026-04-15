@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-04-15T10:55:47Z",
+  "updated_at": "2026-04-15T15:04:31Z",
   "reports": [
+    {
+      "wr_id": 300,
+      "company": "일진전기",
+      "title": "N새글글로벌 전력난이 불러온 실적 랠리, 대규모 공급 확충과 고부가 제품 재편으로 여는 성장의 신기원",
+      "author": "이충헌, 이영서",
+      "report_date": "2026.04.16",
+      "url": "https://valuefinder.co.kr/bbs/board.php?bo_table=report&wr_id=300",
+      "ticker": "103590",
+      "price_on_date": null,
+      "latest_price": null,
+      "pct_change": null,
+      "peak_price": null,
+      "peak_date": null,
+      "peak_pct": null,
+      "trough_price": null,
+      "trough_date": null,
+      "trough_pct": null
+    },
     {
       "wr_id": 298,
       "company": "코오롱티슈진",
