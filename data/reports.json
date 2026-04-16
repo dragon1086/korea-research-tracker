@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-04-16T07:22:51Z",
+  "updated_at": "2026-04-16T10:58:41Z",
   "reports": [
+    {
+      "wr_id": 301,
+      "company": "지니언스",
+      "title": "N새글미토스 충격이 EDR 시장 확대를 가속, 국내 공공 부문 EDR 1위 동사에 주목",
+      "author": "이충헌, 전우빈",
+      "report_date": "2026.04.17",
+      "url": "https://valuefinder.co.kr/bbs/board.php?bo_table=report&wr_id=301",
+      "ticker": "263860",
+      "price_on_date": null,
+      "latest_price": null,
+      "pct_change": null,
+      "peak_price": null,
+      "peak_date": null,
+      "peak_pct": null,
+      "trough_price": null,
+      "trough_date": null,
+      "trough_pct": null
+    },
     {
       "wr_id": 300,
       "company": "일진전기",
