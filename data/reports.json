@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-04-21T11:03:48Z",
+  "updated_at": "2026-04-21T15:08:14Z",
   "reports": [
+    {
+      "wr_id": 304,
+      "company": "넥사다이내믹스",
+      "title": "N새글‘OLED 초격차 확보’ 국민성장펀드 메가프로젝트에 포함, OLED 장비와 K콘텐츠 커머스 신사업으로 양날개…",
+      "author": "이충헌, 전우빈",
+      "report_date": "2026.04.22",
+      "url": "https://valuefinder.co.kr/bbs/board.php?bo_table=report&wr_id=304",
+      "ticker": "351320",
+      "price_on_date": null,
+      "latest_price": null,
+      "pct_change": null,
+      "peak_price": null,
+      "peak_date": null,
+      "peak_pct": null,
+      "trough_price": null,
+      "trough_date": null,
+      "trough_pct": null
+    },
     {
       "wr_id": 303,
       "company": "아우토크립트",
