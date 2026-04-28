@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-04-28T16:09:06Z",
+  "updated_at": "2026-04-28T22:49:18Z",
   "reports": [
+    {
+      "wr_id": 307,
+      "company": "채비",
+      "title": "N새글전기차 100만대 시대, 이제는 충전의 시대, 국내 1위 CPO 기업 최초 증시 상장에 주목",
+      "author": "이충헌, 전우빈",
+      "report_date": "2026.04.29",
+      "url": "https://valuefinder.co.kr/bbs/board.php?bo_table=report&wr_id=307",
+      "ticker": null,
+      "price_on_date": null,
+      "latest_price": null,
+      "pct_change": null,
+      "peak_price": null,
+      "peak_date": null,
+      "peak_pct": null,
+      "trough_price": null,
+      "trough_date": null,
+      "trough_pct": null
+    },
     {
       "wr_id": 306,
       "company": "진흥기업",
