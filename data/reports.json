@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-04-29T15:57:27Z",
+  "updated_at": "2026-04-29T22:49:41Z",
   "reports": [
+    {
+      "wr_id": 308,
+      "company": "한울소재과학",
+      "title": "N새글아직 알려져 있지 않은 광통신 인프라 관련 수혜주, 자회사 반도체 소재 국산화 모멘텀도 상존",
+      "author": "이충헌, 지후",
+      "report_date": "2026.04.30",
+      "url": "https://valuefinder.co.kr/bbs/board.php?bo_table=report&wr_id=308",
+      "ticker": "091440",
+      "price_on_date": null,
+      "latest_price": null,
+      "pct_change": null,
+      "peak_price": null,
+      "peak_date": null,
+      "peak_pct": null,
+      "trough_price": null,
+      "trough_date": null,
+      "trough_pct": null
+    },
     {
       "wr_id": 307,
       "company": "채비",
