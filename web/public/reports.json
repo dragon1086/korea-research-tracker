@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-05-06T16:00:50Z",
+  "updated_at": "2026-05-06T22:44:52Z",
   "reports": [
+    {
+      "wr_id": 310,
+      "company": "셀트리온",
+      "title": "N새글1Q26 Review: 신규 제품이 이끄는 구조적 성장 지속",
+      "author": "이충헌, 전우빈",
+      "report_date": "2026.05.07",
+      "url": "https://valuefinder.co.kr/bbs/board.php?bo_table=report&wr_id=310",
+      "ticker": "068270",
+      "price_on_date": null,
+      "latest_price": null,
+      "pct_change": null,
+      "peak_price": null,
+      "peak_date": null,
+      "peak_pct": null,
+      "trough_price": null,
+      "trough_date": null,
+      "trough_pct": null
+    },
     {
       "wr_id": 309,
       "company": "인벤티지랩",
