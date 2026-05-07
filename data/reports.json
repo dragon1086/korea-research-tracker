@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-05-07T16:03:27Z",
+  "updated_at": "2026-05-07T22:55:47Z",
   "reports": [
+    {
+      "wr_id": 311,
+      "company": "에스프리즘",
+      "title": "N새글전세계 이목 집중된 블룸에너지 AI 데이터센터 연료전지, 숨겨진 AI 데이터센터 특화 PEMFC 연료전지 기…",
+      "author": "이충헌, 지후",
+      "report_date": "2026.05.08",
+      "url": "https://valuefinder.co.kr/bbs/board.php?bo_table=report&wr_id=311",
+      "ticker": "288620",
+      "price_on_date": null,
+      "latest_price": null,
+      "pct_change": null,
+      "peak_price": null,
+      "peak_date": null,
+      "peak_pct": null,
+      "trough_price": null,
+      "trough_date": null,
+      "trough_pct": null
+    },
     {
       "wr_id": 310,
       "company": "셀트리온",
