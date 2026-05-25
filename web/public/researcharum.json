@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-22T22:54:08Z",
+  "updated_at": "2026-05-25T06:22:26Z",
   "reports": [
     {
       "index_no": 903,
@@ -38,7 +38,7 @@
       "trough_price": 23100.0,
       "trough_date": "2026-05-20",
       "trough_pct": -25.24,
-      "last_updated": "2026-05-22"
+      "last_updated": "2026-05-25"
     },
     {
       "index_no": 899,
@@ -58,7 +58,7 @@
       "trough_price": 10450.0,
       "trough_date": "2026-05-20",
       "trough_pct": -36.86,
-      "last_updated": "2026-05-22"
+      "last_updated": "2026-05-25"
     },
     {
       "index_no": 898,
@@ -78,7 +78,7 @@
       "trough_price": 1825.0,
       "trough_date": "2026-03-31",
       "trough_pct": -6.7,
-      "last_updated": "2026-05-22"
+      "last_updated": "2026-05-25"
     },
     {
       "index_no": 897,
@@ -98,7 +98,7 @@
       "trough_price": 2325.0,
       "trough_date": "2026-03-27",
       "trough_pct": -4.71,
-      "last_updated": "2026-05-22"
+      "last_updated": "2026-05-25"
     },
     {
       "index_no": 896,
@@ -118,7 +118,7 @@
       "trough_price": 22700.0,
       "trough_date": "2026-05-20",
       "trough_pct": -19.79,
-      "last_updated": "2026-05-22"
+      "last_updated": "2026-05-25"
     },
     {
       "index_no": 895,
@@ -138,7 +138,7 @@
       "trough_price": 14180.0,
       "trough_date": "2026-05-20",
       "trough_pct": -36.41,
-      "last_updated": "2026-05-22"
+      "last_updated": "2026-05-25"
     },
     {
       "index_no": 894,
@@ -158,7 +158,7 @@
       "trough_price": 17850.0,
       "trough_date": "2026-05-20",
       "trough_pct": -32.89,
-      "last_updated": "2026-05-22"
+      "last_updated": "2026-05-25"
     },
     {
       "index_no": 893,
@@ -178,7 +178,7 @@
       "trough_price": 24000.0,
       "trough_date": "2026-05-20",
       "trough_pct": -29.2,
-      "last_updated": "2026-05-22"
+      "last_updated": "2026-05-25"
     },
     {
       "index_no": 892,
@@ -198,7 +198,7 @@
       "trough_price": 15680.0,
       "trough_date": "2026-02-02",
       "trough_pct": -1.13,
-      "last_updated": "2026-05-22"
+      "last_updated": "2026-05-25"
     },
     {
       "index_no": 891,
@@ -218,7 +218,7 @@
       "trough_price": 16100.0,
       "trough_date": "2026-01-14",
       "trough_pct": -8.99,
-      "last_updated": "2026-05-22"
+      "last_updated": "2026-05-25"
     },
     {
       "index_no": 890,
@@ -238,7 +238,7 @@
       "trough_price": 3550.0,
       "trough_date": "2025-12-29",
       "trough_pct": -8.97,
-      "last_updated": "2026-05-22"
+      "last_updated": "2026-05-25"
     },
     {
       "index_no": 889,
@@ -258,7 +258,7 @@
       "trough_price": 10300.0,
       "trough_date": "2026-05-20",
       "trough_pct": -26.69,
-      "last_updated": "2026-05-22"
+      "last_updated": "2026-05-25"
     },
     {
       "index_no": 888,
@@ -278,7 +278,7 @@
       "trough_price": 13990.0,
       "trough_date": "2026-01-22",
       "trough_pct": -17.61,
-      "last_updated": "2026-05-22"
+      "last_updated": "2026-05-25"
     },
     {
       "index_no": 887,
@@ -298,7 +298,7 @@
       "trough_price": 54700.0,
       "trough_date": "2025-11-19",
       "trough_pct": -5.53,
-      "last_updated": "2026-05-22"
+      "last_updated": "2026-05-25"
     },
     {
       "index_no": 886,
@@ -318,7 +318,7 @@
       "trough_price": 80900.0,
       "trough_date": "2025-12-18",
       "trough_pct": -4.82,
-      "last_updated": "2026-05-22"
+      "last_updated": "2026-05-25"
     },
     {
       "index_no": 884,
@@ -338,7 +338,7 @@
       "trough_price": 45200.0,
       "trough_date": "2025-11-05",
       "trough_pct": -10.85,
-      "last_updated": "2026-05-22"
+      "last_updated": "2026-05-25"
     },
     {
       "index_no": 883,
@@ -358,7 +358,7 @@
       "trough_price": 107650.0,
       "trough_date": "2025-10-14",
       "trough_pct": -1.24,
-      "last_updated": "2026-05-22"
+      "last_updated": "2026-05-25"
     },
     {
       "index_no": 882,
@@ -378,7 +378,7 @@
       "trough_price": 70500.0,
       "trough_date": "2025-11-05",
       "trough_pct": -12.75,
-      "last_updated": "2026-05-22"
+      "last_updated": "2026-05-25"
     },
     {
       "index_no": 881,
@@ -398,7 +398,7 @@
       "trough_price": 79300.0,
       "trough_date": "2025-11-05",
       "trough_pct": -8.32,
-      "last_updated": "2026-05-22"
+      "last_updated": "2026-05-25"
     },
     {
       "index_no": 880,
@@ -418,7 +418,7 @@
       "trough_price": 2619.0,
       "trough_date": "2026-04-07",
       "trough_pct": 83.66,
-      "last_updated": "2026-05-22"
+      "last_updated": "2026-05-25"
     },
     {
       "index_no": 879,
@@ -438,7 +438,7 @@
       "trough_price": 76500.0,
       "trough_date": "2025-09-02",
       "trough_pct": -2.17,
-      "last_updated": "2026-05-22"
+      "last_updated": "2026-05-25"
     },
     {
       "index_no": 878,
@@ -458,7 +458,7 @@
       "trough_price": 40000.0,
       "trough_date": "2026-03-04",
       "trough_pct": -11.7,
-      "last_updated": "2026-05-22"
+      "last_updated": "2026-05-25"
     },
     {
       "index_no": 877,
@@ -478,7 +478,7 @@
       "trough_price": 18050.0,
       "trough_date": "2026-05-21",
       "trough_pct": -29.22,
-      "last_updated": "2026-05-22"
+      "last_updated": "2026-05-25"
     },
     {
       "index_no": 875,
@@ -498,7 +498,7 @@
       "trough_price": 73036.0,
       "trough_date": "2025-08-20",
       "trough_pct": -8.31,
-      "last_updated": "2026-05-22"
+      "last_updated": "2026-05-25"
     },
     {
       "index_no": 874,
@@ -518,7 +518,7 @@
       "trough_price": 16000.0,
       "trough_date": "2026-03-09",
       "trough_pct": -24.17,
-      "last_updated": "2026-05-22"
+      "last_updated": "2026-05-25"
     },
     {
       "index_no": 873,
@@ -538,7 +538,7 @@
       "trough_price": 2619.0,
       "trough_date": "2026-04-07",
       "trough_pct": 74.6,
-      "last_updated": "2026-05-22"
+      "last_updated": "2026-05-25"
     },
     {
       "index_no": 871,
@@ -558,7 +558,7 @@
       "trough_price": 5250.0,
       "trough_date": "2026-01-21",
       "trough_pct": -22.25,
-      "last_updated": "2026-05-22"
+      "last_updated": "2026-05-25"
     },
     {
       "index_no": 870,
@@ -578,7 +578,7 @@
       "trough_price": 2130.0,
       "trough_date": "2025-07-04",
       "trough_pct": -5.33,
-      "last_updated": "2026-05-22"
+      "last_updated": "2026-05-25"
     },
     {
       "index_no": 869,
@@ -598,7 +598,7 @@
       "trough_price": 14740.0,
       "trough_date": "2025-09-08",
       "trough_pct": -14.5,
-      "last_updated": "2026-05-22"
+      "last_updated": "2026-05-25"
     },
     {
       "index_no": 868,
@@ -618,7 +618,7 @@
       "trough_price": 61900.0,
       "trough_date": "2025-08-20",
       "trough_pct": -19.19,
-      "last_updated": "2026-05-22"
+      "last_updated": "2026-05-25"
     },
     {
       "index_no": 867,
@@ -638,7 +638,7 @@
       "trough_price": 19320.0,
       "trough_date": "2026-04-07",
       "trough_pct": -39.91,
-      "last_updated": "2026-05-22"
+      "last_updated": "2026-05-25"
     },
     {
       "index_no": 866,
@@ -658,7 +658,7 @@
       "trough_price": 18320.0,
       "trough_date": "2026-03-04",
       "trough_pct": -38.42,
-      "last_updated": "2026-05-22"
+      "last_updated": "2026-05-25"
     },
     {
       "index_no": 865,
@@ -678,7 +678,7 @@
       "trough_price": 49800.0,
       "trough_date": "2025-05-29",
       "trough_pct": -3.68,
-      "last_updated": "2026-05-22"
+      "last_updated": "2026-05-25"
     },
     {
       "index_no": 864,
@@ -698,7 +698,7 @@
       "trough_price": 42300.0,
       "trough_date": "2025-10-22",
       "trough_pct": -15.4,
-      "last_updated": "2026-05-22"
+      "last_updated": "2026-05-25"
     },
     {
       "index_no": 863,
@@ -718,7 +718,7 @@
       "trough_price": 18050.0,
       "trough_date": "2026-05-21",
       "trough_pct": -34.72,
-      "last_updated": "2026-05-22"
+      "last_updated": "2026-05-25"
     },
     {
       "index_no": 862,
@@ -738,7 +738,7 @@
       "trough_price": 18050.0,
       "trough_date": "2026-05-21",
       "trough_pct": -32.14,
-      "last_updated": "2026-05-22"
+      "last_updated": "2026-05-25"
     },
     {
       "index_no": 861,
@@ -758,7 +758,7 @@
       "trough_price": 13450.0,
       "trough_date": "2025-12-30",
       "trough_pct": -25.28,
-      "last_updated": "2026-05-22"
+      "last_updated": "2026-05-25"
     },
     {
       "index_no": 860,
@@ -778,7 +778,7 @@
       "trough_price": 6200.0,
       "trough_date": "2025-11-14",
       "trough_pct": -9.49,
-      "last_updated": "2026-05-22"
+      "last_updated": "2026-05-25"
     },
     {
       "index_no": 856,
@@ -798,7 +798,7 @@
       "trough_price": 15940.0,
       "trough_date": "2025-08-22",
       "trough_pct": -18.51,
-      "last_updated": "2026-05-22"
+      "last_updated": "2026-05-25"
     },
     {
       "index_no": 855,
@@ -818,7 +818,7 @@
       "trough_price": 889.0,
       "trough_date": "2026-05-22",
       "trough_pct": -16.29,
-      "last_updated": "2026-05-22"
+      "last_updated": "2026-05-25"
     },
     {
       "index_no": 854,
@@ -838,7 +838,7 @@
       "trough_price": 8520.0,
       "trough_date": "2025-04-07",
       "trough_pct": -5.02,
-      "last_updated": "2026-05-22"
+      "last_updated": "2026-05-25"
     },
     {
       "index_no": 852,
@@ -858,7 +858,7 @@
       "trough_price": 208500.0,
       "trough_date": "2026-03-04",
       "trough_pct": -40.51,
-      "last_updated": "2026-05-22"
+      "last_updated": "2026-05-25"
     },
     {
       "index_no": 851,
@@ -878,7 +878,7 @@
       "trough_price": 4190.0,
       "trough_date": "2026-03-16",
       "trough_pct": -43.3,
-      "last_updated": "2026-05-22"
+      "last_updated": "2026-05-25"
     },
     {
       "index_no": 850,
@@ -898,7 +898,7 @@
       "trough_price": 7500.0,
       "trough_date": "2025-11-11",
       "trough_pct": -39.76,
-      "last_updated": "2026-05-22"
+      "last_updated": "2026-05-25"
     },
     {
       "index_no": 849,
@@ -918,7 +918,7 @@
       "trough_price": 10850.0,
       "trough_date": "2025-04-09",
       "trough_pct": -16.41,
-      "last_updated": "2026-05-22"
+      "last_updated": "2026-05-25"
     },
     {
       "index_no": 847,
@@ -938,7 +938,7 @@
       "trough_price": 5860.0,
       "trough_date": "2026-03-04",
       "trough_pct": -54.82,
-      "last_updated": "2026-05-22"
+      "last_updated": "2026-05-25"
     },
     {
       "index_no": 846,
@@ -958,7 +958,7 @@
       "trough_price": 6710.0,
       "trough_date": "2026-05-20",
       "trough_pct": -15.7,
-      "last_updated": "2026-05-22"
+      "last_updated": "2026-05-25"
     },
     {
       "index_no": 841,
@@ -978,7 +978,7 @@
       "trough_price": 1210.0,
       "trough_date": "2026-05-21",
       "trough_pct": -36.25,
-      "last_updated": "2026-05-22"
+      "last_updated": "2026-05-25"
     },
     {
       "index_no": 840,
@@ -998,7 +998,7 @@
       "trough_price": 6469.0,
       "trough_date": "2025-08-20",
       "trough_pct": -54.03,
-      "last_updated": "2026-05-22"
+      "last_updated": "2026-05-25"
     },
     {
       "index_no": 839,
@@ -1018,7 +1018,7 @@
       "trough_price": 48600.0,
       "trough_date": "2024-12-09",
       "trough_pct": -7.43,
-      "last_updated": "2026-05-22"
+      "last_updated": "2026-05-25"
     },
     {
       "index_no": 838,
@@ -1038,7 +1038,7 @@
       "trough_price": 5860.0,
       "trough_date": "2026-05-20",
       "trough_pct": -24.48,
-      "last_updated": "2026-05-22"
+      "last_updated": "2026-05-25"
     }
   ]
 }
