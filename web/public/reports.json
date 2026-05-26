@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-05-26T17:24:21Z",
+  "updated_at": "2026-05-26T23:06:01Z",
   "reports": [
+    {
+      "wr_id": 316,
+      "company": "엔비티",
+      "title": "N새글일본 금융당국 ‘해외 스테이블코인 제도권 편입’, 동사 스테이블코인 사업 모멘텀에 주목 필요",
+      "author": "이충헌, 지후",
+      "report_date": "2026.05.27",
+      "url": "https://valuefinder.co.kr/bbs/board.php?bo_table=report&wr_id=316",
+      "ticker": "236810",
+      "price_on_date": null,
+      "latest_price": null,
+      "pct_change": null,
+      "peak_price": null,
+      "peak_date": null,
+      "peak_pct": null,
+      "trough_price": null,
+      "trough_date": null,
+      "trough_pct": null
+    },
     {
       "wr_id": 315,
       "company": "한성크린텍",
