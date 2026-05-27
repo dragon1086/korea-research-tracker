@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-05-27T17:02:55Z",
+  "updated_at": "2026-05-27T23:14:31Z",
   "reports": [
+    {
+      "wr_id": 317,
+      "company": "베뉴지",
+      "title": "N새글삼성전자 신고가에 여전히 웃고 있는 베뉴지, 금융자산 가치만으로 시가총액 3배 이상 보유",
+      "author": "이충헌, 홍소현",
+      "report_date": "2026.05.28",
+      "url": "https://valuefinder.co.kr/bbs/board.php?bo_table=report&wr_id=317",
+      "ticker": "019010",
+      "price_on_date": null,
+      "latest_price": null,
+      "pct_change": null,
+      "peak_price": null,
+      "peak_date": null,
+      "peak_pct": null,
+      "trough_price": null,
+      "trough_date": null,
+      "trough_pct": null
+    },
     {
       "wr_id": 316,
       "company": "엔비티",
