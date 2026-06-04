@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-06-04T12:42:15Z",
+  "updated_at": "2026-06-04T16:46:13Z",
   "reports": [
+    {
+      "wr_id": 324,
+      "company": "이노테나",
+      "title": "N새글소버린 AI 대표주자 ‘업스테이지’와 전략적 파트너십, 폐쇄망 sLLM 시장 공략하며 중장기 성장동력 확보",
+      "author": "이충헌, 최건",
+      "report_date": "2026.06.05",
+      "url": "https://valuefinder.co.kr/bbs/board.php?bo_table=report&wr_id=324",
+      "ticker": "333050",
+      "price_on_date": null,
+      "latest_price": null,
+      "pct_change": null,
+      "peak_price": null,
+      "peak_date": null,
+      "peak_pct": null,
+      "trough_price": null,
+      "trough_date": null,
+      "trough_pct": null
+    },
     {
       "wr_id": 323,
       "company": "시선AI",
