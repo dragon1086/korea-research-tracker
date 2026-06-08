@@ -1,6 +1,25 @@
 {
-  "updated_at": "2026-06-08T17:26:46Z",
+  "updated_at": "2026-06-08T23:13:57Z",
   "reports": [
+    {
+      "index_no": 906,
+      "company": "펌텍코리아",
+      "ticker": "251970",
+      "title": "4·5월 화장품 수출액 역대 최대 규모 국내 1위 화장품 용기 제조 기업에 주목",
+      "report_date": "2026-06-09",
+      "outlook": "positive",
+      "target_price": 46000,
+      "url": "https://www.researcharum.com/report/small-cap-research-view.php?index_no=906",
+      "price_on_date": null,
+      "latest_price": null,
+      "pct_change": null,
+      "peak_price": null,
+      "peak_date": null,
+      "peak_pct": null,
+      "trough_price": null,
+      "trough_date": null,
+      "trough_pct": null
+    },
     {
       "index_no": 905,
       "company": "일지테크",
