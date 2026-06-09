@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-06-09T16:30:04Z",
+  "updated_at": "2026-06-09T23:14:53Z",
   "reports": [
+    {
+      "wr_id": 325,
+      "company": "셀트리온",
+      "title": "N새글CSID 2026 Review: 밸류에이션 리레이팅의 서막, 중장기 기업가치 평가 프레임의 전환점",
+      "author": "전우빈",
+      "report_date": "2026.06.10",
+      "url": "https://valuefinder.co.kr/bbs/board.php?bo_table=report&wr_id=325",
+      "ticker": "068270",
+      "price_on_date": null,
+      "latest_price": null,
+      "pct_change": null,
+      "peak_price": null,
+      "peak_date": null,
+      "peak_pct": null,
+      "trough_price": null,
+      "trough_date": null,
+      "trough_pct": null
+    },
     {
       "wr_id": 324,
       "company": "이노테나",
