@@ -1,6 +1,25 @@
 {
-  "updated_at": "2026-06-15T15:42:11Z",
+  "updated_at": "2026-06-15T23:33:42Z",
   "reports": [
+    {
+      "index_no": 907,
+      "company": "일진파워",
+      "ticker": "094820",
+      "title": "AI發 전력 인프라 슈퍼사이클 수혜 발전정비를 넘어 연료전지·SMR까지",
+      "report_date": "2026-06-16",
+      "outlook": "positive",
+      "target_price": 22200,
+      "url": "https://www.researcharum.com/report/small-cap-research-view.php?index_no=907",
+      "price_on_date": null,
+      "latest_price": null,
+      "pct_change": null,
+      "peak_price": null,
+      "peak_date": null,
+      "peak_pct": null,
+      "trough_price": null,
+      "trough_date": null,
+      "trough_pct": null
+    },
     {
       "index_no": 906,
       "company": "펌텍코리아",
