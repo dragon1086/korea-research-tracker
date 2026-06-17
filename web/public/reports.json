@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-06-17T16:54:37Z",
+  "updated_at": "2026-06-17T23:21:08Z",
   "reports": [
+    {
+      "wr_id": 331,
+      "company": "피앤에스로보틱스",
+      "title": "N새글재활로봇 상장사 內 가장 저평가 된 기업가치, 글로벌 1위 Hocoma 운영 중단으로 반사수혜 기대",
+      "author": "홍소현",
+      "report_date": "2026.06.18",
+      "url": "https://valuefinder.co.kr/bbs/board.php?bo_table=report&wr_id=331",
+      "ticker": "460940",
+      "price_on_date": null,
+      "latest_price": null,
+      "pct_change": null,
+      "peak_price": null,
+      "peak_date": null,
+      "peak_pct": null,
+      "trough_price": null,
+      "trough_date": null,
+      "trough_pct": null
+    },
     {
       "wr_id": 329,
       "company": "파로스아이바이오",
