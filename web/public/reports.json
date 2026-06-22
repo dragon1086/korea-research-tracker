@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-06-22T15:16:05Z",
+  "updated_at": "2026-06-22T23:16:14Z",
   "reports": [
+    {
+      "wr_id": 333,
+      "company": "위지트",
+      "title": "N새글이제는 반도체 소부장 기업으로의 Re-rating 필요, 자회사 지분가치는 이미 시가총액을 상회",
+      "author": "이충헌, 홍소현",
+      "report_date": "2026.06.23",
+      "url": "https://valuefinder.co.kr/bbs/board.php?bo_table=report&wr_id=333",
+      "ticker": "036090",
+      "price_on_date": null,
+      "latest_price": null,
+      "pct_change": null,
+      "peak_price": null,
+      "peak_date": null,
+      "peak_pct": null,
+      "trough_price": null,
+      "trough_date": null,
+      "trough_pct": null
+    },
     {
       "wr_id": 332,
       "company": "에스엠벡셀",
