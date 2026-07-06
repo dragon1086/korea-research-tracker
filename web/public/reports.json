@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-07-06T16:52:53Z",
+  "updated_at": "2026-07-06T23:00:05Z",
   "reports": [
+    {
+      "wr_id": 340,
+      "company": "메타케어",
+      "title": "N새글시총 2.3배에 달하는 부동산 & 현금성자산 보유, 테크랩스 최대주주 등극하며 신성장동력 확보",
+      "author": "이충헌, 지후",
+      "report_date": "2026.07.07",
+      "url": "https://valuefinder.co.kr/bbs/board.php?bo_table=report&wr_id=340",
+      "ticker": "118000",
+      "price_on_date": null,
+      "latest_price": null,
+      "pct_change": null,
+      "peak_price": null,
+      "peak_date": null,
+      "peak_pct": null,
+      "trough_price": null,
+      "trough_date": null,
+      "trough_pct": null
+    },
     {
       "wr_id": 339,
       "company": "오브젠",
