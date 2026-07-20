@@ -1,6 +1,25 @@
 {
-  "updated_at": "2026-07-20T15:49:34Z",
+  "updated_at": "2026-07-20T22:52:59Z",
   "reports": [
+    {
+      "index_no": 911,
+      "company": "TYM",
+      "ticker": "002900",
+      "title": "1H26 미국 매출액 YoY +21.0% 전망 유럽 진출 · 4단계 자율주행 모멘텀까지",
+      "report_date": "2026-07-21",
+      "outlook": "positive",
+      "target_price": 11200,
+      "url": "https://www.researcharum.com/report/small-cap-research-view.php?index_no=911",
+      "price_on_date": null,
+      "latest_price": null,
+      "pct_change": null,
+      "peak_price": null,
+      "peak_date": null,
+      "peak_pct": null,
+      "trough_price": null,
+      "trough_date": null,
+      "trough_pct": null
+    },
     {
       "index_no": 910,
       "company": "노바렉스",
