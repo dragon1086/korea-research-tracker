@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-07-27T16:12:32Z",
+  "updated_at": "2026-07-27T22:55:36Z",
   "reports": [
+    {
+      "wr_id": 353,
+      "company": "셀트리온",
+      "title": "N새글2Q26 Review:  Top-tier company의 Top-line 주목",
+      "author": "이충헌",
+      "report_date": "2026.07.28",
+      "url": "https://valuefinder.co.kr/bbs/board.php?bo_table=report&wr_id=353",
+      "ticker": "068270",
+      "price_on_date": null,
+      "latest_price": null,
+      "pct_change": null,
+      "peak_price": null,
+      "peak_date": null,
+      "peak_pct": null,
+      "trough_price": null,
+      "trough_date": null,
+      "trough_pct": null
+    },
+    {
+      "wr_id": 352,
+      "company": "오텍",
+      "title": "N새글AI 데이터센터 냉각 솔루션 사업 순항 중, 삼성전자 호남 투자에 따른 광주공장 지리적 이점 확보",
+      "author": "이충헌, 지후",
+      "report_date": "2026.07.28",
+      "url": "https://valuefinder.co.kr/bbs/board.php?bo_table=report&wr_id=352",
+      "ticker": "067170",
+      "price_on_date": null,
+      "latest_price": null,
+      "pct_change": null,
+      "peak_price": null,
+      "peak_date": null,
+      "peak_pct": null,
+      "trough_price": null,
+      "trough_date": null,
+      "trough_pct": null
+    },
     {
       "wr_id": 351,
       "company": "이엠앤아이",
