@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-08-05T15:58:57Z",
+  "updated_at": "2026-08-05T22:52:02Z",
   "reports": [
+    {
+      "wr_id": 360,
+      "company": "티로보틱스",
+      "title": "N새글포드에너지 ESS 공장 AMR 공급 레퍼런스 확보,  유리기판/휴머노이드 포트폴리오 다각화 진행 중",
+      "author": "지후",
+      "report_date": "2026.08.06",
+      "url": "https://valuefinder.co.kr/bbs/board.php?bo_table=report&wr_id=360",
+      "ticker": "117730",
+      "price_on_date": null,
+      "latest_price": null,
+      "pct_change": null,
+      "peak_price": null,
+      "peak_date": null,
+      "peak_pct": null,
+      "trough_price": null,
+      "trough_date": null,
+      "trough_pct": null
+    },
     {
       "wr_id": 359,
       "company": "뉴보텍",
