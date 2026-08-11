@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-08-11T14:55:37Z",
+  "updated_at": "2026-08-11T22:35:42Z",
   "reports": [
+    {
+      "wr_id": 364,
+      "company": "인크로스",
+      "title": "N새글시가총액에 달하는 현금성자산 보유 + PER 5.3배, 미디어렙에서 AI 데이터 인텔리전스 기업으로 발돋움",
+      "author": "전우빈",
+      "report_date": "2026.08.12",
+      "url": "https://valuefinder.co.kr/bbs/board.php?bo_table=report&wr_id=364",
+      "ticker": "216050",
+      "price_on_date": null,
+      "latest_price": null,
+      "pct_change": null,
+      "peak_price": null,
+      "peak_date": null,
+      "peak_pct": null,
+      "trough_price": null,
+      "trough_date": null,
+      "trough_pct": null
+    },
     {
       "wr_id": 363,
       "company": "대동",
