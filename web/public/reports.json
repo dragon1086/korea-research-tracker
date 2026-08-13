@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-08-13T14:54:44Z",
+  "updated_at": "2026-08-13T22:35:51Z",
   "reports": [
+    {
+      "wr_id": 365,
+      "company": "제이씨케미칼",
+      "title": "N새글팜 농장 ‘골든 에이지’ 진입하며 어닝 서프라이즈 달성, 인도네시아 바이오디젤 50% 혼합 의무화 수혜 본격…",
+      "author": "전우빈",
+      "report_date": "2026.08.14",
+      "url": "https://valuefinder.co.kr/bbs/board.php?bo_table=report&wr_id=365",
+      "ticker": "137950",
+      "price_on_date": null,
+      "latest_price": null,
+      "pct_change": null,
+      "peak_price": null,
+      "peak_date": null,
+      "peak_pct": null,
+      "trough_price": null,
+      "trough_date": null,
+      "trough_pct": null
+    },
     {
       "wr_id": 364,
       "company": "인크로스",
