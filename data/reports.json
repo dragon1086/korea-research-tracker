@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-09-01T14:27:07Z",
+  "updated_at": "2026-09-01T23:43:49Z",
   "reports": [
+    {
+      "wr_id": 376,
+      "company": "씨엔알리서치",
+      "title": "N새글일라이릴리·로슈의 1.4조원 규모 한국 투자 본격화 +  국민성장펀드 바이오 자금 집행은 CRO 기업에게 수…",
+      "author": "전우빈",
+      "report_date": "2026.09.02",
+      "url": "https://valuefinder.co.kr/bbs/board.php?bo_table=report&wr_id=376",
+      "ticker": "359090",
+      "price_on_date": null,
+      "latest_price": null,
+      "pct_change": null,
+      "peak_price": null,
+      "peak_date": null,
+      "peak_pct": null,
+      "trough_price": null,
+      "trough_date": null,
+      "trough_pct": null
+    },
     {
       "wr_id": 375,
       "company": "누리플랜",
