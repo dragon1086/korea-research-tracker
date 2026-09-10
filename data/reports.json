@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-09-10T17:28:09Z",
+  "updated_at": "2026-09-10T23:36:10Z",
   "reports": [
+    {
+      "wr_id": 379,
+      "company": "카티스",
+      "title": "N새글AI 데이터센터를 지키는 수호자, 18년간 NAVER와 파트너십 → AI DC 관련 수혜주",
+      "author": "전우빈",
+      "report_date": "2026.09.11",
+      "url": "https://valuefinder.co.kr/bbs/board.php?bo_table=report&wr_id=379",
+      "ticker": "140430",
+      "price_on_date": null,
+      "latest_price": null,
+      "pct_change": null,
+      "peak_price": null,
+      "peak_date": null,
+      "peak_pct": null,
+      "trough_price": null,
+      "trough_date": null,
+      "trough_pct": null
+    },
     {
       "wr_id": 378,
       "company": "한독크린텍",
