@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17T14:37:37Z",
+  "updated_at": "2026-09-17T23:52:56Z",
   "reports": [
     {
       "wr_id": 384,
@@ -2091,8 +2091,8 @@
       "report_date": "2026.01.30",
       "url": "https://valuefinder.co.kr/bbs/board.php?bo_table=report&wr_id=266",
       "price_on_date": 20150.0,
-      "latest_price": 11800.0,
-      "pct_change": -41.44,
+      "latest_price": 11710.0,
+      "pct_change": -41.89,
       "peak_price": 22350.0,
       "peak_date": "2026-01-30",
       "peak_pct": 10.92,
