@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T16:26:58Z",
+  "updated_at": "2026-10-29T01:29:44Z",
   "reports": [
     {
       "index_no": 916,
@@ -11,15 +11,15 @@
       "target_price": 32000,
       "url": "https://www.researcharum.com/report/small-cap-research-view.php?index_no=916",
       "price_on_date": 21000.0,
-      "latest_price": 17970.0,
-      "pct_change": -14.43,
+      "latest_price": 17680.0,
+      "pct_change": -15.81,
       "peak_price": 21650.0,
       "peak_date": "2026-09-08",
       "peak_pct": 3.1,
-      "trough_price": 17760.0,
-      "trough_date": "2026-10-26",
-      "trough_pct": -15.43,
-      "last_updated": "2026-10-28"
+      "trough_price": 17590.0,
+      "trough_date": "2026-10-29",
+      "trough_pct": -16.24,
+      "last_updated": "2026-10-29"
     },
     {
       "index_no": 915,
@@ -31,15 +31,15 @@
       "target_price": 4170,
       "url": "https://www.researcharum.com/report/small-cap-research-view.php?index_no=915",
       "price_on_date": 2620.0,
-      "latest_price": 2395.0,
-      "pct_change": -8.59,
+      "latest_price": 2260.0,
+      "pct_change": -13.74,
       "peak_price": 2925.0,
       "peak_date": "2026-10-28",
       "peak_pct": 11.64,
-      "trough_price": 2245.0,
-      "trough_date": "2026-10-20",
-      "trough_pct": -14.31,
-      "last_updated": "2026-10-28"
+      "trough_price": 2220.0,
+      "trough_date": "2026-10-29",
+      "trough_pct": -15.27,
+      "last_updated": "2026-10-29"
     },
     {
       "index_no": 912,
@@ -51,15 +51,15 @@
       "target_price": 36000,
       "url": "https://www.researcharum.com/report/small-cap-research-view.php?index_no=912",
       "price_on_date": 20100.0,
-      "latest_price": 37750.0,
-      "pct_change": 87.81,
+      "latest_price": 35200.0,
+      "pct_change": 75.12,
       "peak_price": 40900.0,
       "peak_date": "2026-10-23",
       "peak_pct": 103.48,
       "trough_price": 19040.0,
       "trough_date": "2026-08-03",
       "trough_pct": -5.27,
-      "last_updated": "2026-10-28"
+      "last_updated": "2026-10-29"
     },
     {
       "index_no": 911,
@@ -71,15 +71,15 @@
       "target_price": 11200,
       "url": "https://www.researcharum.com/report/small-cap-research-view.php?index_no=911",
       "price_on_date": 6170.0,
-      "latest_price": 5730.0,
-      "pct_change": -7.13,
+      "latest_price": 5540.0,
+      "pct_change": -10.21,
       "peak_price": 7570.0,
       "peak_date": "2026-09-07",
       "peak_pct": 22.69,
       "trough_price": 5380.0,
       "trough_date": "2026-07-29",
       "trough_pct": -12.8,
-      "last_updated": "2026-10-28"
+      "last_updated": "2026-10-29"
     },
     {
       "index_no": 910,
@@ -91,15 +91,15 @@
       "target_price": 19500,
       "url": "https://www.researcharum.com/report/small-cap-research-view.php?index_no=910",
       "price_on_date": 13000.0,
-      "latest_price": 9150.0,
-      "pct_change": -29.62,
+      "latest_price": 8990.0,
+      "pct_change": -30.85,
       "peak_price": 17610.0,
       "peak_date": "2026-08-10",
       "peak_pct": 35.46,
       "trough_price": 8900.0,
       "trough_date": "2026-10-26",
       "trough_pct": -31.54,
-      "last_updated": "2026-10-28"
+      "last_updated": "2026-10-29"
     },
     {
       "index_no": 908,
@@ -111,15 +111,15 @@
       "target_price": null,
       "url": "https://www.researcharum.com/report/small-cap-research-view.php?index_no=908",
       "price_on_date": 2160.0,
-      "latest_price": 2535.0,
-      "pct_change": 17.36,
+      "latest_price": 2490.0,
+      "pct_change": 15.28,
       "peak_price": 2900.0,
       "peak_date": "2026-10-15",
       "peak_pct": 34.26,
       "trough_price": 2080.0,
       "trough_date": "2026-06-24",
       "trough_pct": -3.7,
-      "last_updated": "2026-10-28"
+      "last_updated": "2026-10-29"
     },
     {
       "index_no": 907,
@@ -131,15 +131,15 @@
       "target_price": 22200,
       "url": "https://www.researcharum.com/report/small-cap-research-view.php?index_no=907",
       "price_on_date": 15050.0,
-      "latest_price": 10380.0,
-      "pct_change": -31.03,
+      "latest_price": 9900.0,
+      "pct_change": -34.22,
       "peak_price": 16300.0,
       "peak_date": "2026-06-18",
       "peak_pct": 8.31,
       "trough_price": 9010.0,
       "trough_date": "2026-07-29",
       "trough_pct": -40.13,
-      "last_updated": "2026-10-28"
+      "last_updated": "2026-10-29"
     },
     {
       "index_no": 906,
@@ -151,15 +151,15 @@
       "target_price": 46000,
       "url": "https://www.researcharum.com/report/small-cap-research-view.php?index_no=906",
       "price_on_date": 34050.0,
-      "latest_price": 65600.0,
-      "pct_change": 92.66,
+      "latest_price": 66400.0,
+      "pct_change": 95.01,
       "peak_price": 73200.0,
       "peak_date": "2026-10-16",
       "peak_pct": 114.98,
       "trough_price": 31400.0,
       "trough_date": "2026-06-26",
       "trough_pct": -7.78,
-      "last_updated": "2026-10-28"
+      "last_updated": "2026-10-29"
     },
     {
       "index_no": 905,
@@ -171,15 +171,15 @@
       "target_price": 15500,
       "url": "https://www.researcharum.com/report/small-cap-research-view.php?index_no=905",
       "price_on_date": 6000.0,
-      "latest_price": 4770.0,
-      "pct_change": -20.5,
+      "latest_price": 4610.0,
+      "pct_change": -23.17,
       "peak_price": 6900.0,
       "peak_date": "2026-08-13",
       "peak_pct": 15.0,
       "trough_price": 4495.0,
       "trough_date": "2026-10-26",
       "trough_pct": -25.08,
-      "last_updated": "2026-10-28"
+      "last_updated": "2026-10-29"
     },
     {
       "index_no": 904,
@@ -191,15 +191,15 @@
       "target_price": 22500,
       "url": "https://www.researcharum.com/report/small-cap-research-view.php?index_no=904",
       "price_on_date": 9680.0,
-      "latest_price": 4570.0,
-      "pct_change": -52.79,
+      "latest_price": 4470.0,
+      "pct_change": -53.82,
       "peak_price": 10270.0,
       "peak_date": "2026-05-27",
       "peak_pct": 6.1,
       "trough_price": 4295.0,
       "trough_date": "2026-10-15",
       "trough_pct": -55.63,
-      "last_updated": "2026-10-28"
+      "last_updated": "2026-10-29"
     },
     {
       "index_no": 903,
@@ -230,15 +230,15 @@
       "target_price": 49000,
       "url": "https://www.researcharum.com/report/small-cap-research-view.php?index_no=900",
       "price_on_date": 30900.0,
-      "latest_price": 18780.0,
-      "pct_change": -39.22,
+      "latest_price": 18640.0,
+      "pct_change": -39.68,
       "peak_price": 31200.0,
       "peak_date": "2026-04-27",
       "peak_pct": 0.97,
       "trough_price": 18000.0,
       "trough_date": "2026-06-26",
       "trough_pct": -41.75,
-      "last_updated": "2026-10-28"
+      "last_updated": "2026-10-29"
     },
     {
       "index_no": 899,
@@ -250,15 +250,15 @@
       "target_price": 24300,
       "url": "https://www.researcharum.com/report/small-cap-research-view.php?index_no=899",
       "price_on_date": 16550.0,
-      "latest_price": 3985.0,
-      "pct_change": -75.92,
+      "latest_price": 3845.0,
+      "pct_change": -76.77,
       "peak_price": 17160.0,
       "peak_date": "2026-04-20",
       "peak_pct": 3.69,
       "trough_price": 3750.0,
       "trough_date": "2026-10-19",
       "trough_pct": -77.34,
-      "last_updated": "2026-10-28"
+      "last_updated": "2026-10-29"
     },
     {
       "index_no": 898,
@@ -270,15 +270,15 @@
       "target_price": 3500,
       "url": "https://www.researcharum.com/report/small-cap-research-view.php?index_no=898",
       "price_on_date": 1956.0,
-      "latest_price": 2535.0,
-      "pct_change": 29.6,
+      "latest_price": 2490.0,
+      "pct_change": 27.3,
       "peak_price": 2900.0,
       "peak_date": "2026-10-15",
       "peak_pct": 48.26,
       "trough_price": 1772.0,
       "trough_date": "2026-06-09",
       "trough_pct": -9.41,
-      "last_updated": "2026-10-28"
+      "last_updated": "2026-10-29"
     },
     {
       "index_no": 897,
@@ -290,15 +290,15 @@
       "target_price": 3900,
       "url": "https://www.researcharum.com/report/small-cap-research-view.php?index_no=897",
       "price_on_date": 2440.0,
-      "latest_price": 1994.0,
-      "pct_change": -18.28,
+      "latest_price": 1953.0,
+      "pct_change": -19.96,
       "peak_price": 3295.0,
       "peak_date": "2026-04-30",
       "peak_pct": 35.04,
       "trough_price": 1926.0,
       "trough_date": "2026-06-26",
       "trough_pct": -21.07,
-      "last_updated": "2026-10-28"
+      "last_updated": "2026-10-29"
     },
     {
       "index_no": 896,
@@ -310,15 +310,15 @@
       "target_price": 47400,
       "url": "https://www.researcharum.com/report/small-cap-research-view.php?index_no=896",
       "price_on_date": 28300.0,
-      "latest_price": 15860.0,
-      "pct_change": -43.96,
+      "latest_price": 15420.0,
+      "pct_change": -45.51,
       "peak_price": 38050.0,
       "peak_date": "2026-05-06",
       "peak_pct": 34.45,
       "trough_price": 14710.0,
       "trough_date": "2026-10-26",
       "trough_pct": -48.02,
-      "last_updated": "2026-10-28"
+      "last_updated": "2026-10-29"
     },
     {
       "index_no": 895,
@@ -330,15 +330,15 @@
       "target_price": 30000,
       "url": "https://www.researcharum.com/report/small-cap-research-view.php?index_no=895",
       "price_on_date": 22300.0,
-      "latest_price": 8440.0,
-      "pct_change": -62.15,
+      "latest_price": 7970.0,
+      "pct_change": -64.26,
       "peak_price": 24150.0,
       "peak_date": "2026-03-03",
       "peak_pct": 8.3,
       "trough_price": 7355.0,
       "trough_date": "2026-07-29",
       "trough_pct": -67.02,
-      "last_updated": "2026-10-28"
+      "last_updated": "2026-10-29"
     },
     {
       "index_no": 894,
@@ -350,15 +350,15 @@
       "target_price": 38500,
       "url": "https://www.researcharum.com/report/small-cap-research-view.php?index_no=894",
       "price_on_date": 26600.0,
-      "latest_price": 11470.0,
-      "pct_change": -56.88,
+      "latest_price": 11100.0,
+      "pct_change": -58.27,
       "peak_price": 27800.0,
       "peak_date": "2026-02-19",
       "peak_pct": 4.51,
       "trough_price": 9510.0,
       "trough_date": "2026-07-29",
       "trough_pct": -64.25,
-      "last_updated": "2026-10-28"
+      "last_updated": "2026-10-29"
     },
     {
       "index_no": 893,
@@ -370,15 +370,15 @@
       "target_price": 47500,
       "url": "https://www.researcharum.com/report/small-cap-research-view.php?index_no=893",
       "price_on_date": 33900.0,
-      "latest_price": 24850.0,
-      "pct_change": -26.7,
+      "latest_price": 23850.0,
+      "pct_change": -29.65,
       "peak_price": 39850.0,
       "peak_date": "2026-02-26",
       "peak_pct": 17.55,
       "trough_price": 13000.0,
       "trough_date": "2026-07-30",
       "trough_pct": -61.65,
-      "last_updated": "2026-10-28"
+      "last_updated": "2026-10-29"
     },
     {
       "index_no": 892,
@@ -390,15 +390,15 @@
       "target_price": 25800,
       "url": "https://www.researcharum.com/report/small-cap-research-view.php?index_no=892",
       "price_on_date": 15860.0,
-      "latest_price": 15830.0,
-      "pct_change": -0.19,
+      "latest_price": 15200.0,
+      "pct_change": -4.16,
       "peak_price": 32150.0,
       "peak_date": "2026-05-06",
       "peak_pct": 102.71,
       "trough_price": 15000.0,
       "trough_date": "2026-07-30",
       "trough_pct": -5.42,
-      "last_updated": "2026-10-28"
+      "last_updated": "2026-10-29"
     },
     {
       "index_no": 891,
@@ -410,15 +410,15 @@
       "target_price": null,
       "url": "https://www.researcharum.com/report/small-cap-research-view.php?index_no=891",
       "price_on_date": 17690.0,
-      "latest_price": 20950.0,
-      "pct_change": 18.43,
+      "latest_price": 20100.0,
+      "pct_change": 13.62,
       "peak_price": 57300.0,
       "peak_date": "2026-03-17",
       "peak_pct": 223.91,
       "trough_price": 12000.0,
       "trough_date": "2026-07-30",
       "trough_pct": -32.17,
-      "last_updated": "2026-10-28"
+      "last_updated": "2026-10-29"
     },
     {
       "index_no": 890,
@@ -430,15 +430,15 @@
       "target_price": 5800,
       "url": "https://www.researcharum.com/report/small-cap-research-view.php?index_no=890",
       "price_on_date": 3900.0,
-      "latest_price": 7690.0,
-      "pct_change": 97.18,
+      "latest_price": 7450.0,
+      "pct_change": 91.03,
       "peak_price": 19950.0,
       "peak_date": "2026-05-26",
       "peak_pct": 411.54,
       "trough_price": 3550.0,
       "trough_date": "2025-12-29",
       "trough_pct": -8.97,
-      "last_updated": "2026-10-28"
+      "last_updated": "2026-10-29"
     },
     {
       "index_no": 889,
@@ -450,15 +450,15 @@
       "target_price": 21000,
       "url": "https://www.researcharum.com/report/small-cap-research-view.php?index_no=889",
       "price_on_date": 14050.0,
-      "latest_price": 8970.0,
-      "pct_change": -36.16,
+      "latest_price": 8760.0,
+      "pct_change": -37.65,
       "peak_price": 16050.0,
       "peak_date": "2026-02-19",
       "peak_pct": 14.23,
       "trough_price": 8210.0,
       "trough_date": "2026-10-15",
       "trough_pct": -41.57,
-      "last_updated": "2026-10-28"
+      "last_updated": "2026-10-29"
     },
     {
       "index_no": 888,
@@ -470,15 +470,15 @@
       "target_price": 25000,
       "url": "https://www.researcharum.com/report/small-cap-research-view.php?index_no=888",
       "price_on_date": 16980.0,
-      "latest_price": 12700.0,
-      "pct_change": -25.21,
+      "latest_price": 12270.0,
+      "pct_change": -27.74,
       "peak_price": 25500.0,
       "peak_date": "2026-01-27",
       "peak_pct": 50.18,
       "trough_price": 10900.0,
       "trough_date": "2026-07-29",
       "trough_pct": -35.81,
-      "last_updated": "2026-10-28"
+      "last_updated": "2026-10-29"
     },
     {
       "index_no": 887,
@@ -490,15 +490,15 @@
       "target_price": 90000,
       "url": "https://www.researcharum.com/report/small-cap-research-view.php?index_no=887",
       "price_on_date": 57900.0,
-      "latest_price": 79500.0,
-      "pct_change": 37.31,
+      "latest_price": 78200.0,
+      "pct_change": 35.06,
       "peak_price": 153300.0,
       "peak_date": "2026-06-02",
       "peak_pct": 164.77,
       "trough_price": 54700.0,
       "trough_date": "2025-11-19",
       "trough_pct": -5.53,
-      "last_updated": "2026-10-28"
+      "last_updated": "2026-10-29"
     },
     {
       "index_no": 886,
@@ -518,7 +518,7 @@
       "trough_price": 80900.0,
       "trough_date": "2025-12-18",
       "trough_pct": -4.82,
-      "last_updated": "2026-10-28"
+      "last_updated": "2026-10-29"
     },
     {
       "index_no": 884,
@@ -530,15 +530,15 @@
       "target_price": 67000,
       "url": "https://www.researcharum.com/report/small-cap-research-view.php?index_no=884",
       "price_on_date": 50700.0,
-      "latest_price": 43950.0,
-      "pct_change": -13.31,
+      "latest_price": 43300.0,
+      "pct_change": -14.6,
       "peak_price": 72800.0,
       "peak_date": "2026-02-04",
       "peak_pct": 43.59,
       "trough_price": 39150.0,
       "trough_date": "2026-06-26",
       "trough_pct": -22.78,
-      "last_updated": "2026-10-28"
+      "last_updated": "2026-10-29"
     },
     {
       "index_no": 883,
@@ -550,15 +550,15 @@
       "target_price": 153000,
       "url": "https://www.researcharum.com/report/small-cap-research-view.php?index_no=883",
       "price_on_date": 109000.0,
-      "latest_price": 165700.0,
-      "pct_change": 52.02,
+      "latest_price": 155700.0,
+      "pct_change": 42.84,
       "peak_price": 341000.0,
       "peak_date": "2026-05-04",
       "peak_pct": 212.84,
       "trough_price": 107650.0,
       "trough_date": "2025-10-14",
       "trough_pct": -1.24,
-      "last_updated": "2026-10-28"
+      "last_updated": "2026-10-29"
     },
     {
       "index_no": 882,
@@ -570,15 +570,15 @@
       "target_price": 123000,
       "url": "https://www.researcharum.com/report/small-cap-research-view.php?index_no=882",
       "price_on_date": 80800.0,
-      "latest_price": 67500.0,
-      "pct_change": -16.46,
+      "latest_price": 66800.0,
+      "pct_change": -17.33,
       "peak_price": 113400.0,
       "peak_date": "2026-02-23",
       "peak_pct": 40.35,
       "trough_price": 61800.0,
       "trough_date": "2026-07-29",
       "trough_pct": -23.51,
-      "last_updated": "2026-10-28"
+      "last_updated": "2026-10-29"
     },
     {
       "index_no": 881,
@@ -590,15 +590,15 @@
       "target_price": 150000,
       "url": "https://www.researcharum.com/report/small-cap-research-view.php?index_no=881",
       "price_on_date": 86500.0,
-      "latest_price": 64600.0,
-      "pct_change": -25.32,
+      "latest_price": 64300.0,
+      "pct_change": -25.66,
       "peak_price": 154000.0,
       "peak_date": "2026-02-11",
       "peak_pct": 78.03,
       "trough_price": 63300.0,
       "trough_date": "2026-10-26",
       "trough_pct": -26.82,
-      "last_updated": "2026-10-28"
+      "last_updated": "2026-10-29"
     },
     {
       "index_no": 880,
@@ -610,15 +610,15 @@
       "target_price": 2400,
       "url": "https://www.researcharum.com/report/small-cap-research-view.php?index_no=880",
       "price_on_date": 1426.0,
-      "latest_price": 2260.0,
-      "pct_change": 58.49,
+      "latest_price": 2155.0,
+      "pct_change": 51.12,
       "peak_price": 4554.0,
       "peak_date": "2026-01-28",
       "peak_pct": 219.35,
       "trough_price": 1550.0,
       "trough_date": "2026-07-30",
       "trough_pct": 8.7,
-      "last_updated": "2026-10-28"
+      "last_updated": "2026-10-29"
     },
     {
       "index_no": 879,
@@ -638,7 +638,7 @@
       "trough_price": 76500.0,
       "trough_date": "2025-09-02",
       "trough_pct": -2.17,
-      "last_updated": "2026-10-28"
+      "last_updated": "2026-10-29"
     },
     {
       "index_no": 878,
@@ -650,15 +650,15 @@
       "target_price": 65000,
       "url": "https://www.researcharum.com/report/small-cap-research-view.php?index_no=878",
       "price_on_date": 45300.0,
-      "latest_price": 32450.0,
-      "pct_change": -28.37,
+      "latest_price": 30750.0,
+      "pct_change": -32.12,
       "peak_price": 80600.0,
       "peak_date": "2025-10-28",
       "peak_pct": 77.92,
       "trough_price": 25900.0,
       "trough_date": "2026-07-30",
       "trough_pct": -42.83,
-      "last_updated": "2026-10-28"
+      "last_updated": "2026-10-29"
     },
     {
       "index_no": 877,
@@ -670,15 +670,15 @@
       "target_price": 19000,
       "url": "https://www.researcharum.com/report/small-cap-research-view.php?index_no=877",
       "price_on_date": 25500.0,
-      "latest_price": 13990.0,
-      "pct_change": -45.14,
+      "latest_price": 13520.0,
+      "pct_change": -46.98,
       "peak_price": 28850.0,
       "peak_date": "2025-09-03",
       "peak_pct": 13.14,
       "trough_price": 12130.0,
       "trough_date": "2026-07-30",
       "trough_pct": -52.43,
-      "last_updated": "2026-10-28"
+      "last_updated": "2026-10-29"
     },
     {
       "index_no": 875,
@@ -690,15 +690,15 @@
       "target_price": 110000,
       "url": "https://www.researcharum.com/report/small-cap-research-view.php?index_no=875",
       "price_on_date": 79658.0,
-      "latest_price": 274500.0,
-      "pct_change": 244.6,
+      "latest_price": 260500.0,
+      "pct_change": 227.02,
       "peak_price": 464000.0,
       "peak_date": "2026-06-02",
       "peak_pct": 482.49,
       "trough_price": 73036.0,
       "trough_date": "2025-08-20",
       "trough_pct": -8.31,
-      "last_updated": "2026-10-28"
+      "last_updated": "2026-10-29"
     },
     {
       "index_no": 874,
@@ -710,15 +710,15 @@
       "target_price": 31000,
       "url": "https://www.researcharum.com/report/small-cap-research-view.php?index_no=874",
       "price_on_date": 21100.0,
-      "latest_price": 15360.0,
-      "pct_change": -27.2,
+      "latest_price": 15500.0,
+      "pct_change": -26.54,
       "peak_price": 21500.0,
       "peak_date": "2025-07-21",
       "peak_pct": 1.9,
       "trough_price": 13830.0,
       "trough_date": "2026-06-26",
       "trough_pct": -34.45,
-      "last_updated": "2026-10-28"
+      "last_updated": "2026-10-29"
     },
     {
       "index_no": 873,
@@ -730,15 +730,15 @@
       "target_price": 2400,
       "url": "https://www.researcharum.com/report/small-cap-research-view.php?index_no=873",
       "price_on_date": 1500.0,
-      "latest_price": 2260.0,
-      "pct_change": 50.67,
+      "latest_price": 2155.0,
+      "pct_change": 43.67,
       "peak_price": 4554.0,
       "peak_date": "2026-01-28",
       "peak_pct": 203.6,
       "trough_price": 1550.0,
       "trough_date": "2026-07-30",
       "trough_pct": 3.33,
-      "last_updated": "2026-10-28"
+      "last_updated": "2026-10-29"
     },
     {
       "index_no": 871,
@@ -750,15 +750,15 @@
       "target_price": 10300,
       "url": "https://www.researcharum.com/report/small-cap-research-view.php?index_no=871",
       "price_on_date": 6752.0,
-      "latest_price": 10990.0,
-      "pct_change": 62.77,
+      "latest_price": 11000.0,
+      "pct_change": 62.91,
       "peak_price": 14080.0,
       "peak_date": "2026-09-15",
       "peak_pct": 108.53,
       "trough_price": 5250.0,
       "trough_date": "2026-01-21",
       "trough_pct": -22.25,
-      "last_updated": "2026-10-28"
+      "last_updated": "2026-10-29"
     },
     {
       "index_no": 870,
@@ -778,7 +778,7 @@
       "trough_price": 2130.0,
       "trough_date": "2025-07-04",
       "trough_pct": -5.33,
-      "last_updated": "2026-10-28"
+      "last_updated": "2026-10-29"
     },
     {
       "index_no": 869,
@@ -790,15 +790,15 @@
       "target_price": 25000,
       "url": "https://www.researcharum.com/report/small-cap-research-view.php?index_no=869",
       "price_on_date": 17240.0,
-      "latest_price": 22450.0,
-      "pct_change": 30.22,
+      "latest_price": 21050.0,
+      "pct_change": 22.1,
       "peak_price": 75900.0,
       "peak_date": "2026-05-11",
       "peak_pct": 340.26,
       "trough_price": 14740.0,
       "trough_date": "2025-09-08",
       "trough_pct": -14.5,
-      "last_updated": "2026-10-28"
+      "last_updated": "2026-10-29"
     },
     {
       "index_no": 868,
@@ -818,7 +818,7 @@
       "trough_price": 61900.0,
       "trough_date": "2025-08-20",
       "trough_pct": -19.19,
-      "last_updated": "2026-10-28"
+      "last_updated": "2026-10-29"
     },
     {
       "index_no": 867,
@@ -830,15 +830,15 @@
       "target_price": 49000,
       "url": "https://www.researcharum.com/report/small-cap-research-view.php?index_no=867",
       "price_on_date": 32150.0,
-      "latest_price": 13660.0,
-      "pct_change": -57.51,
+      "latest_price": 13370.0,
+      "pct_change": -58.41,
       "peak_price": 43500.0,
       "peak_date": "2025-06-23",
       "peak_pct": 35.3,
       "trough_price": 12570.0,
       "trough_date": "2026-07-30",
       "trough_pct": -60.9,
-      "last_updated": "2026-10-28"
+      "last_updated": "2026-10-29"
     },
     {
       "index_no": 866,
@@ -850,15 +850,15 @@
       "target_price": 39000,
       "url": "https://www.researcharum.com/report/small-cap-research-view.php?index_no=866",
       "price_on_date": 29750.0,
-      "latest_price": 16130.0,
-      "pct_change": -45.78,
+      "latest_price": 15550.0,
+      "pct_change": -47.73,
       "peak_price": 35900.0,
       "peak_date": "2025-06-23",
       "peak_pct": 20.67,
       "trough_price": 14800.0,
       "trough_date": "2026-07-29",
       "trough_pct": -50.25,
-      "last_updated": "2026-10-28"
+      "last_updated": "2026-10-29"
     },
     {
       "index_no": 865,
@@ -870,15 +870,15 @@
       "target_price": 80000,
       "url": "https://www.researcharum.com/report/small-cap-research-view.php?index_no=865",
       "price_on_date": 51700.0,
-      "latest_price": 102900.0,
-      "pct_change": 99.03,
+      "latest_price": 99200.0,
+      "pct_change": 91.88,
       "peak_price": 155500.0,
       "peak_date": "2026-08-31",
       "peak_pct": 200.77,
       "trough_price": 49800.0,
       "trough_date": "2025-05-29",
       "trough_pct": -3.68,
-      "last_updated": "2026-10-28"
+      "last_updated": "2026-10-29"
     },
     {
       "index_no": 864,
@@ -890,15 +890,15 @@
       "target_price": 66900,
       "url": "https://www.researcharum.com/report/small-cap-research-view.php?index_no=864",
       "price_on_date": 50000.0,
-      "latest_price": 28600.0,
-      "pct_change": -42.8,
+      "latest_price": 27700.0,
+      "pct_change": -44.6,
       "peak_price": 75300.0,
       "peak_date": "2025-12-22",
       "peak_pct": 50.6,
       "trough_price": 26500.0,
       "trough_date": "2026-10-23",
       "trough_pct": -47.0,
-      "last_updated": "2026-10-28"
+      "last_updated": "2026-10-29"
     },
     {
       "index_no": 863,
@@ -910,15 +910,15 @@
       "target_price": 19000,
       "url": "https://www.researcharum.com/report/small-cap-research-view.php?index_no=863",
       "price_on_date": 27650.0,
-      "latest_price": 13990.0,
-      "pct_change": -49.4,
+      "latest_price": 13510.0,
+      "pct_change": -51.14,
       "peak_price": 30050.0,
       "peak_date": "2025-06-10",
       "peak_pct": 8.68,
       "trough_price": 12130.0,
       "trough_date": "2026-07-30",
       "trough_pct": -56.13,
-      "last_updated": "2026-10-28"
+      "last_updated": "2026-10-29"
     },
     {
       "index_no": 862,
@@ -930,15 +930,15 @@
       "target_price": 19000,
       "url": "https://www.researcharum.com/report/small-cap-research-view.php?index_no=862",
       "price_on_date": 26600.0,
-      "latest_price": 13990.0,
-      "pct_change": -47.41,
+      "latest_price": 13510.0,
+      "pct_change": -49.21,
       "peak_price": 30050.0,
       "peak_date": "2025-06-10",
       "peak_pct": 12.97,
       "trough_price": 12130.0,
       "trough_date": "2026-07-30",
       "trough_pct": -54.4,
-      "last_updated": "2026-10-28"
+      "last_updated": "2026-10-29"
     },
     {
       "index_no": 861,
@@ -950,15 +950,15 @@
       "target_price": 29000,
       "url": "https://www.researcharum.com/report/small-cap-research-view.php?index_no=861",
       "price_on_date": 18000.0,
-      "latest_price": 11000.0,
-      "pct_change": -38.89,
+      "latest_price": 10390.0,
+      "pct_change": -42.28,
       "peak_price": 29800.0,
       "peak_date": "2026-05-07",
       "peak_pct": 65.56,
-      "trough_price": 10360.0,
-      "trough_date": "2026-10-27",
-      "trough_pct": -42.44,
-      "last_updated": "2026-10-28"
+      "trough_price": 10300.0,
+      "trough_date": "2026-10-29",
+      "trough_pct": -42.78,
+      "last_updated": "2026-10-29"
     },
     {
       "index_no": 860,
@@ -970,15 +970,15 @@
       "target_price": 9500,
       "url": "https://www.researcharum.com/report/small-cap-research-view.php?index_no=860",
       "price_on_date": 6850.0,
-      "latest_price": 5560.0,
-      "pct_change": -18.83,
+      "latest_price": 5470.0,
+      "pct_change": -20.15,
       "peak_price": 12820.0,
       "peak_date": "2026-05-04",
       "peak_pct": 87.15,
       "trough_price": 5250.0,
       "trough_date": "2026-07-30",
       "trough_pct": -23.36,
-      "last_updated": "2026-10-28"
+      "last_updated": "2026-10-29"
     },
     {
       "index_no": 856,
@@ -990,15 +990,15 @@
       "target_price": 18400,
       "url": "https://www.researcharum.com/report/small-cap-research-view.php?index_no=856",
       "price_on_date": 19560.0,
-      "latest_price": 20100.0,
-      "pct_change": 2.76,
+      "latest_price": 18750.0,
+      "pct_change": -4.14,
       "peak_price": 77953.0,
       "peak_date": "2026-01-20",
       "peak_pct": 298.53,
       "trough_price": 15098.0,
       "trough_date": "2025-08-22",
       "trough_pct": -22.81,
-      "last_updated": "2026-10-28"
+      "last_updated": "2026-10-29"
     },
     {
       "index_no": 855,
@@ -1010,15 +1010,15 @@
       "target_price": null,
       "url": "https://www.researcharum.com/report/small-cap-research-view.php?index_no=855",
       "price_on_date": 1062.0,
-      "latest_price": 7020.0,
-      "pct_change": 561.02,
+      "latest_price": 7040.0,
+      "pct_change": 562.9,
       "peak_price": 15360.0,
       "peak_date": "2025-09-16",
       "peak_pct": 1346.33,
       "trough_price": 6240.0,
       "trough_date": "2026-08-06",
       "trough_pct": 487.57,
-      "last_updated": "2026-10-28"
+      "last_updated": "2026-10-29"
     },
     {
       "index_no": 854,
@@ -1030,15 +1030,15 @@
       "target_price": 13300,
       "url": "https://www.researcharum.com/report/small-cap-research-view.php?index_no=854",
       "price_on_date": 8970.0,
-      "latest_price": 16170.0,
-      "pct_change": 80.27,
-      "peak_price": 16700.0,
-      "peak_date": "2026-10-28",
-      "peak_pct": 86.18,
+      "latest_price": 15840.0,
+      "pct_change": 76.59,
+      "peak_price": 16960.0,
+      "peak_date": "2026-10-29",
+      "peak_pct": 89.07,
       "trough_price": 8520.0,
       "trough_date": "2025-04-07",
       "trough_pct": -5.02,
-      "last_updated": "2026-10-28"
+      "last_updated": "2026-10-29"
     },
     {
       "index_no": 852,
@@ -1050,15 +1050,15 @@
       "target_price": null,
       "url": "https://www.researcharum.com/report/small-cap-research-view.php?index_no=852",
       "price_on_date": 350500.0,
-      "latest_price": 182800.0,
-      "pct_change": -47.85,
+      "latest_price": 179900.0,
+      "pct_change": -48.67,
       "peak_price": 393000.0,
       "peak_date": "2025-05-07",
       "peak_pct": 12.13,
-      "trough_price": 180400.0,
-      "trough_date": "2026-10-26",
-      "trough_pct": -48.53,
-      "last_updated": "2026-10-28"
+      "trough_price": 179500.0,
+      "trough_date": "2026-10-29",
+      "trough_pct": -48.79,
+      "last_updated": "2026-10-29"
     },
     {
       "index_no": 851,
@@ -1070,15 +1070,15 @@
       "target_price": 10800,
       "url": "https://www.researcharum.com/report/small-cap-research-view.php?index_no=851",
       "price_on_date": 7390.0,
-      "latest_price": 3325.0,
-      "pct_change": -55.01,
+      "latest_price": 3225.0,
+      "pct_change": -56.36,
       "peak_price": 7550.0,
       "peak_date": "2025-02-24",
       "peak_pct": 2.17,
       "trough_price": 2345.0,
       "trough_date": "2026-07-30",
       "trough_pct": -68.27,
-      "last_updated": "2026-10-28"
+      "last_updated": "2026-10-29"
     },
     {
       "index_no": 850,
@@ -1090,15 +1090,15 @@
       "target_price": 23000,
       "url": "https://www.researcharum.com/report/small-cap-research-view.php?index_no=850",
       "price_on_date": 12450.0,
-      "latest_price": 10370.0,
-      "pct_change": -16.71,
+      "latest_price": 12680.0,
+      "pct_change": 1.85,
       "peak_price": 26350.0,
       "peak_date": "2026-02-11",
       "peak_pct": 111.65,
       "trough_price": 5760.0,
       "trough_date": "2026-07-29",
       "trough_pct": -53.73,
-      "last_updated": "2026-10-28"
+      "last_updated": "2026-10-29"
     },
     {
       "index_no": 849,
@@ -1110,15 +1110,15 @@
       "target_price": 24500,
       "url": "https://www.researcharum.com/report/small-cap-research-view.php?index_no=849",
       "price_on_date": 12980.0,
-      "latest_price": 13990.0,
-      "pct_change": 7.78,
+      "latest_price": 13640.0,
+      "pct_change": 5.08,
       "peak_price": 29300.0,
       "peak_date": "2026-03-18",
       "peak_pct": 125.73,
       "trough_price": 10310.0,
       "trough_date": "2026-07-30",
       "trough_pct": -20.57,
-      "last_updated": "2026-10-28"
+      "last_updated": "2026-10-29"
     },
     {
       "index_no": 847,
@@ -1130,15 +1130,15 @@
       "target_price": 23000,
       "url": "https://www.researcharum.com/report/small-cap-research-view.php?index_no=847",
       "price_on_date": 12970.0,
-      "latest_price": 3090.0,
-      "pct_change": -76.18,
+      "latest_price": 3050.0,
+      "pct_change": -76.48,
       "peak_price": 16930.0,
       "peak_date": "2025-02-19",
       "peak_pct": 30.53,
       "trough_price": 2755.0,
       "trough_date": "2026-07-30",
       "trough_pct": -78.76,
-      "last_updated": "2026-10-28"
+      "last_updated": "2026-10-29"
     },
     {
       "index_no": 846,
@@ -1150,15 +1150,15 @@
       "target_price": 13000,
       "url": "https://www.researcharum.com/report/small-cap-research-view.php?index_no=846",
       "price_on_date": 7960.0,
-      "latest_price": 4925.0,
-      "pct_change": -38.13,
+      "latest_price": 4825.0,
+      "pct_change": -39.38,
       "peak_price": 11850.0,
       "peak_date": "2026-04-22",
       "peak_pct": 48.87,
       "trough_price": 3550.0,
       "trough_date": "2026-07-30",
       "trough_pct": -55.4,
-      "last_updated": "2026-10-28"
+      "last_updated": "2026-10-29"
     },
     {
       "index_no": 841,
@@ -1170,15 +1170,15 @@
       "target_price": 2850,
       "url": "https://www.researcharum.com/report/small-cap-research-view.php?index_no=841",
       "price_on_date": 1898.0,
-      "latest_price": 3315.0,
-      "pct_change": 74.66,
+      "latest_price": 3115.0,
+      "pct_change": 64.12,
       "peak_price": 14425.0,
       "peak_date": "2025-01-20",
       "peak_pct": 660.01,
       "trough_price": 3050.0,
       "trough_date": "2026-06-29",
       "trough_pct": 60.7,
-      "last_updated": "2026-10-28"
+      "last_updated": "2026-10-29"
     },
     {
       "index_no": 840,
@@ -1190,15 +1190,15 @@
       "target_price": 38000,
       "url": "https://www.researcharum.com/report/small-cap-research-view.php?index_no=840",
       "price_on_date": 14072.0,
-      "latest_price": 5130.0,
-      "pct_change": -63.54,
+      "latest_price": 4930.0,
+      "pct_change": -64.97,
       "peak_price": 20808.0,
       "peak_date": "2026-01-14",
       "peak_pct": 47.87,
       "trough_price": 4750.0,
       "trough_date": "2026-10-23",
       "trough_pct": -66.25,
-      "last_updated": "2026-10-28"
+      "last_updated": "2026-10-29"
     },
     {
       "index_no": 839,
@@ -1210,15 +1210,15 @@
       "target_price": null,
       "url": "https://www.researcharum.com/report/small-cap-research-view.php?index_no=839",
       "price_on_date": 52500.0,
-      "latest_price": 63800.0,
-      "pct_change": 21.52,
+      "latest_price": 63600.0,
+      "pct_change": 21.14,
       "peak_price": 87600.0,
       "peak_date": "2025-07-14",
       "peak_pct": 66.86,
       "trough_price": 48600.0,
       "trough_date": "2024-12-09",
       "trough_pct": -7.43,
-      "last_updated": "2026-10-28"
+      "last_updated": "2026-10-29"
     },
     {
       "index_no": 838,
@@ -1230,15 +1230,15 @@
       "target_price": null,
       "url": "https://www.researcharum.com/report/small-cap-research-view.php?index_no=838",
       "price_on_date": 7760.0,
-      "latest_price": 8000.0,
-      "pct_change": 3.09,
+      "latest_price": 7450.0,
+      "pct_change": -3.99,
       "peak_price": 12680.0,
       "peak_date": "2025-07-03",
       "peak_pct": 63.4,
       "trough_price": 3800.0,
       "trough_date": "2026-07-30",
       "trough_pct": -51.03,
-      "last_updated": "2026-10-28"
+      "last_updated": "2026-10-29"
     }
   ]
 }
